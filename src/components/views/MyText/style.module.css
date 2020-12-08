@@ -1,0 +1,59 @@
+.myInput {
+    flex-direction: column;
+    display: flex;
+}
+
+.inputText {
+    border: none;
+    box-shadow: 5px 5px 10px -5px #000000;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #cacaca;
+    padding: 0 20px;
+    margin: 10px 0px;
+    font-size: large;
+}
+
+.title {
+    align-self: start;
+    margin: 10px 5px 0 20px;
+}
+
+.row {
+    display: flex;
+}
+
+.clickAbleText {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: large;
+    color: #3072D4;
+}
+.noPading{
+    padding: 0;
+    margin: 10px 10px;
+}
+@media only screen and (max-width: 600px) {
+    .inputText {
+        height: 40px;
+        width: 150px;
+    }
+
+    .clickAbleText {
+       font-size: medium;
+    }
+}
+@media only screen and (max-width: 400px) {
+     .inputText {
+         width: 150px;
+     }
+     .clickAbleText {
+         font-size: smaller;
+     }
+     .title {
+       font-size: medium;
+     }
+
+}

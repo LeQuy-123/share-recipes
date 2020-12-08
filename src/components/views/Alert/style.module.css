@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.homeicon {
+    height: 40px;
+    width: 40px;
+    margin: 0 5px 10px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .homeicon {
+        height: 30px;
+        width: 30px;
+    }
+
+    .route {
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .homeicon {
+        height: 20px;
+        width: 20px;
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+}

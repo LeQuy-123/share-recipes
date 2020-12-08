@@ -1,0 +1,67 @@
+.row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+}
+.rowBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardContain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 30px;
+}
+@media screen and (max-width: 600px) {
+    .cardContain {
+        flex: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cardContain {
+        flex: 50%;
+    }
+}
+
+.redBtn {
+    text-decoration: none;
+    color: white;
+    background-color: #D4303A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    box-shadow: 3px 3px #00000020;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redBtn:hover {
+    background-color: #ff303A;
+}
+
+.blueBtn {
+    background-color: #0c6bf099;
+    border: none;
+    color: white;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #00000020;
+    font-size: 14px;
+}
+
+.blueBtn:hover {
+    background-color: #0c6bf0;
+}

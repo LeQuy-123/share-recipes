@@ -1,0 +1,154 @@
+.collectionbar {
+    height: 120px;
+    width: 100%;
+    bottom: 5px;
+    display: flex;
+}
+.title {
+    padding: 0;
+    margin: -5px 0 0 20px;
+    font-family: 'Salsa',
+     cursive;
+    font-size: 20px;
+}
+.CollectionBarItem {
+    width: 250px;
+    display: flex;  
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+}
+.collectionbar-mobile {
+    display: none;
+}
+ /* @media screen and (min-width: 830px) {
+.collectionbar {
+    display: none;
+    } 
+.collectionbar-mobile {
+        height: 120px;
+    }
+
+} */
+
+  #title,
+  #bp-wrapper {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+  }
+
+ .swiper-container {
+     width: 100%;
+ }
+
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     width: auto;
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+ }
+  #bp-640,
+  #bp-768 {
+      display: none;
+  }
+  @media screen and (min-width:375px) {
+      .swiper-container {
+          width: 375px;
+      }
+
+      #bp-960,
+      #bp-640,
+      #bp-480,
+      #bp-768 {
+          display: none !important;
+      }
+
+      #bp-375 {
+          display: inline !important;
+      }
+
+      .collectionbar-item {
+          width: 130px;
+      }
+  }
+  @media screen and (min-width: 640px) {
+      .swiper-container {
+          width: 640px;
+      }
+    #bp-960,
+      #bp-480,
+      #bp-768 {
+          display: none !important;
+      }
+
+      #bp-640 {
+          display: inline !important;
+      }
+      /* .collectionbar-item {
+          width: 275px;
+      } */
+  }
+
+  @media screen and (min-width: 768px) {
+      .swiper-container {
+          width: 768px;
+      }
+    #bp-960,
+      #bp-480,
+      #bp-640 {
+          display: none !important;
+      }
+
+      #bp-768 {
+          display: inline !important;
+      }
+  }
+    @media screen and (min-width: 960px) {
+        .swiper-container {
+            width: 100%;
+        }
+         .swiper-slide {
+            margin: auto;
+         }
+         #bp-768,
+        #bp-480,
+        #bp-640 {
+            display: none !important;
+        }
+
+        #bp-960 {
+            display: inline !important;
+        }
+    }
+
+  .swiper-pagination {
+      bottom: 0;
+      padding-bottom: 10px;
+  }
+
+  .swiper-wrapper {
+      padding-inline-start: 0;
+  }
+
+  #thumbs.swiper-container {
+      margin-bottom: 20px;
+  }
+
+  #thumbs .swiper-slide {
+      cursor: pointer;
+  }

@@ -1,0 +1,10 @@
+.spin {
+    position: absolute;
+    /* background-color: #00000030; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}

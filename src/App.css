@@ -1,0 +1,11 @@
+.App {
+  background-size: cover;
+   background-repeat: repeat-y;
+}
+
+
+@media (min-width: 650px) {
+  .App {
+    background-position: center center;
+  }
+}

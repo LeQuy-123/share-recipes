@@ -1,0 +1,26 @@
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.containItem {
+    display: flex;
+    margin: 30px 10px;
+    align-items: center;
+    justify-content: center;
+    flex: 23%;
+}
+@media screen and (max-width: 600px) {
+    .containItem {
+        flex: 30%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .containItem {
+        flex: 40%;
+        margin: 10px;
+    }
+}

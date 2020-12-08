@@ -1,0 +1,31 @@
+.myInput {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.inputText {
+    border: none;
+    box-shadow: 5px 5px 10px -5px #000000;
+    height: 40px;
+    min-width: 200px;
+    width: 75%;
+    border-radius: 10px;
+    background-color: #eceff180;
+    padding: 0 20px;
+    color: white;
+    margin: 0;
+}
+.title {
+    align-self: start;
+    margin: 10px 5px 0 20px;
+    color: white;
+}
+.myErr {
+    color: rgb(235, 8, 8);
+    align-self: start;
+    margin: 0px 0px 0px 30px;
+}
+.myErrview {
+    height: 22px;
+}

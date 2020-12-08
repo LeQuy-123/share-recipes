@@ -1,0 +1,43 @@
+
+.view {
+    height: auto;
+    background-color: #f3f3f3;
+     box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 10px;
+}
+.row {
+    display: flex;
+    width: 95vw;
+    /* background-color: aqua; */
+    justify-content: space-between;
+    margin: auto;
+    /* padding: auto; */
+}
+.containRecipies {
+    width: 70vw;
+}
+.review {
+    width: 23vw;
+    padding-top: -50px;
+}
+.recipiesTitle{
+    padding: 0;
+    margin: 0;
+    color: #FF0000;
+}
+@media screen and (max-width: 800px) {
+    .containRecipies {
+        margin-left: 0px;
+        width: 95vw;
+    }
+    .review {
+        width: 95vw;
+        padding-top: -50px;
+    }
+    .row {
+        display: block;
+        margin: auto;
+        /* padding: auto; */
+    }
+}

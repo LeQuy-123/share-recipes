@@ -1,0 +1,42 @@
+* {
+   font-family: 'Salsa', cursive;
+}
+.demo {
+   padding: 0;
+   margin: 0;
+}
+
+*:focus {
+   outline: none;
+}
+ul {
+   list-style-type: none;
+}
+.pagination {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   cursor: pointer;
+}
+
+.pagination a {
+   padding: 5px;
+   border-radius: 5px;
+   border: 1px solid black;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.pagination__link {
+   font-weight: bold;
+}
+
+.pagination__link--active a {
+   font-weight: bold;
+   box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.8);
+}
+
+.pagination__link--disabled a {
+   color: rgb(168, 168, 169);
+   border: 1px solid rgb(168, 168, 169);
+}

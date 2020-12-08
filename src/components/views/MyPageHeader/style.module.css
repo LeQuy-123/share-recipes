@@ -1,0 +1,23 @@
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ava{
+    margin-top: 20px;
+    height: 260px;
+    width: 260px;
+    border-radius: 200px;
+}
+@media only screen and (max-width: 600px) {
+    .ava {
+        height: 180px;
+        width: 180px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .ava {
+        height:130px;
+        width: 130px;
+    }
+}
