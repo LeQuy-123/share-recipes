@@ -116,7 +116,7 @@ console.log("🚀 ~ file: userAction.js ~ line 114 ~ userAddFavorite ~ id", id)
 };
 
 export const userRemoveFavorite = (id, token) => {
-  return  function(dispatch){ API.get('/auth/favorite/removeFavorite?favoriteID=5fb4a5f82496fa00042234ef',{headers: { Authorization: `Bearer ${token}` }}
+  return  function(dispatch){ API.get('/auth/favorite/removeFavorite?favoriteID=' + id,{headers: { Authorization: `Bearer ${token}` }}
   ).then(({ data }) => {
     // dispatch({type: REDUX.UPDATE_USER_DATA, payload: data.User })
   }).catch((error)=>{
