@@ -2,7 +2,7 @@
   "homepage": "https://lequy-123.github.io/share-recipes/",
   "name": "share-recipes",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^5.0.0-alpha.15",
     "@reduxjs/toolkit": "^1.1.0",
