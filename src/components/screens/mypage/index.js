@@ -35,13 +35,15 @@ const ITEM= [
 ]
 function MyPage() {
   const favoriteList = useSelector(state => state.favoriteReducer.listFavorites)
+  const [faveList, setfaveList] = useState(favoriteList);
   useEffect(() => {
+    setfaveList(favoriteList);
   }, [favoriteList])
   return (
     <div>
     <Route route={ROUTER_KEY.MYPAGE}></Route>
     <MyPageHeader />
-    <MyList shadow={false} customType={CAROUSEL_TYPE.NORMAL} data={favoriteList} listTitle="My Favorite" listDescription="Tasty recipes catching our eye"/>
+    <MyList shadow={false} customType={CAROUSEL_TYPE.NORMAL} data={faveList} listTitle="My Favorite" listDescription="Tasty recipes catching our eye"/>
     <MyList shadow={false} customType={CAROUSEL_TYPE.NORMAL} data={ITEM} listTitle="Recent Visited" listDescription="Trending recipes from our site"/>
     </div>
   );

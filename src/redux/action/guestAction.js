@@ -19,11 +19,9 @@ export const guestSearch = (key, history) => {
   }
 };
 export const guestViewRecipie = (id, onDone) => {
-  console.log(id)
     return function(dispatch){
     API.get('/normal/recipe/getRecipe?recipeID='+id)
     .then(({ data }) => {
-      console.log(data);
       onDone(data);
       // dispatch({type: REDUX.UPDATE_SEARCH_RESULT, payload: data});
     }).catch((error)=>{

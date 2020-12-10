@@ -25,13 +25,12 @@ export default function favoriteReducer(state = initialState, action) {
         listFavorites: [...state.listFavorites, action.payload]
       };
     }
-    // case REDUX.REMOVE_FROM_FAVORITE: {
-    //   delete objFavorites[idItemFavorite];
-    //   return {
-    //     ...state,
-    //     listFavorites: { ...objFavorites },
-    //   };
-    // }
+    case REDUX.REMOVE_FROM_FAVORITE: {
+      return {
+        ...state,
+        listFavorites: state.listFavorites.filter((obj, index) => {return obj._id !== action.payload})
+      };
+    }
 
     // Default
     default: {

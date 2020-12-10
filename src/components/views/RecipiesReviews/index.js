@@ -58,7 +58,6 @@ const RecipiesReviews = (props, ref) => {
   const numOfPage = Math.floor(DATA.length / 5);
   const [pageNumber, setpageNumber] = useState(1);
   const handlePageClick = (data) => {
-    console.log(data);
     setpageNumber(data.selected+1);
   };
    return (

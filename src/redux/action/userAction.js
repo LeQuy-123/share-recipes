@@ -101,8 +101,11 @@ console.log("🚀 ~ file: userAction.js ~ line 114 ~ userAddFavorite ~ id", id)
     recipeID: id
   },{headers: { Authorization: `Bearer ${token}` }}
   ).then(({ data }) => {
-    console.log("🚀 ~ file: userAction.js ~ line 121 ~ .then ~ data", data.Recipe)
+    console.log("🚀 ~ file: userAction.js ~ line 104 ~ ).then ~ data", data)
+    if(data.Recipe) {
+    data.Recipe.favid = data?.Favorite?._id
     dispatch({type: REDUX.ADD_TO_FAVORITE, payload: data.Recipe })
+    }
   }).catch((error)=>{
     if (error.response) {
       console.log(error.response.data);
@@ -116,9 +119,10 @@ console.log("🚀 ~ file: userAction.js ~ line 114 ~ userAddFavorite ~ id", id)
 };
 
 export const userRemoveFavorite = (id, token) => {
+console.log("🚀 ~ file: userAction.js ~ line 122 ~ userRemoveFavorite ~ id", id)
   return  function(dispatch){ API.get('/auth/favorite/removeFavorite?favoriteID=' + id,{headers: { Authorization: `Bearer ${token}` }}
   ).then(({ data }) => {
-    // dispatch({type: REDUX.UPDATE_USER_DATA, payload: data.User })
+    dispatch({type: REDUX.REMOVE_FROM_FAVORITE, payload: data.User })
   }).catch((error)=>{
     if (error.response) {
       console.log(error.response.data);
@@ -133,10 +137,30 @@ export const userRemoveFavorite = (id, token) => {
 export const userGetFavorite = (id) => {
   return  function(dispatch){ API.get('/normal/favorite/getAllFavoritesOfUser?userID='+ id)
   .then(({ data }) => {
-    console.log("🚀 ~ file: userAction.js ~ line 136 ~ .then ~ data", data.Favorites)
     dispatch({type: REDUX.GET_FAVORITE_LIST, payload: data.Favorites })
   }).catch((er)=>{
     HandelError(er, ()=> {})
+  });
+  }
+};
+
+//history 
+export const userAddHistory = (id, token) => {
+  return  function(dispatch){ API.post('/auth/history/createHistory', {
+    recipeID: id
+  },{headers: { Authorization: `Bearer ${token}` }}
+  ).then(({ data }) => {
+    if(data?.Histories) {
+    dispatch({type: REDUX.ADD_TO_FAVORITE, payload: data?.Histories })
+    }
+  }).catch((error)=>{
+    if (error.response) {
+      console.log(error.response.data);
+    } else if (error.request) {
+      console.log(error.request);
+    } else {
+      console.log('Error when setting up resuqest', error.message);
+    }
   });
   }
 };

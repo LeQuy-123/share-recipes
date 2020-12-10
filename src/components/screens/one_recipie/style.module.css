@@ -2,9 +2,22 @@
 .view {
     height: auto;
     background-color: #f3f3f3;
-     box-shadow: 3px 3px 2px 0px rgba(0, 0, 0, 0.8);
+     box-shadow: 3px 0px 2px 0px rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    border-radius: 0px 10px 10px 10px;
+    border: none;
+}
+.image {
+    height: 300px;
+    width: 400px;
     padding: 5px;
     border-radius: 10px;
+}
+.myArrow {
+    height: 100%;
+    width: 50px;
+    border: none;
+    background-color: #b6b5b580;
 }
 .row {
     display: flex;
@@ -40,4 +53,24 @@
         margin: auto;
         /* padding: auto; */
     }
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #f3f3f3;
+    /* box-shadow: 3px -2px 2px 0px rgba(0, 0, 0, 0.8); */
+}
+.btn:active {
+    box-shadow: 3px -2px 4px 0px rgba(0, 0, 0, 0.8);
+}
+.btn:focus {
+    box-shadow: 3px -2px 2px 0px rgba(0, 0, 0, 0.8);
+}
+.btn_text {
+    padding: 0;
+    margin: 0;
+    text-shadow: 3px 2px #00000010;
+    color: #D4303A;
 }

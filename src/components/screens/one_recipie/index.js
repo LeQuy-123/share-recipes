@@ -1,21 +1,16 @@
-import React, { useEffect, useState }  from "react";
+import React, { useEffect, useRef, useState }  from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { ROUTER_KEY } from "../../../asset/constants/constants";
 import { guestViewRecipie } from "../../../redux/action/guestAction";
 import { CollectionBar, MyLoader, RecipiesHeader, RecipiesReviews, Route } from "../../views";
+import RecipeBody from "./body";
 import styles from './style.module.css';
 
 function OneRecipie() {
   const history = useHistory();
   const recipiesData = history.location.state;
-  const dispatch = useDispatch();
-  const [isLoading, setisLoading] = useState(true);
-  const [data, setdata] = useState();
-  const onDone = (recipies) => {setisLoading(false); setdata(recipies)}
-  useEffect(() => {
-    dispatch(guestViewRecipie(recipiesData.id, onDone));
-  }, [])
+  const bodyRef = useRef();
   return (
     <div className={styles.body}>
       <Route route={ROUTER_KEY.MYRECIPIES}/>
@@ -27,27 +22,12 @@ function OneRecipie() {
             des={recipiesData.des}
             rating={recipiesData.rate}
           />
-        {isLoading ? (
-         <MyLoader height={900} />
-        ): (
-        <div className={styles.view}>
-          <h3 className={styles.recipiesTitle}>Ingredient: </h3>
-          <ol>
-            {data?.Ingredients.map((obj, index) => {
-              return <li key={index}><p style={{fontSize: 14}}>{obj.content}</p></li>
-            })}
-          </ol>
-           <h3 className={styles.recipiesTitle}>Step: </h3>
-          <ol>
-            {data?.Steps.map((obj, index) => {
-              return <li key={index}><p style={{fontSize: 14}}>{obj.content}</p></li>
-            })}
-          </ol>
-        </div>
-        )}
+          <button className={styles.btn} onClick={()=> bodyRef.current.toData()}><h2 className={styles.btn_text}>Data</h2></button>
+          <button className={styles.btn} onClick={()=> bodyRef.current.toImage()}  style={{marginLeft: 4}}><h2 className={styles.btn_text}>Image</h2></button>
+          <RecipeBody data={recipiesData} ref={bodyRef}/>
         </div>
         <div className={styles.review}>
-          <RecipiesReviews data={data?.Reviews} />      
+          <RecipiesReviews />      
         </div>
       </div>
       <CollectionBar />
