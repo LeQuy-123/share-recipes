@@ -44,6 +44,7 @@
 .title {
   padding: 0;
   margin: 5px 20px;
+  color: #D4303A;
   text-decoration: underline;
 }
 .myAva {
@@ -92,4 +93,13 @@
 }
 .margin {
   margin: 20px 0px;
+}
+.emptyCarousel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  background-color:white;
+  width: 100%;
 }

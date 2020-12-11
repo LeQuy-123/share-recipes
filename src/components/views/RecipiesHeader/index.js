@@ -26,9 +26,11 @@ const STAR = [
 ]
 const RecipiesHeader = (props, ref) => {
   const favoriteList = useSelector(state => state.favoriteReducer.listFavorites);
+  console.log("🚀 ~ file: index.js ~ line 29 ~ RecipiesHeader ~ favoriteList", favoriteList)
   const obj = favoriteList.filter((obj, index) => {
     return obj?.recipeID?.id  === props.id || obj?._id ===  props.id;
   });
+  console.log("🚀 ~ file: index.js ~ line 32 ~ obj ~ obj", obj[0]?._id)
   const [isLike, setLike] = useState(obj.length > 0 ? true : false);
 
   const login = useSelector(state => state.authReducer.loggedIn);
@@ -39,16 +41,13 @@ const RecipiesHeader = (props, ref) => {
   }, [login])
   const dispatch = useDispatch();
   const handelLikeBtnClick = () => {
-    // if(isLike) {
-    //   setLike(false)
-    //   console.log("🚀 ~ file: index.js ~ line 68 ~ handelLikeBtnClick ~ obj[0]?._id", obj[0])
-    //   console.log("🚀 ~ file: index.js ~ line 72 ~ handelLikeBtnClick ~ obj[0]?.favid", obj[0]?.favid)
-    //   // if(obj[0]?.favid)dispatch(userRemoveFavorite(obj[0]?.favid, token))
-    //   // else if(obj[0]?._id) dispatch(userRemoveFavorite(obj[0]?._id, token))
-    // } else {
-    //   setLike(true)
-    //   dispatch(userAddFavorite(props.id, token))
-    // }  
+    if(isLike) {
+      setLike(false)
+      if(obj[0]?._id) dispatch(userRemoveFavorite(obj[0]?._id, token))
+    } else {
+      setLike(true)
+      dispatch(userAddFavorite(props.id, token))
+    }  
   }
    return (
     <div className={styles.row}>

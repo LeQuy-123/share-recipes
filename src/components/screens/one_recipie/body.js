@@ -19,7 +19,6 @@ const RecipeBody = (props, ref) => {
   const dispatch = useDispatch();
   const [isLoading, setisLoading] = useState(true);
   const [data, setdata] = useState();
-  console.log("🚀 ~ file: body.js ~ line 22 ~ RecipeBody ~ data", data)
   const onDone = (recipies) => {setisLoading(false); setdata(recipies)}
   useEffect(() => {
     dispatch(guestViewRecipie(recipiesData.id, onDone));

@@ -96,15 +96,14 @@ export const userLogout = (token, history) => {
 
 //favorite
 export const userAddFavorite = (id, token) => {
-console.log("🚀 ~ file: userAction.js ~ line 114 ~ userAddFavorite ~ id", id)
   return  function(dispatch){ API.post('/auth/favorite/createFavorite', {
     recipeID: id
   },{headers: { Authorization: `Bearer ${token}` }}
   ).then(({ data }) => {
-    console.log("🚀 ~ file: userAction.js ~ line 104 ~ ).then ~ data", data)
+    console.log("🚀 ~ file: userAction.js ~ line 103 ~ ).then ~ data", data)
     if(data.Recipe) {
-    data.Recipe.favid = data?.Favorite?._id
-    dispatch({type: REDUX.ADD_TO_FAVORITE, payload: data.Recipe })
+    // dispatch({type: REDUX.ADD_TO_FAVORITE, payload: data.Favorites })
+    dispatch({type: REDUX.GET_FAVORITE_LIST, payload: data.Favorites })
     }
   }).catch((error)=>{
     if (error.response) {
@@ -119,10 +118,9 @@ console.log("🚀 ~ file: userAction.js ~ line 114 ~ userAddFavorite ~ id", id)
 };
 
 export const userRemoveFavorite = (id, token) => {
-console.log("🚀 ~ file: userAction.js ~ line 122 ~ userRemoveFavorite ~ id", id)
   return  function(dispatch){ API.get('/auth/favorite/removeFavorite?favoriteID=' + id,{headers: { Authorization: `Bearer ${token}` }}
   ).then(({ data }) => {
-    dispatch({type: REDUX.REMOVE_FROM_FAVORITE, payload: data.User })
+    dispatch({type: REDUX.REMOVE_FROM_FAVORITE, payload: id })
   }).catch((error)=>{
     if (error.response) {
       console.log(error.response.data);
@@ -153,6 +151,27 @@ export const userAddHistory = (id, token) => {
     if(data?.Histories) {
     dispatch({type: REDUX.ADD_TO_FAVORITE, payload: data?.Histories })
     }
+  }).catch((error)=>{
+    if (error.response) {
+      console.log(error.response.data);
+    } else if (error.request) {
+      console.log(error.request);
+    } else {
+      console.log('Error when setting up resuqest', error.message);
+    }
+  });
+  }
+};
+
+
+export const userSendReview = (id, token, star, note, onSuccess) => {
+  return  function(dispatch){ API.post('/auth/review/createReview', {
+    stars: star,
+    note: note,
+    recipeID: id
+  },{headers: { Authorization: `Bearer ${token}` }}
+  ).then(({ data }) => {
+    onSuccess(data.reviews)
   }).catch((error)=>{
     if (error.response) {
       console.log(error.response.data);
