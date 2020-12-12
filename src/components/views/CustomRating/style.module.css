@@ -1,0 +1,15 @@
+
+.rate {
+    width: 15px;
+    height: 15px;
+    align-self: start;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}

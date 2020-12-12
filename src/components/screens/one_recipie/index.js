@@ -27,7 +27,7 @@ function OneRecipie() {
           <RecipeBody data={recipiesData} ref={bodyRef}/>
         </div>
         <div className={styles.review}>
-          <RecipiesReviews />      
+          <RecipiesReviews data={recipiesData}/>      
         </div>
       </div>
       <CollectionBar />

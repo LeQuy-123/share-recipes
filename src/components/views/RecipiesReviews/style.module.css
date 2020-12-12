@@ -26,6 +26,7 @@
     border-radius: 5px;
     background-color: #f3f3f3;
     margin: auto;
+    position: relative;
 }
 .pageNumber {
     text-align: center;
@@ -76,4 +77,11 @@
 .btn:hover {
     background-color: #3072D4;
     color: white;
+}
+.rate {
+    width: 15px;
+    height: 15px;
+    align-self: start;
+    margin-top: 5px;
+    margin-left: 5px;
 }

@@ -13,4 +13,6 @@ import CookingSpiner from './CookingSpiner'
 import RecipiesHeader from './RecipiesHeader'
 import RecipiesReviews from './RecipiesReviews';
 import MyLoader from './MyLoader'
-export {MyLoader, RecipiesReviews, CookingSpiner, IngredientCard, Footer, Route, Header,CollectionBar, MyInput, MySpinner, MyItem, SearchBar, MyList, MyPageHeader,RecipiesHeader };
+import MultilineInput from './MultilineInput'
+
+export {MultilineInput, MyLoader, RecipiesReviews, CookingSpiner, IngredientCard, Footer, Route, Header,CollectionBar, MyInput, MySpinner, MyItem, SearchBar, MyList, MyPageHeader,RecipiesHeader };

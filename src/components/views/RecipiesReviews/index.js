@@ -7,59 +7,18 @@ import lottie from "lottie-web";
 import emptybox from '../../../asset/lottie/629-empty-box.json'
 import { RiAddCircleLine } from "react-icons/ri";
 import MyModal from "../MyModal";
-
-const DATA = [
-  {
-    img: null,
-    userName: 'a',
-    index: 0,
-    content: 'A really good Southern Egg Salad. Egg salad has a myriad of additions, but most come down to a good tangy taste with the incredible edible egg',
-    rate: 5,
-  },
-   {
-    img: null,
-    userName: 'ascaa',
-    content: `The taste was different, but, that is why I tried the recipe. I definitely won't grate it again`,
-    rate: 5,
-    index:1,
-  },
-   {
-    img: null,
-    userName: 'aflegft gloz',
-    content: `This is the Best. I'm not a big fan of Hot sauce so I skipped that part.`,
-    rate: 4,
-    index: 2,
-  },
-   {
-    img: null,
-    content: 'Fantastic! We use rye bread and a little lettuce, cut into quarters and piled high on a platter for snack or appetizer',
-    rate: 5,
-    index: 3,
-  },
-   {
-    img: null,
-    userName: 'aflegft gloz',
-    content: 'This sounds delicious! Can’t wait to try it!',
-    rate: 5,
-    index: 4,
-  },
-   {
-    img: null,
-    userName: 'aflegft gloz',
-    content: 'This sounds delicious! Can’t wait to try it!',
-    rate: 5,
-    index: 5,
-  },
-   {
-    img: null,
-    content: 'This sounds delicious! Can’t wait to try it!',
-    rate: 5,
-    index: 6,
-  },
-]
+import { useDispatch } from "react-redux";
+import { userGetReview } from "../../../redux/action/userAction";
+import logo from '../../../asset/image/star.png';
 
 const RecipiesReviews = (props, ref) => {
-  const numOfPage = Math.floor(DATA.length / 5);
+  const idRecipies = props.data?.id;
+  const dispatch = useDispatch();
+  const [reviews, setreviews] = useState();
+  useEffect(() => {
+    dispatch(userGetReview(idRecipies, (reviews)=>setreviews(reviews)));
+  }, [])
+  const numOfPage = Math.floor(reviews?.length / 5) + 1;
   const [pageNumber, setpageNumber] = useState(1);
   const handlePageClick = (data) => {
     setpageNumber(data.selected+1);
@@ -93,18 +52,18 @@ const RecipiesReviews = (props, ref) => {
             width: '90%'
         }}
         />
-      {!DATA ? (
-        <div> 
-          {DATA.map((obj, index) => {
+      {reviews ? (
+        <div style={{width: '100%'}}> 
+          {reviews?.map((obj, index) => {
             if(index < pageNumber * 5 && index >= (pageNumber - 1)*5)
               return (
-                <div key={index} style={{marginTop: 20}}>
+                <div key={index} style={{marginTop: 20 } }>
                   <ReviewItem data={obj}/>
                 </div>
               ); 
             return null;
           })}
-          {DATA.length > 5 && (
+          {reviews.length > 5 && (
             <div style={{display: 'flex', justifyContent: 'center', marginTop: 10}}>
               <ReactPaginate
               previousLabel={'previous'}
@@ -133,21 +92,52 @@ const RecipiesReviews = (props, ref) => {
        <RiAddCircleLine size={40} />
         Add reviews
       </button>
-      <MyModal ref={modalRef}/>
+      <MyModal ref={modalRef} id={idRecipies}/>
     </div>
   );
  
 }
 export default RecipiesReviews;
 
+const STAR = [
+  {
+    image: logo,
+  },
+  {
+    image: logo,
+  },
+  {
+    image: logo,
+  },
+  {
+    image: logo,
+  },
+  {
+    image: logo,
+  }
+]
+
 const ReviewItem = (props, ref) => {
   const data = props.data;
+  console.log("🚀 ~ file: index.js ~ line 153 ~ ReviewItem ~ data", data)
+  const user = props.data?.userID;
    return (
     <div className={styles.row}>
-      <img className={styles.ava}  src={data.img ? data.img : default_avatar}  alt="avatar"/>
+      <img className={styles.ava}  src={user.profileImage ? user.profileImage : default_avatar}  alt="avatar"/>
       <div>
-      <h4 className={styles.userName}>{data.userName ? data.userName : 'Guest'}</h4>
-        <p className={styles.content}>{data.content}</p>
+        <h4 className={styles.userName}>{user.username ? user.username : 'Guest'}</h4>
+        <p className={styles.content}>{data.note}</p>
+        <div style={{display: 'flex', position: 'absolute', bottom: 10}}>
+        Rate:
+         {STAR.map((obj, index) => {
+            if(index < Math.floor(data.stars)) {
+              return <img key={index} className={styles.rate} src={obj.image} alt="star"/>
+            } else {
+              return null;
+            }
+          })}
+        </div> 
+        <p style={{margin: 0, padding: 0, position: 'absolute', bottom: 10, right:15}}> {data.createdAt.replace(/T/, ' ').replace(/\..+/, '')} </p> 
       </div>
     </div>
   );

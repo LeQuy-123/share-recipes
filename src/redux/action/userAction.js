@@ -183,3 +183,18 @@ export const userSendReview = (id, token, star, note, onSuccess) => {
   });
   }
 };
+export const userGetReview = (id, onSuccess) => {
+  return  function(dispatch){API.get('/normal/review/getAllReviewsOfRecipe?recipeID=' + id)
+  .then(({ data }) => {
+    onSuccess(data.Reviews)
+  }).catch((error)=>{
+    if (error.response) {
+      console.log(error.response.data);
+    } else if (error.request) {
+      console.log(error.request);
+    } else {
+      console.log('Error when setting up resuqest', error.message);
+    }
+  });
+  }
+};
