@@ -41,6 +41,7 @@ const CustomRating = (props, ref) => {
               return <img key={index} className={styles.rate} src={graystar} alt="star" onClick={()=>{setRating(index + 1)}}/>;
             }
           })}
+          ({rating}/5)
       </div>   
    );
 }

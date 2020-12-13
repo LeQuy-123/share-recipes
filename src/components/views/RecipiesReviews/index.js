@@ -10,7 +10,6 @@ import MyModal from "../MyModal";
 import { useDispatch } from "react-redux";
 import { userGetReview } from "../../../redux/action/userAction";
 import logo from '../../../asset/image/star.png';
-
 const RecipiesReviews = (props, ref) => {
   const idRecipies = props.data?.id;
   const dispatch = useDispatch();
@@ -126,8 +125,8 @@ const ReviewItem = (props, ref) => {
       <img className={styles.ava}  src={user.profileImage ? user.profileImage : default_avatar}  alt="avatar"/>
       <div>
         <h4 className={styles.userName}>{user.username ? user.username : 'Guest'}</h4>
-        <p className={styles.content}>{data.note}</p>
-        <div style={{display: 'flex', position: 'absolute', bottom: 10}}>
+        {/* <p className={styles.content}>{data.note}</p> */}
+        <div style={{display: 'flex', position: 'absolute', bottom: 10, left: 5}}>
         Rate:
          {STAR.map((obj, index) => {
             if(index < Math.floor(data.stars)) {
@@ -137,7 +136,7 @@ const ReviewItem = (props, ref) => {
             }
           })}
         </div> 
-        <p style={{margin: 0, padding: 0, position: 'absolute', bottom: 10, right:15}}> {data.createdAt.replace(/T/, ' ').replace(/\..+/, '')} </p> 
+        <p style={{margin: 0, padding: 0, position: 'absolute', bottom: 10, right:5}}> {data.createdAt.replace(/T/, ' ').replace(/\..+/, '')} </p> 
       </div>
     </div>
   );

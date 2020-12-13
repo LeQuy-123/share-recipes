@@ -1,9 +1,7 @@
-import React, { useEffect, useRef, useState }  from "react";
-import { useDispatch } from "react-redux";
+import React, {  useRef }  from "react";
 import { useHistory } from "react-router-dom";
 import { ROUTER_KEY } from "../../../asset/constants/constants";
-import { guestViewRecipie } from "../../../redux/action/guestAction";
-import { CollectionBar, MyLoader, RecipiesHeader, RecipiesReviews, Route } from "../../views";
+import { CollectionBar, RecipiesHeader, RecipiesReviews, Route } from "../../views";
 import RecipeBody from "./body";
 import styles from './style.module.css';
 

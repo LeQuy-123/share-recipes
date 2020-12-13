@@ -49,7 +49,7 @@ const MyModal = (props, ref) => {
           contentLabel="Add reivews"
           ariaHideApp={false}
         >
-          <button  className={styles.btn} onClick={closeModal}>close</button>
+          <button  className={styles.btn} onClick={closeModal}>Close</button>
           <h2 className={styles.title}>Add reivews</h2>
           <CustomRating ref={rateRef}/>
           <div className={styles.form}>

@@ -1,6 +1,10 @@
 .ava {
     width: 100px;
     height: 100px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
 }
 .contain{
     border-radius: 10px;
@@ -41,7 +45,10 @@
 }
 .content {
     padding: 0;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
     text-overflow: ellipsis;
     font-size: small;
 }
