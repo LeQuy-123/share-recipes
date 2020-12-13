@@ -171,7 +171,8 @@ export const userSendReview = (id, token, star, note, onSuccess) => {
     recipeID: id
   },{headers: { Authorization: `Bearer ${token}` }}
   ).then(({ data }) => {
-    onSuccess(data.reviews)
+    console.log("🚀 ~ file: userAction.js ~ line 174 ~ ).then ~ data", data)
+    onSuccess(data.Recipe?.reviews)
   }).catch((error)=>{
     if (error.response) {
       console.log(error.response.data);

@@ -1,0 +1,9 @@
+.showBtn {
+    border: none;
+    background-color: transparent;
+    color: crimson;
+}
+.showBtn:hover {
+    text-decoration: underline;
+    color:orangered
+}

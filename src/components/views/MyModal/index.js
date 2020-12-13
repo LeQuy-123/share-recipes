@@ -37,6 +37,7 @@ const MyModal = (props, ref) => {
   }
   const handelReview = (review) =>{
     closeModal();
+    props.onAddReview(review);
     console.log("🚀 ~ file: index.js ~ line 36 ~ handelReview ~ review", review) 
   }
     return (

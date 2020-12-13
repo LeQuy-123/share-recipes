@@ -26,11 +26,9 @@ const STAR = [
 ]
 const RecipiesHeader = (props, ref) => {
   const favoriteList = useSelector(state => state.favoriteReducer.listFavorites);
-  console.log("🚀 ~ file: index.js ~ line 29 ~ RecipiesHeader ~ favoriteList", favoriteList)
   const obj = favoriteList.filter((obj, index) => {
     return obj?.recipeID?.id  === props.id || obj?._id ===  props.id;
   });
-  console.log("🚀 ~ file: index.js ~ line 32 ~ obj ~ obj", obj[0]?._id)
   const [isLike, setLike] = useState(obj.length > 0 ? true : false);
 
   const login = useSelector(state => state.authReducer.loggedIn);

@@ -10,6 +10,7 @@ import MyModal from "../MyModal";
 import { useDispatch } from "react-redux";
 import { userGetReview } from "../../../redux/action/userAction";
 import logo from '../../../asset/image/star.png';
+import ReadMore from "../ReadMore";
 const RecipiesReviews = (props, ref) => {
   const idRecipies = props.data?.id;
   const dispatch = useDispatch();
@@ -69,7 +70,7 @@ const RecipiesReviews = (props, ref) => {
               nextLabel={'next'}
               breakLabel={'...'}
               breakClassName={'break-me'}
-              pageCount={numOfPage+1}
+              pageCount={numOfPage}
               marginPagesDisplayed={2}
               pageRangeDisplayed={5}
               onPageChange={handlePageClick}
@@ -91,7 +92,7 @@ const RecipiesReviews = (props, ref) => {
        <RiAddCircleLine size={40} />
         Add reviews
       </button>
-      <MyModal ref={modalRef} id={idRecipies}/>
+      <MyModal ref={modalRef} id={idRecipies} onAddReview={(review)=> setreviews(review)}/>
     </div>
   );
  
@@ -118,13 +119,13 @@ const STAR = [
 
 const ReviewItem = (props, ref) => {
   const data = props.data;
-  console.log("🚀 ~ file: index.js ~ line 153 ~ ReviewItem ~ data", data)
   const user = props.data?.userID;
    return (
     <div className={styles.row}>
       <img className={styles.ava}  src={user.profileImage ? user.profileImage : default_avatar}  alt="avatar"/>
       <div>
         <h4 className={styles.userName}>{user.username ? user.username : 'Guest'}</h4>
+        <ReadMore note={data.note} style={styles.content}/>
         {/* <p className={styles.content}>{data.note}</p> */}
         <div style={{display: 'flex', position: 'absolute', bottom: 10, left: 5}}>
         Rate:
