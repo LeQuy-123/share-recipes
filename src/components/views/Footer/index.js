@@ -9,15 +9,15 @@ const Footer = (props, ref) => {
         <Link to={ROUTER_KEY.HOME} className={styles.footerItem}>
             About us
         </Link>
-        <Link to={ROUTER_KEY.HOME} className={styles.footerItem}>
-           Contact
-        </Link>
-        <Link to={ROUTER_KEY.HOME} className={styles.footerItem}>
+         <a href="https://www.facebook.com/profile.php?id=100011190183146" className={styles.footerItem}>
+            Contact
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100010784611763" className={styles.footerItem}>
             Social
-        </Link>
-        <Link to={ROUTER_KEY.HOME} className={styles.footerItem}>
+        </a>
+         <a href="https://www.facebook.com/profile.php?id=100006792816768" className={styles.footerItem}>
             Suport
-        </Link>
+        </a>
     </div>
    );
 }
