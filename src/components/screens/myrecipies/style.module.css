@@ -1,0 +1,30 @@
+.button {
+    background-color: #0c6bf070;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: large;
+}
+
+.button:hover {
+    background-color: #0c6bf0;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rowBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 95px;
+}

@@ -25,6 +25,7 @@ const STAR = [
   }
 ]
 const RecipiesHeader = (props, ref) => {
+console.log("🚀 ~ file: index.js ~ line 28 ~ RecipiesHeader ~ props", props)
   const favoriteList = useSelector(state => state.favoriteReducer.listFavorites);
   const obj = favoriteList.filter((obj, index) => {
     return obj?.recipeID?.id  === props.id || obj?._id ===  props.id;

@@ -1,0 +1,87 @@
+.modal {
+    position: relative;
+    width: 42%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#f3f3f3;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.8);
+    align-items: center;
+}
+.form {
+    display: flex;
+}
+.title{
+    text-align: center;
+    color: #ff303A;
+}
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+}
+.submitbtn {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    height: 40px;
+    border-radius: 3px;
+}
+.inputText {
+    width: 30vw;
+    min-width: 100px;
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.body {
+    height: 250px;
+    overflow-y: scroll;
+}
+.button {
+    background-color: #0c6bf070;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: medium;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.button:hover {
+    background-color: #0c6bf0;
+}
+.buttonBack {
+    background-color: #D4303A;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: medium;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.buttonBack:hover {
+    background-color: #ff303A;
+}
