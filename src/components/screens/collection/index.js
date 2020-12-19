@@ -11,10 +11,12 @@ function Collection() {
   const dispatch = useDispatch();
   const [categoryList, setCategoryList] = useState([])
   const [categoryList2, setCategoryList2] = useState([])
+  const [categoryList3, setCategoryList3] = useState([])
 
   useEffect(() => {
     dispatch(getRecipesCategory('Dinner', (res)=>{ setCategoryList(res)}));
-     dispatch(getRecipesCategory('Dessert', (res)=>{ setCategoryList2(res)}));
+    dispatch(getRecipesCategory('Dessert', (res)=>{ setCategoryList2(res)}));
+    dispatch(getRecipesCategory('Breakfast', (res)=>{ setCategoryList3(res)}));
   }, [])
   return (
     <div>
@@ -24,7 +26,10 @@ function Collection() {
       />
       <MyList shadow={false} customType={CAROUSEL_TYPE.NORMAL} data={categoryList2} listTitle="Dessert" listDescription="Trending recipes from our site"
         seeMorePress = { ()=> history.push(ROUTER_KEY.RECIPIES,'Dessert')}
-      />  
+      /> 
+        <MyList shadow={false} customType={CAROUSEL_TYPE.NORMAL} data={categoryList3} listTitle="Breakfast" listDescription="Trending recipes from our site"
+        seeMorePress = { ()=> history.push(ROUTER_KEY.RECIPIES,'Breakfast')}
+      /> 
     </div>
   );
 }

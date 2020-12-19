@@ -19,35 +19,43 @@ import { ROUTER_KEY } from "../../../asset/constants/constants";
 const COLLECTION_BAR_ITEM= [
   {
     animation: animation1,
-    title: "Fired Food"
+    title: "Fry Food",
+    key: 'Fry Food',
   },
    {
     animation: animation2,
-    title: "Bread"
+    title: "Breakfast",
+    key: 'Breakfast',
   },
    {
     animation: animation3,
-    title: "Soft Drink"
+    title: "Soft Drink",
+    key: 'Drink'
   },
    {
     animation: animation4,
-    title: "Sweet"
+    title: "Sweet",
+    key: 'Sweet',
   },
    {
     animation: animation5,
-    title: "10 Minutes Treat"
+    title: "10 Minutes Treat",
+    key: '10'
   },
    {
     animation: animation6,
-    title: "Side Dish"
+    title: "Side Dish",
+    key: 'sidedish'
   },
    {
     animation: animation7,
-    title: "Dessert"
+    title: "Dessert",
+    key:  "Dessert",
   },
    {
     animation: animation8,
-    title: "Main Dish"
+    title: "Dinner",
+    key: 'Dinner',
   },
 ]
 
@@ -63,7 +71,7 @@ const CollectionBar = () => {
       <Carousel breakPoints={BREACK_POINT} disableArrowsOnEnd={false} showArrows={true} pagination={false}>
           {COLLECTION_BAR_ITEM.map((obj, index)=> {
             return (
-                <CollectionBarItem key={index} animation={obj.animation} title={obj.title}/> 
+                <CollectionBarItem key={index} animation={obj.animation} title={obj.title} collectionName={obj.key}/> 
             );
           })} 
       </Carousel>     
@@ -93,7 +101,7 @@ const CollectionBarItem  = (props) => {
   const history = useHistory();
   return (
     <button 
-      onClick={()=>{console.log("CollectionBarItem -> props.title", props.title);history.push(ROUTER_KEY.COLLECTION)}}
+      onClick={()=>{console.log("CollectionBarItem -> props.title", props.title);history.push(ROUTER_KEY.RECIPIES, props.collectionName)}}
       className={styles.CollectionBarItem} 
       onMouseEnter={() => itemRef.current[0].playSegments([[5, 80]], true)}>
       <div style={{ width: 130, height: 100 }} ref={(e) => itemRef.current[1] = e}/>
