@@ -19,6 +19,7 @@ const RecipeBody = (props, ref) => {
   const dispatch = useDispatch();
   const [isLoading, setisLoading] = useState(true);
   const [data, setdata] = useState();
+  console.log("🚀 ~ file: body.js ~ line 22 ~ RecipeBody ~ data", data)
   const onDone = (recipies) => {setisLoading(false); setdata(recipies)}
   useEffect(() => {
     dispatch(guestViewRecipie(recipiesData.id, onDone));
@@ -42,6 +43,16 @@ const RecipeBody = (props, ref) => {
         </button>
       )
     }
+
+  const infoRow = (title, info) => {
+      return (
+        <div style={{display: 'flex', width: '100%', paddingLeft: 20}}>
+          <h4 style={{width: 100, margin: 0}}>{title}</h4>
+           <p style={{marginLeft: 20, marginRight: 0, marginTop: 0, width: '60%'}}>{info}</p>
+        </div>
+      );
+  }
+
   if(isLoading) return  <MyLoader height={900} />
   else if (type) {
      return (
@@ -58,6 +69,12 @@ const RecipeBody = (props, ref) => {
               return <li key={index}><p style={{fontSize: 14}}>{obj.content}</p></li>
             })}
         </ol>
+        <h3 className={styles.recipiesTitle}>Prepare info: </h3>
+        {infoRow('Cooking time',data?.PrepTime[0]?.cook)}
+        {infoRow('Prepare time',data?.PrepTime[0]?.prep)}
+        {infoRow('Total time',data?.PrepTime[0]?.total)}
+        {infoRow('Nutri fact',data?.PrepTime[0]?.nutrition_facts)}
+        {infoRow('Serving',data?.PrepTime[0]?.yield)}
     </div>
   );
   } else {

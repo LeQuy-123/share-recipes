@@ -1,13 +1,13 @@
 import React from "react";
-import { CAROUSEL_TYPE, ITEM, ROUTER_KEY } from "../../../asset/constants/constants";
+import {  ROUTER_KEY } from "../../../asset/constants/constants";
 import "../../../utils/global.css"
-import { MyList, Route } from "../../views";
+import {   Route } from "../../views";
+import styles from './style.module.css';
 
 function MyRecipies() {
    return (
     <div>
       <Route route={ROUTER_KEY.MYRECIPIES}/>
-      <MyList shadow={false} customType={CAROUSEL_TYPE.NORMAL} data={ITEM} />
       <button>Add more collection</button>
     </div>
   );

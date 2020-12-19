@@ -20,7 +20,7 @@ function OneRecipie() {
             des={recipiesData.des}
             rating={recipiesData.rate}
           />
-          <button className={styles.btn} onClick={()=> bodyRef.current.toData()}><h2 className={styles.btn_text}>Data</h2></button>
+          <button className={styles.btn} onClick={()=> bodyRef.current.toData()}><h2 className={styles.btn_text}>Recipies</h2></button>
           <button className={styles.btn} onClick={()=> bodyRef.current.toImage()}  style={{marginLeft: 4}}><h2 className={styles.btn_text}>Image</h2></button>
           <RecipeBody data={recipiesData} ref={bodyRef}/>
         </div>
