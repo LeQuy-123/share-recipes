@@ -10,6 +10,8 @@
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    text-decoration: none;
+    cursor: pointer;
 }
 .image {
     width: 100%;

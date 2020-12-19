@@ -5,16 +5,13 @@ import defaultImage from '../../../asset/image/star.png'
 
 const IngredientCard = (props, ref) => {
     const allData = props.data;
-    console.log("🚀 ~ file: index.js ~ line 8 ~ IngredientCard ~ allData", allData)
     const [text, setText] = useState('');
     const [image, setimage] = useState();
     const handelChangeText = (t) => {
       setText(t);
-      const data = allData.filter((obj, index)=>{
-        console.log(obj.name)
+      const data = allData?.filter((obj, index)=>{
         return obj.name.toLowerCase() === t.toLowerCase()
       });
-      console.log("🚀 ~ file: index.js ~ line 15 ~ data ~ data", data)
       if(data) {setimage(data[0]?.img_url)}
     }
     return (

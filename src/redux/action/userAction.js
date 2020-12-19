@@ -76,11 +76,12 @@ export const userRegister = (email, username, password, spiner,onErrorCallBack, 
   }
 };
 
-export const userUpdateInfo = (dispatch, username, profileImage ) => {
+export const userUpdateInfo = ( username, token ) => {
   return  function(dispatch){API.put('/auth/update', {
     username: username?.trim(),
-    profileImage: profileImage,
-  }).then(({ data }) => {
+    // profileImage: profileImage,
+  },{headers: { Authorization: `Bearer ${token}` }}
+  ).then(({ data }) => {
     dispatch({type: REDUX.UPDATE_USER_DATA, payload: data.User })
   }).catch((error)=>{
     if (error.response) {

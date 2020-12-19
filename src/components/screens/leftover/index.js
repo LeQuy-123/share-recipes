@@ -6,6 +6,7 @@ import { CollectionBar, IngredientCard, Route } from "../../views";
 import styles from './style.module.css'
 function LeftOver() {
   const allIngredient = useSelector(state => state.searchReducer.mainIngredient)
+  console.log("🚀 ~ file: index.js ~ line 9 ~ LeftOver ~ allIngredient", allIngredient)
   const [listIngredient, setListIngredient] = useState([ {
         title: 'New Ingredient',
         image: 'default'

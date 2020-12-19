@@ -12,6 +12,7 @@ import { userUpdateInfo } from "../../../redux/action/userAction";
 
 const  MyPageHeader = (props, ref) => {
   const userData = useSelector(state => state.authReducer.userData);
+  const token = useSelector(state => state.authReducer.accessToken)
   const [user, setUser] = useState(userData);
   useEffect(() => {
     setUser(userData);
@@ -29,7 +30,7 @@ const  MyPageHeader = (props, ref) => {
           ref={userNameRef}
            submit={e => {
              if(e.keyCode === 13) {
-                dispatch(userUpdateInfo(dispatch,userNameRef.current.getText(),null));
+                dispatch(userUpdateInfo(userNameRef.current.getText(),token));
              }
           }} showEdit={true} title="User name">{user.username}</MyText>
           <MyText title="Email">{user.email}</MyText>
