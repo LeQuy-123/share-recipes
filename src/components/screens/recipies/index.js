@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState }  from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import "../../../utils/global.css"
 import styles from './style.module.css';
 import MyItem from '../../views/MyItem'
@@ -9,11 +9,19 @@ import { useHistory } from "react-router-dom";
 import nullAnimation from '../../../asset/lottie/searchNull.json'
 import lottie from "lottie-web";
 import ReactPaginate from "react-paginate";
+import { getRecipesCategory } from "../../../redux/action/webAction";
 
 const NUM_OF_RECIPIES = 12;
-function Recipies() {
-  const searchData = useSelector(state => state.searchReducer.searchData)
-  const history = useHistory();
+function Recipies(router) {
+    const history = useHistory();
+  const dispatch = useDispatch();
+  const [categoryList, setCategoryList] = useState([])
+  const key =  history.location.state;
+  useEffect(() => {
+    dispatch(getRecipesCategory( key, (res)=>{ setCategoryList(res)}));
+  }, [])
+  const searchData =useSelector(state => state.searchReducer.searchData)
+  const data =  key ? categoryList : searchData;
   const animtaionRef = useRef()
   useEffect(() => {
       lottie.loadAnimation({
@@ -30,10 +38,10 @@ function Recipies() {
   };
   return (
     <div>
-      <Route route={ROUTER_KEY.RECIPIES}/>
+      <Route route={ROUTER_KEY.RECIPIES +'/'+key}/>
       <div className={styles.contain}>
-      {searchData.length > 0  ? (
-        searchData.map((obj, index)=> {
+      {data.length > 0  ? (
+        data.map((obj, index)=> {
           if(index >= (pageNumber-1)*NUM_OF_RECIPIES && index < pageNumber*NUM_OF_RECIPIES  ) {
             return (
               <div key={index} className={styles.containItem}>
@@ -57,14 +65,14 @@ function Recipies() {
           <div style={{ width: 500, height: 500 }} ref={(e) => animtaionRef.current = e}/>
       )}    
       </div>
-    {searchData.length > NUM_OF_RECIPIES && (
+    {data.length > NUM_OF_RECIPIES && (
       <div style={{display: 'flex', justifyContent: 'center', marginTop: 10}}>
         <ReactPaginate
           previousLabel={'previous'}
           nextLabel={'next'}
           breakLabel={'...'}
           breakClassName={'break-me'}
-          pageCount={Math.floor(searchData.length /NUM_OF_RECIPIES )}
+          pageCount={Math.floor(data.length /NUM_OF_RECIPIES )}
           marginPagesDisplayed={2}
           pageRangeDisplayed={5}
           onPageChange={handlePageClick}

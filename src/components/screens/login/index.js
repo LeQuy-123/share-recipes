@@ -7,11 +7,15 @@ import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { userLogin } from "../../../redux/action/userAction";
 import { ROUTER_KEY } from "../../../asset/constants/constants";
+import CustomModal from "../../views/CustomModal";
 function Login() {
   const [error, setError] = useState();
 
   const passwordRef = useRef();
   const emailRef = useRef();
+  const emailForgetRef = useRef();
+  const modalRef = useRef();
+
 
   const dispatch = useDispatch();
   const history = useHistory();
@@ -66,12 +70,14 @@ function Login() {
         <button className={styles.buttonLogin} onClick={()=> handelLogin()}>
           <h3 className={styles.buttonText}>Login</h3>
         </button>
+        <button className={styles.clickAbleText} onClick={()=> modalRef.current.openModal()}>I don't remember my password</button>
         <h4> --------Or-------- </h4> 
         <button className={styles.button} onClick={()=> history.push(ROUTER_KEY.SIGNIN)}>
           <h3 className={styles.buttonText}>Join us for Free</h3>
         </button>
       </div>
-      <MySpinner></MySpinner>
+      <CustomModal ref={modalRef} />      
+      <MySpinner />
     </div>
   );
 }

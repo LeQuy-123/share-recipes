@@ -68,7 +68,7 @@ const RecipiesReviews = (props, ref) => {
               <ReactPaginate
               previousLabel={'previous'}
               nextLabel={'next'}
-              breakLabel={'...'}
+              brAnheakLabel={'...'}
               breakClassName={'break-me'}
               pageCount={numOfPage}
               marginPagesDisplayed={2}

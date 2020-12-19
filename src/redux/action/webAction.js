@@ -23,3 +23,15 @@ export const getAllMainIngredient =() => {
     });
   }
 };
+export const getRecipesCategory = (key, onSuccess) => {
+    return function(dispatch){
+    API.get('/normal/recipe/getRecipesByCategory?category=' + key)
+    .then(({ data }) => {
+    console.log("🚀 ~ file: webAction.js ~ line 20 ~ .then ~ data", data)
+    onSuccess(data);
+    dispatch({type: REDUX.GET_ALL_MAININGREDIENT, payload: data?.MainIngredient})
+    }).catch((er)=>{
+      console.log('error when search -> ' , er.response)
+    });
+  }
+};

@@ -1,0 +1,30 @@
+.modal {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) !important;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color:#f3f3f3;
+   margin: auto;
+   padding: 20px;
+   border-radius: 10px;
+}
+.input {
+   width: 20vw;
+   min-width: 200px;
+}
+.buttonLogin {
+   background-color: #0c6bf070;
+   border: none;
+   color: white;
+   padding: 10px 40px;
+   border-radius: 10px;
+   margin-top: 10px;
+   box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.8);
+}
+
+.buttonLogin:hover {
+   background-color: #0c6bf0bf;
+}

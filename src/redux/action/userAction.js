@@ -32,6 +32,23 @@ export const userLogin = ( email, password,  history, spiner, onErrorCallBack) =
   });
   }
 };
+export const userForgetPassword = ( email, onSuccess, onError) => {
+  return  function(dispatch){ API.post('/normal/recover', {
+    email: email?.trim()?.toLocaleLowerCase(),
+  }).then(({ data }) => {
+    console.log("🚀 ~ file: userAction.js ~ line 43 ~ returnfunction ~ data", data.message)
+    onSuccess(data.message);
+  }).catch((error)=>{
+    if (error.response) {
+      console.log('errpr', error.response?.data?.message)
+      onError(error.response?.data?.message);
+    } else if (error.request) {
+    } else {
+      console.log('Error when setting up resuqest', error.message);
+    }
+  });
+  }
+};
 export const userRegister = (email, username, password, spiner,onErrorCallBack, history) => {
     spiner.show();
     return function(dispatch){

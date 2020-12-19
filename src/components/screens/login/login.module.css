@@ -70,3 +70,13 @@ h5 {
     font-style: italic;
     color: rgb(235, 8, 8);
 }
+.clickAbleText {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-style: italic;
+}
+.clickAbleText:hover {
+    text-decoration: underline;
+    color: rgb(235, 8, 8);
+}
