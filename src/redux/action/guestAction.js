@@ -48,3 +48,33 @@ export const guestSearchIngredient = (key) => {
     });
   }
 };
+export const guestSearchByIngredient = (key) => {
+    return function(dispatch){
+    API.post('/normal/recipe/getRecipeByTags',{
+    main_ingredients: key,
+    })
+    .then(({ data }) => {
+      console.log("🚀 ~ file: guestAction.js ~ line 57 ~ .then ~ data", data)
+      // dispatch({type: REDUX.UPDATE_SEARCH_RESULT, payload: data});
+      CookingSpiner.hide();
+    }).catch((er)=>{
+      CookingSpiner.hide();
+      console.log('error when search -> ' , er.response)
+    });
+  }
+};
+export const guestSearchByOrigin = (key) => {
+    return function(dispatch){
+    API.post('/normal/recipe/getRecipeByTags',{
+    origins: key,
+    })
+    .then(({ data }) => {
+      console.log("🚀 ~ file: guestAction.js ~ line 72 ~ .then ~ data", data)
+      // dispatch({type: REDUX.UPDATE_SEARCH_RESULT, payload: data});
+      CookingSpiner.hide();
+    }).catch((er)=>{
+      CookingSpiner.hide();
+      console.log('error when search -> ' , er.response)
+    });
+  }
+};

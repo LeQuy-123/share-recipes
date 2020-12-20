@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
 
 import Slider from '@material-ui/core/Slider';
+import { userCreateRecipes } from "../../../../redux/action/userAction";
 
 const infoForm = [
   {title: 'Name', type: 'text'},
@@ -73,7 +74,8 @@ const ModalCreate = (props, ref) => {
   const [ingredient, setIngredient] = useState([]);
   const [stepC, setStepC] = useState([]);
   const [moreInfo, setMoreInfo] = useState([]);
-
+  const dispatch = useDispatch();
+  const token = useSelector(state => state.authReducer.accessToken);
   const onNextPress = () => {
     if(step === 0) {
         const data = [];
@@ -103,7 +105,40 @@ const ModalCreate = (props, ref) => {
           data.push(newInfo)}) 
         setMoreInfo(data);
     }
-    if(step === 4) console.log(infoc, moreInfo, stepC, ingredient)
+    const recipes =
+    {
+     recipe: {
+        name: infoc[0],
+        des: infoc[1],
+        category: infoc[2],
+        img_url: '',
+        level: infoc[3],
+    },
+    ingredients: [
+        // {
+        //     content: ''
+        // },
+    ],
+    steps: [
+        // {
+        //     content:  ''.
+        // },
+    ],
+    prep_time: {
+        prep:  moreInfo[0],
+        cook:   moreInfo[1],
+        // total:   moreInfo[2],
+        yield:   moreInfo[2],
+        nutrition_facts:   moreInfo[3]
+    }
+  }
+  if(ingredient?.length > 0) ingredient.forEach((obj, index) => recipes.ingredients.push({content: obj[index]}))
+  if(stepC?.length > 0) stepC.forEach((obj, index) => recipes.steps.push({content: obj[index]}))
+
+    if(step === 4) {
+      dispatch(userCreateRecipes(recipes,token))
+      console.log("🚀 ~ file: index.js ~ line 158 ~ onNextPress ~ recipes", recipes)
+    }
     if(step < 4) setStep(step + 1); else {setStep(0); closeModal()}
   }
   return (

@@ -4,7 +4,7 @@ import {  ROUTER_KEY } from "../../../asset/constants/constants";
 import "../../../utils/global.css"
 import {   Route } from "../../views";
 import styles from './style.module.css';
-import cooking from '../../../asset/lottie/6519-cooking.json'
+import owl from '../../../asset/lottie/16788-owlie-looking-around.json'
 import ModalCreate from './ModalCreate'
 
 function MyRecipies() {
@@ -16,7 +16,7 @@ function MyRecipies() {
       renderer: 'svg',
       loop: true,
       autoplay: true,
-      animationData: cooking,
+      animationData: owl,
     });
   }, []) 
    return (
@@ -24,7 +24,7 @@ function MyRecipies() {
       <Route route={ROUTER_KEY.MYRECIPIES}/>
       <div>
         <div className={styles.row}>
-          <div style={{ width: 500 }} ref={(e) => animtaionRef.current = e}/>
+          <div style={{ width: 300 }} ref={(e) => animtaionRef.current = e}/>
           <h2>
              You dont have any recipies, let create one
           </h2>

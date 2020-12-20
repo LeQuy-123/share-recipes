@@ -17,7 +17,7 @@ const RecipiesReviews = (props, ref) => {
   const [reviews, setreviews] = useState();
   useEffect(() => {
     dispatch(userGetReview(idRecipies, (reviews)=>setreviews(reviews)));
-  }, [])
+  }, [idRecipies, dispatch])
   const numOfPage = Math.floor(reviews?.length / 5) + 1;
   const [pageNumber, setpageNumber] = useState(1);
   const handlePageClick = (data) => {

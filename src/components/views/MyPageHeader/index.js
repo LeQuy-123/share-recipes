@@ -19,9 +19,10 @@ const  MyPageHeader = (props, ref) => {
   }, [userData])
    const dispatch = useDispatch();
    const userNameRef = useRef();
+   const avadefault = 'https://ui-avatars.com/api/?name='+userData.username;
    return (
       <div className={styles.row}>
-         <img src={user?.profileImage ? user.profileImage : ava}
+         <img src={user?.profileImage ? user.profileImage : avadefault}
               alt="Ava"
               className={styles.ava}
          />
