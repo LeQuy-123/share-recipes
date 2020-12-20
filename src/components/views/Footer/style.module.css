@@ -1,7 +1,7 @@
 .row {
     display: flex;
     align-items: center;
-    background-color: #f1f1f1;
+    background-color: #f1f1f170;
 }
 .footerItem {
     margin: 10px 10px 10px 10px;

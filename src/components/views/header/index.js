@@ -15,6 +15,7 @@ import { REDUX } from "../../../redux/store/types";
 // import { REDUX } from "../../../redux/store/types";
 // import { useDispatch } from "react-redux";
 // import { userRegister } from "../../../redux/action/userAction";
+import DarkModeToggle from "react-dark-mode-toggle";
 
 const  Header = (props, ref) => {
   const dropwdownRef = useRef(null)
@@ -74,6 +75,16 @@ const  Header = (props, ref) => {
             }
           })}
         </ul>
+        <div className={styles.toggle}>
+          <DarkModeToggle
+          onChange={()=> props.toggleDarkMode()}
+          checked={props.isDarkMode}
+          size={60}
+          speed={2}
+          style={{marginRight: 20}}
+          />
+        </div>
+        
         {islogin ? 
           <div className={styles.header_right}>
             <Link className={styles.link} to={ROUTER_KEY.MYPAGE}>My Page</Link>

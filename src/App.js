@@ -9,9 +9,10 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Recipies from './components/screens/recipies';
 import { useSelector } from 'react-redux';
 import PrivateRoute from './PrivateRoute ';
-import MyAlert from './components/views/Alert';
-
-
+// import MyAlert from './components/views/Alert';
+import { ThemeProvider } from 'styled-components';
+import { lightTheme, darkTheme } from './theme';
+import { GlobalStyles } from './global';
 const  App = (router) => {
   console.log("App -> router", router.location.pathname)
   const login = useSelector(state => state.authReducer.loggedIn);
@@ -19,10 +20,25 @@ const  App = (router) => {
   useEffect(() => {
     setisLogin(login);
   }, [login])
+
+  const [theme, setTheme] = useState('light');
+
+  //  The function that toggles between themes
+  const toggleTheme = () => {
+  if (theme === 'light') {
+    setTheme('dark');
+  // otherwise, it should be light
+  } else {
+    setTheme('light');
+  }
+}
   return (
-    <div className="App" style={{backgroundImage: `url(${bg})`,  backgroundRepeat: 'repeat-y' }}>
+  <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+    <>       
+      <GlobalStyles />
+      <div className="App" style={{backgroundImage: `url(${bg})`,  backgroundRepeat: 'repeat-y' }}>
       {!HIDE_HEADER_LIST.includes(router.location.pathname) ? 
-      <Header showHeader={true}></Header> : null }
+      <Header showHeader={true} toggleDarkMode={() => toggleTheme()} isDarkMode={theme === 'dark'}/> : null }
       <Switch>
         <Route path={ROUTER_KEY.HOME} component={Home} exact />
         <Route path={ROUTER_KEY.RECIPIES} component={Recipies} exact />
@@ -40,6 +56,10 @@ const  App = (router) => {
       {!HIDE_HEADER_LIST.includes(router.location.pathname) ? 
        <Footer/> : null }
     </div>
+    </>
+    
+  </ThemeProvider>
+   
   );
 }
 

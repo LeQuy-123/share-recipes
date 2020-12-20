@@ -133,6 +133,7 @@ button:focus {
     align-items: center;
     margin-top: 18px;
     margin-right: 10px;
+    margin-left: 20px;
 }
 
 .menu_icon {
@@ -141,6 +142,7 @@ button:focus {
 
 
 @media screen and (max-width: 960px) {
+  
     .nav_menu {
         display: none;
     }
@@ -174,7 +176,10 @@ button:focus {
         height: 50px;
         margin-top: 5px;
     }
-
+  .toggle {
+      right: 100px;
+      top: 20px;
+  }
 }
 
 .menu_enter {
@@ -214,4 +219,9 @@ button:focus {
     opacity: 0;
     transform: scale(0.9);
     transition: opacity 500ms, transform 500ms;
+}
+.toggle {
+    position: absolute;
+    right: 20vw;
+    top: 3vh;
 }
