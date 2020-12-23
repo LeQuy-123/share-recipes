@@ -218,13 +218,20 @@ export const userGetReview = (id, onSuccess) => {
   }
 };
 
-export const userCreateRecipes = ( token, recipes) => {
+export const userCreateRecipes = ( recipes, token ) => {
+  console.log("🚀 ~ file: userAction.js ~ line 222 ~ userCreateRecipes ~ recipes", recipes)
   return  function(dispatch){ API.post('/auth/recipe/createRecipe', {recipes}, 
   {headers: { Authorization: `Bearer ${token}` }})
   .then(({ data }) => {
     console.log("🚀 ~ file: userAction.js ~ line 224 ~ .then ~ data", data)
   }).catch((error)=>{
-    console.log("🚀 ~ file: userAction.js ~ line 226 ~ .then ~ error", error)
+     if (error.response) {
+      console.log(error.response.data);
+    } else if (error.request) {
+      console.log(error.request);
+    } else {
+      console.log('Error when setting up resuqest', error.message);
+    }
   });
   }
 };

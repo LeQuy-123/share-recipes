@@ -25,7 +25,6 @@ const STAR = [
   }
 ]
 const RecipiesHeader = (props, ref) => {
-console.log("🚀 ~ file: index.js ~ line 28 ~ RecipiesHeader ~ props", props)
   const favoriteList = useSelector(state => state.favoriteReducer.listFavorites);
   const obj = favoriteList.filter((obj, index) => {
     return obj?.recipeID?.id  === props.id || obj?._id ===  props.id;
@@ -75,6 +74,9 @@ console.log("🚀 ~ file: index.js ~ line 28 ~ RecipiesHeader ~ props", props)
             </div>
             {islogin  && 
               <div className={styles.rowOnly} onClick={()=> handelLikeBtnClick()}>
+              <p style={{marginTop: 5, marginRight: 10}}>
+                Yêu thích: 
+              </p>
                 {isLike ? <AiFillHeart size={40} color="red"/>: <AiOutlineHeart size={40}  color="red"/>}
               </div>
             }

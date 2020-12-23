@@ -41,6 +41,18 @@ const ModalCreate = (props, ref) => {
   }));
   function closeModal(){
     setIsOpen(false);
+    setStep(0);
+     setInfoc([]);
+      setListStep([ {
+        title: 'New Ingredient',
+        image: 'default'
+      }]);
+      setListIngredient([ {
+        title: 'New Ingredient',
+        image: 'default'
+      }]);
+      setMoreInfo([]);
+      setStep(0);
   } 
   const [step, setStep] = useState(0)
    const [listStep, setListStep] = useState([ {
@@ -88,14 +100,14 @@ const ModalCreate = (props, ref) => {
         const data = [];
         listIngredient.forEach((obj, index) => {
           const newInfo =  ingredientRef.current[index].getData();
-          data.push(newInfo)}) 
+          data.push({content: newInfo})}) 
         setIngredient(data);
     }
     if(step === 2) {
         const data = [];
         listStep.forEach((obj, index) => {
           const newInfo =  stepRef.current[index].getData();
-          data.push(newInfo)}) 
+          data.push({content: newInfo})}) 
         setStepC(data);
     }
      if(step === 3) {
@@ -105,39 +117,41 @@ const ModalCreate = (props, ref) => {
           data.push(newInfo)}) 
         setMoreInfo(data);
     }
-    const recipes =
-    {
-     recipe: {
-        name: infoc[0],
-        des: infoc[1],
-        category: infoc[2],
-        img_url: '',
-        level: infoc[3],
-    },
-    ingredients: [
-        // {
-        //     content: ''
-        // },
-    ],
-    steps: [
-        // {
-        //     content:  ''.
-        // },
-    ],
-    prep_time: {
-        prep:  moreInfo[0],
-        cook:   moreInfo[1],
-        // total:   moreInfo[2],
-        yield:   moreInfo[2],
-        nutrition_facts:   moreInfo[3]
-    }
-  }
-  if(ingredient?.length > 0) ingredient.forEach((obj, index) => recipes.ingredients.push({content: obj[index]}))
-  if(stepC?.length > 0) stepC.forEach((obj, index) => recipes.steps.push({content: obj[index]}))
 
-    if(step === 4) {
+     if(step === 4) {
+      const recipes =
+        {
+          recipe: {
+            name: infoc[0],
+            des: infoc[1],
+            category: infoc[2],
+            img_url: '',
+            level: infoc[3],
+          },
+          ingredients: [],
+          steps: [],
+          prep_time: {
+            prep:  moreInfo[0],
+            cook:   moreInfo[1],
+            // total:   moreInfo[2],
+          yield:   moreInfo[2],
+          nutrition_facts:   moreInfo[3]
+        }
+      }
+      recipes.ingredients = ingredient;
+      recipes.steps = stepC;
       dispatch(userCreateRecipes(recipes,token))
-      console.log("🚀 ~ file: index.js ~ line 158 ~ onNextPress ~ recipes", recipes)
+      setInfoc([]);
+      setListStep([ {
+        title: 'New Ingredient',
+        image: 'default'
+      }]);
+      setListIngredient([ {
+        title: 'New Ingredient',
+        image: 'default'
+      }]);
+      setMoreInfo([]);
+      setStep(0);
     }
     if(step < 4) setStep(step + 1); else {setStep(0); closeModal()}
   }

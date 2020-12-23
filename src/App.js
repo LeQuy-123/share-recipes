@@ -21,24 +21,19 @@ const  App = (router) => {
     setisLogin(login);
   }, [login])
 
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState(true);
 
   //  The function that toggles between themes
   const toggleTheme = () => {
-  if (theme === 'light') {
-    setTheme('dark');
-  // otherwise, it should be light
-  } else {
-    setTheme('light');
+    setTheme(!theme)
   }
-}
   return (
-  <ThemeProvider theme={theme === 'light' ? lightTheme : darkTheme}>
+  <ThemeProvider theme={!theme ? lightTheme : darkTheme}>
     <>       
       <GlobalStyles />
       <div className="App" style={{backgroundImage: `url(${bg})`,  backgroundRepeat: 'repeat-y' }}>
       {!HIDE_HEADER_LIST.includes(router.location.pathname) ? 
-      <Header showHeader={true} toggleDarkMode={() => toggleTheme()} isDarkMode={theme === 'dark'}/> : null }
+      <Header showHeader={true} toggleDarkMode={() => toggleTheme()} isDarkMode={theme}/> : null }
       <Switch>
         <Route path={ROUTER_KEY.HOME} component={Home} exact />
         <Route path={ROUTER_KEY.RECIPIES} component={Recipies} exact />

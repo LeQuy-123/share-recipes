@@ -48,18 +48,26 @@ export const guestSearchIngredient = (key) => {
     });
   }
 };
-export const guestSearchByIngredient = (key) => {
+export const guestSearchByIngredient = (key, history, spinner) => {
     return function(dispatch){
     API.post('/normal/recipe/getRecipeByTags',{
+    origins: "5fa62b337ad69136d43da804,5fa62ddc7ad69136d43da805",
     main_ingredients: key,
     })
     .then(({ data }) => {
       console.log("🚀 ~ file: guestAction.js ~ line 57 ~ .then ~ data", data)
-      // dispatch({type: REDUX.UPDATE_SEARCH_RESULT, payload: data});
-      CookingSpiner.hide();
-    }).catch((er)=>{
-      CookingSpiner.hide();
-      console.log('error when search -> ' , er.response)
+      dispatch({type: REDUX.UPDATE_SEARCH_RESULT, payload: data.Recipes});
+      spinner.hide();
+      history.push(ROUTER_KEY.RECIPIES)
+    }).catch((error)=>{
+       if (error.response) {
+      console.log(error.response.data);
+      } else if (error.request) {
+      console.log(error.request);
+      } else {
+      console.log('Error when setting up resuqest', error.message);
+      }
+      spinner.hide();
     });
   }
 };

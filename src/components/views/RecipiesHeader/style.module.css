@@ -8,6 +8,7 @@
 .rowOnly {
     display: flex;
     margin-top: auto;
+    text-align: 'center';
 }
 .fullrow {
     display: flex;
