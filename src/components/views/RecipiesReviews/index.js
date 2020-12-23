@@ -122,9 +122,9 @@ const ReviewItem = (props, ref) => {
   const user = props.data?.userID;
    return (
     <div className={styles.row}>
-      <img className={styles.ava}  src={user.profileImage ? user.profileImage : default_avatar}  alt="avatar"/>
+      <img className={styles.ava}  src={user?.profileImage ? user?.profileImage : default_avatar}  alt="avatar"/>
       <div>
-        <h4 className={styles.userName}>{user.username ? user.username : 'Guest'}</h4>
+        <h4 className={styles.userName}>{user?.username ? user?.username : 'Guest'}</h4>
         <ReadMore note={data.note} style={styles.content}/>
         {/* <p className={styles.content}>{data.note}</p> */}
         <div style={{display: 'flex', position: 'absolute', bottom: 10, left: 5}}>

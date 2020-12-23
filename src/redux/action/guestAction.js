@@ -52,7 +52,7 @@ export const guestSearchByIngredient = (key, history, spinner) => {
     return function(dispatch){
     API.post('/normal/recipe/getRecipeByTags',{
     origins: "5fa62b337ad69136d43da804,5fa62ddc7ad69136d43da805",
-    main_ingredients: key,
+    main_ingredients: key ? key :  "5fa84b7e0cfe7825e8a968ec,5fa777def46ba636e47d5723",
     })
     .then(({ data }) => {
       console.log("🚀 ~ file: guestAction.js ~ line 57 ~ .then ~ data", data)

@@ -22,7 +22,7 @@ const  MyPageHeader = (props, ref) => {
    const avadefault = 'https://ui-avatars.com/api/?name='+userData.username;
    return (
       <div className={styles.row}>
-         <img src={user?.profileImage ? user.profileImage : avadefault}
+         <img src={user?.profileImage ? user?.profileImage : avadefault}
               alt="Ava"
               className={styles.ava}
          />
