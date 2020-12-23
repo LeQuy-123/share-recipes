@@ -35,6 +35,13 @@ const  Header = (props, ref) => {
       } 
     }
   }, [size.width])
+
+  const isDarkMode = useSelector(state => state.settingReducer.isDarkMode)
+    const [isDark, setIsDark] = useState(isDarkMode)
+    useEffect(() => {
+      setIsDark(isDarkMode)
+    }, [isDarkMode])
+
   const history = useHistory();
   const dispatch = useDispatch();
   
@@ -59,7 +66,7 @@ const  Header = (props, ref) => {
    
     return (
     <>
-      <nav className={styles.navbar}>
+      <nav className={!isDark ? styles.navbarDark : styles.navbar}>
         <Link to={ROUTER_KEY.HOME} className={styles.navbar_logo}>
           <img  className={styles.Logo} src={logo} alt="Logo" />
           <p  className={styles.app_name}>

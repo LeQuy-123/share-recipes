@@ -6,6 +6,7 @@ import { persistReducer } from 'redux-persist';
 import authReducer from './authReducer';
 import searchReducer from './searchReducer';
 import favoriteReducer from './favoriteReducer';
+import settingReducer from './settingReducer';
 
 
 /// Redux: Root Reducer
@@ -31,7 +32,13 @@ const reducers = combineReducers({
     },
     favoriteReducer,
   ),
-
+ settingReducer: persistReducer(
+    {
+      key: 'settingReducer',
+      storage: storage,
+    },
+    settingReducer,
+  ),
 });
 // Exports
 export default reducers;

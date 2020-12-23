@@ -1,6 +1,6 @@
 
-import React, { forwardRef, useImperativeHandle, useState } from "react";
-import { useDispatch } from "react-redux";
+import React, { forwardRef, useEffect, useImperativeHandle, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { guestSearch } from "../../../redux/action/guestAction";
 import CookingSpiner from "../CookingSpiner";
@@ -11,11 +11,18 @@ const SearchBar = (props, ref) => {
     const [text, setText] = useState();
     const dispatch = useDispatch();
     const history = useHistory();
+    const isDarkMode = useSelector(state => state.settingReducer.isDarkMode)
+    const [isDark, setIsDark] = useState(isDarkMode)
+    useEffect(() => {
+      setIsDark(isDarkMode)
+    }, [isDarkMode])
+
+
     useImperativeHandle(ref, () => ({
    
      }));
     return (
-      <div className={styles.divWithBackground}>
+      <div className={!isDark ? styles.divWithBackground2 : styles.divWithBackground}>
         <input 
         onChange={e => setText(e.target.value)}
         type="text" className={styles.input} onKeyPress={e => {

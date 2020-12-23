@@ -7,12 +7,13 @@ import { HIDE_HEADER_LIST, ROUTER_KEY } from './asset/constants/constants';
 import bg from './asset/image/bg.png';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css"
 import Recipies from './components/screens/recipies';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import PrivateRoute from './PrivateRoute ';
 // import MyAlert from './components/views/Alert';
 import { ThemeProvider } from 'styled-components';
 import { lightTheme, darkTheme } from './theme';
 import { GlobalStyles } from './global';
+import { REDUX } from './redux/store/types';
 const  App = (router) => {
   console.log("App -> router", router.location.pathname)
   const login = useSelector(state => state.authReducer.loggedIn);
@@ -20,12 +21,13 @@ const  App = (router) => {
   useEffect(() => {
     setisLogin(login);
   }, [login])
-
+  const dispatch = useDispatch();
   const [theme, setTheme] = useState(true);
 
   //  The function that toggles between themes
   const toggleTheme = () => {
     setTheme(!theme)
+    dispatch({type: REDUX.TOGGLE_DARK_MODE})
   }
   return (
   <ThemeProvider theme={!theme ? lightTheme : darkTheme}>

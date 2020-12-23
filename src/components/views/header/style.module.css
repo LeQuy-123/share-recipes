@@ -6,6 +6,14 @@
     font-size: 1.2rem;
     /* border-bottom: 1px solid #271D1610; */
 }
+.navbarDark {
+    width: 100%;
+    background-color: #f1f1f160;
+    height: 73px;
+    display: flex;
+    font-size: 1.2rem;
+    /* border-bottom: 1px solid #271D1610; */
+}
 .link {
     text-decoration: none;
     color: white;
