@@ -44,8 +44,8 @@ const COLLECTION_BAR_ITEM= [
   },
    {
     animation: animation6,
-    title: "Side Dish",
-    key: 'sidedish'
+    title: "Lunch",
+    key: 'Lunch'
   },
    {
     animation: animation7,

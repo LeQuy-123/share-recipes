@@ -77,7 +77,7 @@ export const userRegister = (email, username, password, spiner,onErrorCallBack, 
 };
 
 export const userUpdateInfo = ( username, token ) => {
-  return  function(dispatch){API.put('/auth/update', {
+  return  function(dispatch){API.put('/auth/user/update', {
     username: username?.trim(),
     // profileImage: profileImage,
   },{headers: { Authorization: `Bearer ${token}` }}

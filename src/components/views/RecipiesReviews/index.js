@@ -120,9 +120,12 @@ const STAR = [
 const ReviewItem = (props, ref) => {
   const data = props.data;
   const user = props.data?.userID;
+  const avadefault = 'https://ui-avatars.com/api/?name='+data.username;
    return (
     <div className={styles.row}>
-      <img className={styles.ava}  src={user?.profileImage ? user?.profileImage : default_avatar}  alt="avatar"/>
+      <img className={styles.ava}  src={user?.profileImage ? user?.profileImage : avadefault}  alt="avatar"
+        style={{width: 70, height: 70, borderRadius: 80, marginLeft: 20, marginRight: 20, marginTop: 5}}
+      />
       <div>
         <h4 className={styles.userName}>{user?.username ? user?.username : 'Guest'}</h4>
         <ReadMore note={data.note} style={styles.content}/>
