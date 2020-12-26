@@ -218,9 +218,11 @@ export const userGetReview = (id, onSuccess) => {
   }
 };
 
-export const userCreateRecipes = ( recipes, token ) => {
-  console.log("🚀 ~ file: userAction.js ~ line 222 ~ userCreateRecipes ~ recipes", recipes)
-  return  function(dispatch){ API.post('/auth/recipe/createRecipe', {recipes}, 
+export const userCreateRecipes = ( recipe, token ) => {
+  console.log("🚀 ~ file: userAction.js ~ line 222 ~ userCreateRecipes ~ token", token)
+  console.log("🚀 ~ file: userAction.js ~ line 222 ~ userCreateRecipes ~ recipes", recipe)
+  return function (dispatch) {
+    API.post('/auth/recipe/createRecipe', JSON.stringify(recipe), 
   {headers: { Authorization: `Bearer ${token}` }})
   .then(({ data }) => {
     console.log("🚀 ~ file: userAction.js ~ line 224 ~ .then ~ data", data)

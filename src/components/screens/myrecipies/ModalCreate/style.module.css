@@ -15,6 +15,29 @@
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.8);
     align-items: center;
 }
+.closeBtn {
+     position: absolute;
+     top: 0;
+     right: 0;
+     padding: 5px 10px;
+     border: none;
+    border-radius: 4px 15px 4px 4px;
+    text-decoration: none;
+    background-color: #D4303A;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: 3px 3px #00000020;
+    width: 95px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closeBtn:hover {
+    background-color: #ff303A;
+}
 .form {
     display: flex;
 }
@@ -38,7 +61,7 @@
     border-radius: 3px;
 }
 .inputText {
-    width: 30vw;
+    width: 25vw;
     min-width: 100px;
     margin-left: 20px;
     background-color: transparent;

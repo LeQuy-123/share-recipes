@@ -9,7 +9,7 @@ import Slider from '@material-ui/core/Slider';
 import { userCreateRecipes } from "../../../../redux/action/userAction";
 
 const infoForm = [
-  {title: 'Name', type: 'text'},
+  {title: 'Name recipies', type: 'text'},
   {title: 'Description', type: 'text'},
   {title: 'Category', type: 'text'}, 
   {title: 'Level', type: 'slide'}, 
@@ -26,7 +26,7 @@ const info = [
   {title: 'Prepare time', type: 'text'},
   {title: 'Cook time', type: 'text'},
   {title: 'Servings', type: 'text'}, 
-  {title: 'nutrition_facts', type: 'text'}, 
+  {title: 'Nutrition facts', type: 'text'}, 
   // {title: 'Image'}, 
 ]
 const ModalCreate = (props, ref) => {
@@ -125,22 +125,27 @@ const ModalCreate = (props, ref) => {
             name: infoc[0],
             des: infoc[1],
             category: infoc[2],
-            img_url: '',
+            img_url: "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3294690.jpg&w=272&h=272&c=sc&poi=face&q=85",
             level: infoc[3],
+            rate: '5',
+            num_of_reviews: '0'
           },
           ingredients: [],
           steps: [],
+          tags: [],
+          pictures: [],
           prep_time: {
             prep:  moreInfo[0],
             cook:   moreInfo[1],
-            // total:   moreInfo[2],
-          yield:   moreInfo[2],
-          nutrition_facts:   moreInfo[3]
-        }
+            total:   moreInfo[1],
+            yield:   moreInfo[2],
+            servings: moreInfo[2] + " servings",
+            nutrition_facts:   moreInfo[3]
+          }
       }
       recipes.ingredients = ingredient;
       recipes.steps = stepC;
-      dispatch(userCreateRecipes(recipes,token))
+       dispatch(userCreateRecipes(recipes,token))
       setInfoc([]);
       setListStep([ {
         title: 'New Ingredient',
@@ -165,7 +170,7 @@ const ModalCreate = (props, ref) => {
           contentLabel="Add reivews"
           ariaHideApp={false}
         >
-          <button  className={styles.btn} onClick={closeModal}>Close</button>
+          <button  className={styles.closeBtn} onClick={closeModal}>Close</button>
           <h2 className={styles.title}>Create your own recipie here</h2>
           {step === 0 && 
           <div  className={styles.body}>
@@ -208,10 +213,10 @@ const ModalCreate = (props, ref) => {
           </div>}
           
           <div style={{display: 'flex', justifyContent: 'space-between', width: '100%'}}>
-           {step !== 0  &&
+           {/* {step !== 0  &&
               <button className={styles.buttonBack} onClick={()=> {if(step > 0) setStep(step -1 )}} >
                <BsFillCaretLeftFill size={30} style={{marginRight: 20}} color="white"/>   Previus 
-             </button>} 
+             </button>}  */}
              <button className={styles.button} onClick={()=> onNextPress()}>
              {step === 4 ? 'Save recipes' : 'Next'}
              {step !== 4 && <BsFillCaretRightFill size={30} style={{marginLeft: 20}} color="white"/>}  
@@ -230,11 +235,11 @@ const InfoRow = forwardRef((props, ref) => {
   const {title, type} = props;
     return (
       <div style={{display: 'flex', height: 50, alignItems: 'center', marginTop: 10 }}>
-        <h3 style={{width: 140}}>{title} :</h3>
+        <h3 style={{width: 160}}>{title} :</h3>
         {type === "text"  && <input className={styles.inputText} type="text" onChange={(v)=> {setdata(v.target.value)}}/> }
         {type === "slide" && 
           <Slider
-            style={{width: '30vw',minWidth: 100}}
+            style={{width: '25vw',minWidth: 100}}
             defaultValue={0}
             getAriaValueText={(value) => setdata(value)}
             step={1}

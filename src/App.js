@@ -15,7 +15,6 @@ import { lightTheme, darkTheme } from './theme';
 import { GlobalStyles } from './global';
 import { REDUX } from './redux/store/types';
 const  App = (router) => {
-  console.log("App -> router", router.location.pathname)
   const login = useSelector(state => state.authReducer.loggedIn);
   const [islogin, setisLogin] = useState(login);
   useEffect(() => {

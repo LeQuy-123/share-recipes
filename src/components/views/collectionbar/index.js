@@ -1,6 +1,6 @@
 import lottie from "lottie-web";
 
-import React, { useEffect, useRef  } from "react";
+import React, { useEffect, useRef, useState  } from "react";
 import styles from './style.module.css'
 import animation1 from '../../../asset/lottie/11244-vegetables-and-cook.json'
 import animation2 from '../../../asset/lottie/18067-delicious-burger.json'
@@ -14,6 +14,7 @@ import { useWindowSize } from "../../hooks";
 import Carousel from 'react-elastic-carousel'
 import { useHistory } from "react-router-dom";
 import { ROUTER_KEY } from "../../../asset/constants/constants";
+import { useSelector } from "react-redux";
 
 
 const COLLECTION_BAR_ITEM= [
@@ -60,6 +61,7 @@ const COLLECTION_BAR_ITEM= [
 ]
 
 const CollectionBar = () => {
+  
     // const size = useWindowSize();
     const BREACK_POINT = [
         { width: 1, itemsToShow: 2 },
@@ -80,6 +82,11 @@ const CollectionBar = () => {
 export default CollectionBar;
 
 const CollectionBarItem  = (props) => {
+  const isDarkMode = useSelector(state => state.settingReducer.isDarkMode)
+  const [isDark, setIsDark] = useState(isDarkMode)
+  useEffect(() => {
+    setIsDark(isDarkMode)
+  }, [isDarkMode])
     const size = useWindowSize();
     useEffect(() => {
     if(size.width > 860) {
@@ -101,11 +108,11 @@ const CollectionBarItem  = (props) => {
   const history = useHistory();
   return (
     <button 
-      onClick={()=>{console.log("CollectionBarItem -> props.title", props.title);history.push(ROUTER_KEY.RECIPIES, props.collectionName)}}
+      onClick={()=>{history.push(ROUTER_KEY.RECIPIES, props.collectionName)}}
       className={styles.CollectionBarItem} 
       onMouseEnter={() => itemRef.current[0].playSegments([[5, 80]], true)}>
       <div style={{ width: 130, height: 100 }} ref={(e) => itemRef.current[1] = e}/>
-      <p className={styles.title}>{props.title}</p>
+      <p className={!isDark ? styles.titleDarkmode :  styles.title}>{props.title}</p>
   </button>
   );
 }
