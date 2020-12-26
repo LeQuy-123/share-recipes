@@ -7,6 +7,7 @@ import { BsFillCaretLeftFill, BsFillCaretRightFill } from "react-icons/bs";
 
 import Slider from '@material-ui/core/Slider';
 import { userCreateRecipes } from "../../../../redux/action/userAction";
+import MyAlert from "../../../views/Alert";
 
 const infoForm = [
   {title: 'Name recipies', type: 'text'},
@@ -145,7 +146,7 @@ const ModalCreate = (props, ref) => {
       }
       recipes.ingredients = ingredient;
       recipes.steps = stepC;
-       dispatch(userCreateRecipes(recipes,token))
+       dispatch(userCreateRecipes(recipes, token, MyAlert.show('succsess', 'Upload recipies succsess', 'You have upload your ricipies successfully to our database')))
       setInfoc([]);
       setListStep([ {
         title: 'New Ingredient',
@@ -221,7 +222,8 @@ const ModalCreate = (props, ref) => {
              {step === 4 ? 'Save recipes' : 'Next'}
              {step !== 4 && <BsFillCaretRightFill size={30} style={{marginLeft: 20}} color="white"/>}  
           </button>   
-          </div>     
+          </div> 
+      <MyAlert/>    
         </Modal> 
    );
 }

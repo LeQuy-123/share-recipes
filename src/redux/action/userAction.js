@@ -218,7 +218,7 @@ export const userGetReview = (id, onSuccess) => {
   }
 };
 
-export const userCreateRecipes = ( recipe, token ) => {
+export const userCreateRecipes = ( recipe, token, onSuccess ) => {
   console.log("🚀 ~ file: userAction.js ~ line 222 ~ userCreateRecipes ~ token", token)
   console.log("🚀 ~ file: userAction.js ~ line 222 ~ userCreateRecipes ~ recipes", recipe)
   return function (dispatch) {
@@ -226,7 +226,9 @@ export const userCreateRecipes = ( recipe, token ) => {
   {headers: { Authorization: `Bearer ${token}` }})
   .then(({ data }) => {
     console.log("🚀 ~ file: userAction.js ~ line 224 ~ .then ~ data", data)
+    onSuccess();
   }).catch((error)=>{
+    onSuccess();
      if (error.response) {
       console.log(error.response.data);
     } else if (error.request) {
