@@ -112,7 +112,7 @@ const CollectionBarItem  = (props) => {
       className={styles.CollectionBarItem} 
       onMouseEnter={() => itemRef.current[0].playSegments([[5, 80]], true)}>
       <div style={{ width: 130, height: 100 }} ref={(e) => itemRef.current[1] = e}/>
-      <p className={isDark ? styles.titleDarkmode :  styles.title}>{props.title}</p>
+      <p className={!isDark ? styles.titleDarkmode :  styles.title}>{props.title}</p>
   </button>
   );
 }

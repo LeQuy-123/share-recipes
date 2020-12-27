@@ -66,7 +66,7 @@ const  Header = (props, ref) => {
    
     return (
     <>
-      <nav className={isDark ? styles.navbarDark : styles.navbar}>
+      <nav className={!isDark ? styles.navbarDark : styles.navbar}>
         <Link to={ROUTER_KEY.HOME} className={styles.navbar_logo}>
           <img  className={styles.Logo} src={logo} alt="Logo" />
           <p  className={styles.app_name}>

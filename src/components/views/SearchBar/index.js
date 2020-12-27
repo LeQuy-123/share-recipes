@@ -22,7 +22,7 @@ const SearchBar = (props, ref) => {
    
      }));
     return (
-      <div className={isDark ? styles.divWithBackground2 : styles.divWithBackground}>
+      <div className={!isDark ? styles.divWithBackground2 : styles.divWithBackground}>
         <input 
         onChange={e => setText(e.target.value)}
         type="text" className={styles.input} onKeyPress={e => {

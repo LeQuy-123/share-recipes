@@ -6,7 +6,12 @@ import { AiFillHeart, AiOutlineHeart, AiFillStar } from "react-icons/ai";
 import { BsStarHalf } from "react-icons/bs";
 import { useDispatch, useSelector } from "react-redux";
 import { userAddFavorite, userRemoveFavorite } from "../../../redux/action/userAction";
-
+import {
+  FacebookIcon, FacebookMessengerIcon, FacebookMessengerShareButton, FacebookShareCount, TwitterIcon, TwitterShareButton,
+} from "react-share"; 
+import {
+  FacebookShareButton,
+} from "react-share";
 const STAR = [
   {
     image: logo,
@@ -47,6 +52,7 @@ const RecipiesHeader = (props, ref) => {
       dispatch(userAddFavorite(props.id, token))
     }  
   }
+  const shareUrl = window.location.href;
    return (
     <div className={styles.row}>
       <img src={props.image}
@@ -81,6 +87,25 @@ const RecipiesHeader = (props, ref) => {
               </div>
             }
           </div>
+         <div style={{display: 'flex', position: 'absolute', right: 10}}>
+            <p style={{textAlign: 'center', marginRight: 10}}>
+             Share:
+            </p>
+           <FacebookShareButton
+             url={shareUrl}
+             quote={""}>
+             <FacebookIcon size={32} round />
+           </FacebookShareButton>
+           <FacebookMessengerShareButton
+             url={shareUrl}
+             appId="521270401588372">
+             <FacebookMessengerIcon size={32} round />
+            </FacebookMessengerShareButton>
+           <TwitterShareButton
+             url={shareUrl}>
+             <TwitterIcon size={32} round />
+           </TwitterShareButton>
+         </div>
         </div>
     </div>
   );

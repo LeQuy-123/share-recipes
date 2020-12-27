@@ -21,20 +21,20 @@ const  App = (router) => {
     setisLogin(login);
   }, [login])
   const dispatch = useDispatch();
-  const [theme, setTheme] = useState(true);
+  const [themeIsDark, setThemeIsDark] = useState(false);
 
   //  The function that toggles between themes
   const toggleTheme = () => {
-    setTheme(!theme)
+    setThemeIsDark(!themeIsDark)
     dispatch({type: REDUX.TOGGLE_DARK_MODE})
   }
   return (
-  <ThemeProvider theme={!theme ? lightTheme : darkTheme}>
+    <ThemeProvider theme={themeIsDark ? darkTheme: lightTheme}>
     <>       
       <GlobalStyles />
       <div className="App" style={{backgroundImage: `url(${bg})`,  backgroundRepeat: 'repeat-y' }}>
       {!HIDE_HEADER_LIST.includes(router.location.pathname) ? 
-      <Header showHeader={true} toggleDarkMode={() => toggleTheme()} isDarkMode={theme}/> : null }
+            <Header showHeader={true} toggleDarkMode={() => toggleTheme()} isDarkMode={themeIsDark}/> : null }
       <Switch>
         <Route path={ROUTER_KEY.HOME} component={Home} exact />
         <Route path={ROUTER_KEY.RECIPIES} component={Recipies} exact />
