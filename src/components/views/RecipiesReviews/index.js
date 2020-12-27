@@ -11,6 +11,9 @@ import { useDispatch } from "react-redux";
 import { userGetReview } from "../../../redux/action/userAction";
 import logo from '../../../asset/image/star.png';
 import ReadMore from "../ReadMore";
+import { FacebookProvider, Comments } from 'react-facebook';
+import { FACEBOOK_APP_ID } from "../../../asset/constants/constants";
+
 const RecipiesReviews = (props, ref) => {
   const idRecipies = props.data?.id;
   const dispatch = useDispatch();
@@ -93,6 +96,9 @@ const RecipiesReviews = (props, ref) => {
         Add reviews
       </button>
       <MyModal ref={modalRef} id={idRecipies} onAddReview={(review)=> setreviews(review)}/>
+      {/* <FacebookProvider appId={FACEBOOK_APP_ID}>
+        <Comments href={window.location.href} />
+      </FacebookProvider> */}
     </div>
   );
  

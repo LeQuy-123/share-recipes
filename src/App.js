@@ -21,7 +21,13 @@ const  App = (router) => {
     setisLogin(login);
   }, [login])
   const dispatch = useDispatch();
-  const [themeIsDark, setThemeIsDark] = useState(false);
+  const isDarkMode = useSelector(state => state.settingReducer.isDarkMode)
+  const [themeIsDark, setThemeIsDark] = useState(isDarkMode);
+  useEffect(() => {
+    setThemeIsDark(isDarkMode)
+  }, [isDarkMode])
+
+
 
   //  The function that toggles between themes
   const toggleTheme = () => {

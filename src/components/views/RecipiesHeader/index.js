@@ -12,6 +12,7 @@ import {
 import {
   FacebookShareButton,
 } from "react-share";
+import { FACEBOOK_APP_ID } from "../../../asset/constants/constants";
 const STAR = [
   {
     image: logo,
@@ -98,7 +99,7 @@ const RecipiesHeader = (props, ref) => {
            </FacebookShareButton>
            <FacebookMessengerShareButton
              url={shareUrl}
-             appId="521270401588372">
+             appId={FACEBOOK_APP_ID}>
              <FacebookMessengerIcon size={32} round />
             </FacebookMessengerShareButton>
            <TwitterShareButton
