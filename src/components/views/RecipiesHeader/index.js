@@ -9,10 +9,13 @@ import { userAddFavorite, userRemoveFavorite } from "../../../redux/action/userA
 import {
   FacebookIcon, FacebookMessengerIcon, FacebookMessengerShareButton, FacebookShareCount, TwitterIcon, TwitterShareButton,
 } from "react-share"; 
+import { BiBookmarkPlus } from "react-icons/bi";
+
 import {
   FacebookShareButton,
 } from "react-share";
-import { FACEBOOK_APP_ID } from "../../../asset/constants/constants";
+import { FACEBOOK_APP_ID, ROUTER_KEY } from "../../../asset/constants/constants";
+import { useHistory } from "react-router-dom";
 const STAR = [
   {
     image: logo,
@@ -36,7 +39,7 @@ const RecipiesHeader = (props, ref) => {
     return obj?.recipeID?.id  === props.id || obj?._id ===  props.id;
   });
   const [isLike, setLike] = useState(obj.length > 0 ? true : false);
-
+  const history = useHistory()
   const login = useSelector(state => state.authReducer.loggedIn);
   const token = useSelector(state => state.authReducer.accessToken)
   const [islogin, setisLogin] = useState(login);
@@ -77,7 +80,8 @@ const RecipiesHeader = (props, ref) => {
                   if(props.rating !== Math.floor(props.rating)) return <BsStarHalf  size={30}  color="yellow"/>
                   return null;
                 }               
-              })}     
+              })}
+            
             </div>
             {islogin  && 
               <div className={styles.rowOnly} onClick={()=> handelLikeBtnClick()}>
@@ -88,6 +92,7 @@ const RecipiesHeader = (props, ref) => {
               </div>
             }
           </div>
+        
          <div style={{display: 'flex', position: 'absolute', right: 10}}>
             <p style={{textAlign: 'center', marginRight: 10}}>
              Share:
@@ -107,6 +112,9 @@ const RecipiesHeader = (props, ref) => {
              <TwitterIcon size={32} round />
            </TwitterShareButton>
          </div>
+         <button className={styles.addbtn} onClick={() => history.push(ROUTER_KEY.PLANNER,{id: props.id})}>
+           Add to planner:  <BiBookmarkPlus size={30}/>
+          </button>    
         </div>
     </div>
   );

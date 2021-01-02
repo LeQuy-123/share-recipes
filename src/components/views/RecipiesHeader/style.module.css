@@ -107,3 +107,19 @@
     transform: rotate(45deg);
     transform-origin: 100% 100%;
 }
+.addbtn {
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    cursor:pointer;
+}
+.addbtn:hover{
+    color: red;
+}

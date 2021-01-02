@@ -4,10 +4,14 @@ import  styles from './style.module.css'
 import Modal from 'react-modal';
 import MyAlert from "../../../views/Alert";
 import TimePicker from "react-time-picker";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { userCreatePlanner } from "../../../../redux/action/userAction";
 
 const PlannerModal = (props, ref) => {
   const { date } = props;
+  const dispatch = useDispatch();
+  const token = useSelector(state => state.authReducer.accessToken);
+
   const [modalIsOpen,setIsOpen] = useState(false);
   useImperativeHandle(ref, () => ({
     openModal: () => {
@@ -17,10 +21,23 @@ const PlannerModal = (props, ref) => {
       setIsOpen(false)
     }
   }));
-  const dispatch = useDispatch();
   const handelSave = () => {
-     setIsOpen(false)
+    const planer = {
+      date: date,
+      hours: timeRef.current.getTime(),
+      note: noteRef.current.getData(),
+      recipeID: props.defaultId ? props.defaultId : null
+    }
+    dispatch(userCreatePlanner(planer, token, onSuccess));
+    console.log("🚀 ~ file: index.js ~ line 30 ~ handelSave ~ planer", planer)
+    setIsOpen(false)
   }
+  const onSuccess = (res) => {
+    console.log("🚀 ~ file: index.js ~ line 36 ~ onSuccess ~ res", res)
+  }
+  const noteRef = useRef();
+  const timeRef = useRef();
+ 
   return (
     <Modal
       className={styles.modal}
@@ -32,9 +49,9 @@ const PlannerModal = (props, ref) => {
       {/* {date} */}
       <button className={styles.closeBtn} onClick={() => setIsOpen(false)}>Close</button>
       <h3 style={{marginTop: 30}}>Create your own personal planner</h3>
-      <InfoRow title='Note ' type = 'text'/>
+      <InfoRow title='Note ' type = 'text' ref={noteRef}/>
       <InfoRow title='Date ' value={date} type = 'date' />
-      <InfoRow title='Time ' type='time' />
+      <InfoRow title='Time ' type='time' ref={timeRef}/>
       <button className={styles.button} onClick={()=>handelSave()}>Save plan</button>
     </Modal> 
    );
@@ -47,7 +64,8 @@ const InfoRow = forwardRef((props, ref) => {
   const [time, setTime ] = useState('12:00');
 
   useImperativeHandle(ref, () => ({
-    getData: () => { return data }
+    getData: () => { return data },
+    getTime: () => { return time }
   }));
   return (
     <div style={{ display: 'flex', height: 50, alignItems: 'center', marginTop: 10 }}>

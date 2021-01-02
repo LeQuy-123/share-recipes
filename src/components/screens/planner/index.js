@@ -8,15 +8,20 @@ import { Route } from "../../views";
 import { ROUTER_KEY } from "../../../asset/constants/constants";
 import moment from 'moment';
 import PlannerModal from "./PlannerModal";
+import { useLocation } from "react-router-dom";
 
-function Planner() {
+const  Planner = ({props}) => {
   const modalRef = useRef()
- 
+
   const mark = [
     '04-01-2021',
     '01-01-2021',
     '05-01-2021'
   ]
+
+  const location = useLocation();
+  const id = location?.state?.id;
+
   const [value, onChange] = useState( );
   const onPickDate = (date) => {
     onChange(date)
@@ -25,6 +30,7 @@ function Planner() {
   return (
     <div className={styles.page}>
       <Route route={ROUTER_KEY.PLANNER} />
+      {id}
       <div style={{display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <Calendar
           className={styles.calendarContain}
@@ -37,7 +43,7 @@ function Planner() {
           }}
         />
       </div>
-      <PlannerModal ref={modalRef} date={moment(value).format("DD-MM-YYYY")}/>
+      <PlannerModal ref={modalRef} date={moment(value).format("DD-MM-YYYY")} defaultId={id}/>
     </div>
   );
 }

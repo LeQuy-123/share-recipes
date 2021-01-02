@@ -258,3 +258,22 @@ export const userGetPlanners = (id) => {
     });
   }
 };
+export const userCreatePlanner = (planner, token, onSuccess) => {
+  return function (dispatch) {
+    API.post('/auth/planner/createPlanner', JSON.stringify(planner),
+      { headers: { Authorization: `Bearer ${token}` } })
+      .then(({ res }) => {
+        onSuccess(res);
+      }).catch((error) => {
+        onSuccess();
+        if (error.response) {
+          console.log(error.response.data);
+        } else if (error.request) {
+          console.log(error.request);
+        } else {
+          console.log('Error when setting up resuqest', error.message);
+        }
+      });
+  }
+};
+
