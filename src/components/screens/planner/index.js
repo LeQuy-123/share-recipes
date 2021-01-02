@@ -1,24 +1,43 @@
-import lottie from "lottie-web";
-import React, { useEffect, useRef }  from "react";
+// import lottie from "lottie-web";
+import React, { useRef, useState }  from "react";
 import "../../../utils/global.css"
-import working from '../../../asset/lottie/36572-under-maintenance.json'
+// import working from '../../../asset/lottie/36572-under-maintenance.json'
 import styles from './style.module.css'
+import Calendar from 'react-calendar';
+import { Route } from "../../views";
+import { ROUTER_KEY } from "../../../asset/constants/constants";
+import moment from 'moment';
+import PlannerModal from "./PlannerModal";
+
 function Planner() {
-  const animtaionRef = useRef()
-  useEffect(() => {
-      lottie.loadAnimation({
-      container: animtaionRef.current,
-      renderer: 'svg',
-      loop: true,
-      autoplay: true,
-      animationData: working,
-    });
-  }, []) 
+  const modalRef = useRef()
+ 
+  const mark = [
+    '04-01-2021',
+    '01-01-2021',
+    '05-01-2021'
+  ]
+  const [value, onChange] = useState( );
+  const onPickDate = (date) => {
+    onChange(date)
+    modalRef.current.openModal();
+  }
   return (
     <div className={styles.page}>
-      <div style={{ width: 500 , height: 465}} ref={(e) => animtaionRef.current = e}/>
-      <h2 style={{textAlign: 'center', width: 500}}>
-      Unfortunately this site is down for a bit of maintenance right now. but soon we 'll be up</h2>
+      <Route route={ROUTER_KEY.LEFTOVER} />
+      <div style={{display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+        <Calendar
+          className={styles.calendarContain}
+          onChange={(date) => onPickDate(date)}
+          value={value}
+          tileClassName={({ date, view }) => {
+            if (mark.find(x => x === moment(date).format("DD-MM-YYYY"))) {
+              return styles.highlight
+            }
+          }}
+        />
+      </div>
+      <PlannerModal ref={modalRef} date={moment(value).format("DD-MM-YYYY")}/>
     </div>
   );
 }
