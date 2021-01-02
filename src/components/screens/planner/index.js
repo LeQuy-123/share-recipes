@@ -24,7 +24,7 @@ function Planner() {
   }
   return (
     <div className={styles.page}>
-      <Route route={ROUTER_KEY.LEFTOVER} />
+      <Route route={ROUTER_KEY.PLANNER} />
       <div style={{display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center'}}>
         <Calendar
           className={styles.calendarContain}

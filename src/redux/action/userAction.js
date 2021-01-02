@@ -15,7 +15,10 @@ export const userLogin = ( email, password,  history, spiner, onErrorCallBack) =
   }).then(({ data }) => {
     dispatch({type: REDUX.UPDATE_USER_DATA, payload: data.user })
     dispatch({ type: REDUX.LOGIN });
+   
     dispatch(userGetFavorite(data?.user?._id))
+    dispatch(userGetPlanners(data?.user?._id))
+
     dispatch({type: REDUX.UPDATE_REFRESH_TOKEN, payload: data.refreshToken})
     dispatch({type: REDUX.UPDATE_ACCESS_TOKEN, payload: data.accessToken})
     spiner.hide();
@@ -219,13 +222,10 @@ export const userGetReview = (id, onSuccess) => {
 };
 
 export const userCreateRecipes = ( recipe, token, onSuccess ) => {
-  console.log("🚀 ~ file: userAction.js ~ line 222 ~ userCreateRecipes ~ token", token)
-  console.log("🚀 ~ file: userAction.js ~ line 222 ~ userCreateRecipes ~ recipes", recipe)
   return function (dispatch) {
     API.post('/auth/recipe/createRecipe', JSON.stringify(recipe), 
   {headers: { Authorization: `Bearer ${token}` }})
   .then(({ data }) => {
-    console.log("🚀 ~ file: userAction.js ~ line 224 ~ .then ~ data", data)
     onSuccess();
   }).catch((error)=>{
     onSuccess();
@@ -237,5 +237,24 @@ export const userCreateRecipes = ( recipe, token, onSuccess ) => {
       console.log('Error when setting up resuqest', error.message);
     }
   });
+  }
+};
+
+
+export const userGetPlanners = (id) => {
+  return function (dispatch) {
+    API.get('/normal/planner/getAllPlannersOfUser?userID=' + id)
+    .then(({ data }) => {
+      console.log("🚀 ~ file: userAction.js ~ line 248 ~ .then ~ data", data)
+      dispatch({ type: REDUX.GET_PLANNER, payload: data.Planner })
+    }).catch((error) => {
+      if (error.response) {
+        console.log(error.response.data);
+      } else if (error.request) {
+        console.log(error.request);
+      } else {
+        console.log('Error when setting up resuqest', error.message);
+      }
+    });
   }
 };

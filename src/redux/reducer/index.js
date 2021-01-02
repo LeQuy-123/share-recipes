@@ -7,6 +7,7 @@ import authReducer from './authReducer';
 import searchReducer from './searchReducer';
 import favoriteReducer from './favoriteReducer';
 import settingReducer from './settingReducer';
+import planReducer from './planReducer';
 
 
 /// Redux: Root Reducer
@@ -31,6 +32,13 @@ const reducers = combineReducers({
       storage: storage,
     },
     favoriteReducer,
+  ),
+  planReducer: persistReducer(
+    {
+      key: 'planReducer',
+      storage: storage,
+    },
+    planReducer,
   ),
  settingReducer: persistReducer(
     {
