@@ -263,6 +263,7 @@ export const userCreatePlanner = (planner, token, onSuccess) => {
     API.post('/auth/planner/createPlanner', JSON.stringify(planner),
       { headers: { Authorization: `Bearer ${token}` } })
       .then(({ res }) => {
+        dispatch({ type: REDUX.ADD_TO_PLANNER, payload: planner })
         onSuccess(res);
       }).catch((error) => {
         onSuccess();

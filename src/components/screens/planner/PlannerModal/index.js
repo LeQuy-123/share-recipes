@@ -29,7 +29,6 @@ const PlannerModal = (props, ref) => {
       recipeID: props.defaultId ? props.defaultId : null
     }
     dispatch(userCreatePlanner(planer, token, onSuccess));
-    console.log("🚀 ~ file: index.js ~ line 30 ~ handelSave ~ planer", planer)
     setIsOpen(false)
   }
   const onSuccess = (res) => {
@@ -43,23 +42,22 @@ const PlannerModal = (props, ref) => {
       className={styles.modal}
       isOpen={modalIsOpen}
       onRequestClose={() => setIsOpen(false) }
-      // style={customStyles}
       contentLabel="Add reivews"
       ariaHideApp={false}>
       {/* {date} */}
       <button className={styles.closeBtn} onClick={() => setIsOpen(false)}>Close</button>
       <h3 style={{marginTop: 30}}>Create your own personal planner</h3>
-      <InfoRow title='Note ' type = 'text' ref={noteRef}/>
-      <InfoRow title='Date ' value={date} type = 'date' />
-      <InfoRow title='Time ' type='time' ref={timeRef}/>
-      <InfoRow title='Recipes ' type= 'date' value={props.name} />
+      <InfoRow title='Note ' type='text' ref={noteRef} onClose={() => setIsOpen(false)}/>
+      <InfoRow title='Date ' value={date} type='date' onClose={() => setIsOpen(false)}/>
+      <InfoRow title='Time ' type='time' ref={timeRef} onClose={() => setIsOpen(false)}/>
+      <InfoRow title='Recipes ' type='name' value={props.name} onClose={() => setIsOpen(false)}/>
       <button className={styles.button} onClick={()=>handelSave()}>Save plan</button>
     </Modal> 
    );
 }
 export default forwardRef(PlannerModal);
 const InfoRow = forwardRef((props, ref) => {
-  const { title, value, type } = props;
+  const { title, value, type, onClose } = props;
 
   const [data, setdata] = useState(value ? value : null);
   const [time, setTime ] = useState('12:00');
@@ -74,8 +72,17 @@ const InfoRow = forwardRef((props, ref) => {
       {type === 'text' &&
         <input className={styles.inputText} type="text" onChange={(v) => { setdata(v.target.value) }} />
       }
-      {type === 'date' &&
-        <p className={styles.inputText}>{value}</p>       
+      {type === 'date' && (
+        <div style={{display: 'flex'}}>
+          <p className={styles.inputText}>{value}  
+            <button className={styles.buttonDate} onClick={() =>  onClose() }>Pick date</button>   </p>
+        </div>  
+      )  
+      }
+      {type === 'name' && (
+        <p className={styles.inputText}>{value}</p>
+
+      )  
       }
       {type === 'time' &&
         <TimePicker
