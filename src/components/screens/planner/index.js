@@ -17,8 +17,11 @@ const  Planner = ({props}) => {
 
   const planner = useSelector(state => state.planReducer.listPlanner)
   const [listPlanner, setlistPlanner] = useState()
+  const [listPlannerDisplay, setlistPlannerDisplay] = useState()
+
   useEffect(() => {
     setlistPlanner(planner);
+    setlistPlannerDisplay(planner)
   }, [planner])
 
   const location = useLocation();
@@ -30,6 +33,8 @@ const  Planner = ({props}) => {
   const [value, onChange] = useState( );
   const onPickDate = (date) => {
     onChange(date)
+    const newList = planner?.filter(x => x.date === moment(date).format("DD-MM-YYYY"))
+    setlistPlannerDisplay(newList);
     if (id || name) modalRef.current.openModal(); 
   }
   const numOfPage = Math.floor(listPlanner?.length / 5) + 1;
@@ -42,7 +47,7 @@ const  Planner = ({props}) => {
     <div className={styles.page}>
       <Route route={ROUTER_KEY.PLANNER} />
       <div className={styles.body}>
-      <div style={{display: 'flex', flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+      <div style={{display: 'flex', flex: 1, flexDirection: 'column',   alignItems: 'center', position: 'relative'}}>
           <Calendar
             className={styles.calendarContain}
             onChange={(date) => onPickDate(date)}
@@ -53,13 +58,23 @@ const  Planner = ({props}) => {
               }
             }}
           />
+          <button className={styles.btn} onClick={() => setlistPlannerDisplay(planner)}>Clear day</button>
       </div>
        
-        <div style={{ display: 'flex', flex: 1, flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-        <h3>List Planner</h3>
-          {listPlanner ? (
+        <div style={{ display: 'flex', flex: 1, flexDirection: 'column',   alignItems: 'center' }}>
+        <h2 style={{margin: 4, padding: 0}}>List Planner</h2>
+          <hr
+            style={{
+              color: '#00000080',
+              backgroundColor: '#00000080',
+              height: 3,
+              borderRadius: 5,
+              width: '80%'
+            }}
+          />
+          {listPlannerDisplay ? (
             <div style={{ marginLeft: 40 }}>
-              {listPlanner?.map((obj, index) => {
+              {listPlannerDisplay?.map((obj, index) => {
                 if (index < pageNumber * 5 && index >= (pageNumber - 1) * 5)
                   return (
                     <div key={index} style={{ marginTop: 20 }}>
@@ -68,7 +83,7 @@ const  Planner = ({props}) => {
                   );
                 return null;
               })}
-              {listPlanner.length > 5 && (
+              {listPlannerDisplay.length > 5 && (
                 <div style={{ display: 'flex', justifyContent: 'center', marginTop: 10 }}>
                   <ReactPaginate
                     previousLabel={'previous'}
