@@ -112,7 +112,7 @@ const RecipiesHeader = (props, ref) => {
              <TwitterIcon size={32} round />
            </TwitterShareButton>
          </div>
-         <button className={styles.addbtn} onClick={() => history.push(ROUTER_KEY.PLANNER,{id: props.id})}>
+         <button className={styles.addbtn} onClick={() => history.push(ROUTER_KEY.PLANNER, { id: props.id, name:  props.name })}>
            Add to planner:  <BiBookmarkPlus size={30}/>
           </button>    
         </div>

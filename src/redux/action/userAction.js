@@ -245,8 +245,8 @@ export const userGetPlanners = (id) => {
   return function (dispatch) {
     API.get('/normal/planner/getAllPlannersOfUser?userID=' + id)
     .then(({ data }) => {
-      console.log("🚀 ~ file: userAction.js ~ line 248 ~ .then ~ data", data)
-      dispatch({ type: REDUX.GET_PLANNER, payload: data.Planner })
+      dispatch({ type: REDUX.GET_PLANNER, payload: data.Planners })
+
     }).catch((error) => {
       if (error.response) {
         console.log(error.response.data);

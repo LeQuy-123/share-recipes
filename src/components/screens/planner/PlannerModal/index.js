@@ -52,6 +52,7 @@ const PlannerModal = (props, ref) => {
       <InfoRow title='Note ' type = 'text' ref={noteRef}/>
       <InfoRow title='Date ' value={date} type = 'date' />
       <InfoRow title='Time ' type='time' ref={timeRef}/>
+      <InfoRow title='Recipes ' type= 'date' value={props.name} />
       <button className={styles.button} onClick={()=>handelSave()}>Save plan</button>
     </Modal> 
    );
