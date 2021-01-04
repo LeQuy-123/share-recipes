@@ -11,7 +11,7 @@ function OneRecipie() {
   const bodyRef = useRef();
   return (
     <div className={styles.body}>
-      <Route route={ROUTER_KEY.MYRECIPIES}/>
+      <Route route={ROUTER_KEY.ONE_RECIPIE +'/' + recipiesData.name}/>
       <div className={styles.row}>
         <div className={styles.containRecipies}>
           <RecipiesHeader 

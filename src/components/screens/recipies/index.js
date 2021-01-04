@@ -36,9 +36,10 @@ function Recipies(router) {
   const handlePageClick = (data) => {
     setpageNumber(data.selected+1);
   };
+  const route = key ? ROUTER_KEY.RECIPIES+ '/'+ key : ROUTER_KEY.RECIPIES
   return (
     <div>
-      <Route route={ROUTER_KEY.RECIPIES +'/'+key}/>
+      <Route route={route}/>
       <div className={styles.contain}>
       {data.length > 0  ? (
         data.map((obj, index)=> {
@@ -62,7 +63,7 @@ function Recipies(router) {
        
         })
       ):(
-          <div style={{ width: 500, height: 500 }} ref={(e) => animtaionRef.current = e}/>
+          <div style={{ width: 500, height: 525 }} ref={(e) => animtaionRef.current = e}/>
       )}    
       </div>
     {data.length > NUM_OF_RECIPIES && (
