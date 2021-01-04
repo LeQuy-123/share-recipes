@@ -19,6 +19,7 @@ function Recipies(router) {
   const key =  history.location.state;
   useEffect(() => {
     dispatch(getRecipesCategory( key, (res)=>{ setCategoryList(res)}));
+    return () => setCategoryList([]);
   }, [])
   const searchData =useSelector(state => state.searchReducer.searchData)
   const data =  key ? categoryList : searchData;
