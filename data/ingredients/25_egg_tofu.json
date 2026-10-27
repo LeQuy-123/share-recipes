@@ -1,0 +1,10 @@
+[
+{"id": "egg_balut", "name_vi": "Hột vịt lộn", "name_en": "Balut (fertilized duck egg)", "category": "egg", "commonness": 3, "aliases": ["trứng vịt lộn", "trứng lộn"]},
+{"id": "egg_salted", "name_vi": "Trứng vịt muối", "name_en": "Salted duck egg", "category": "egg", "commonness": 3, "aliases": ["hột vịt muối", "trứng muối", "lòng đỏ trứng muối"]},
+{"id": "egg_century", "name_vi": "Trứng bắc thảo", "name_en": "Century egg", "category": "egg", "commonness": 2, "aliases": ["hột vịt bắc thảo"]},
+{"id": "tofu_skin", "name_vi": "Tàu hũ ky", "name_en": "Tofu skin (yuba)", "category": "tofu", "commonness": 2, "aliases": ["váng đậu", "phù trúc"]},
+{"id": "fermented_tofu", "name_vi": "Chao", "name_en": "Fermented tofu", "category": "tofu", "commonness": 2, "aliases": ["đậu phụ nhự", "chao đỏ", "chao trắng"]},
+{"id": "silken_tofu", "name_vi": "Đậu hũ non (hộp)", "name_en": "Silken tofu (boxed)", "category": "tofu", "commonness": 3, "aliases": ["đậu non", "tàu hũ trứng", "đậu hũ trứng"]},
+{"id": "seitan", "name_vi": "Mì căn", "name_en": "Wheat gluten (seitan)", "category": "tofu", "commonness": 1, "aliases": []},
+{"id": "soy_protein", "name_vi": "Thịt chay (đạm đậu nành)", "name_en": "Textured soy protein", "category": "tofu", "commonness": 1, "aliases": ["thịt chay", "sườn non chay", "đạm đậu nành"]}
+]

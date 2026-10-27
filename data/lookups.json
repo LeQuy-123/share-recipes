@@ -1,0 +1,120 @@
+{
+  "_note": "Code lists used by recipes and ingredients. Edit here or in the admin app; build_db.py loads them.",
+  "cuisines": [
+    {"id": "vietnamese", "name_vi": "Món Việt", "name_en": "Vietnamese", "sort": 1},
+    {"id": "korean", "name_vi": "Món Hàn", "name_en": "Korean", "sort": 2},
+    {"id": "japanese", "name_vi": "Món Nhật", "name_en": "Japanese", "sort": 3},
+    {"id": "chinese", "name_vi": "Món Hoa", "name_en": "Chinese", "sort": 4},
+    {"id": "thai", "name_vi": "Món Thái", "name_en": "Thai", "sort": 5},
+    {"id": "western", "name_vi": "Món Âu", "name_en": "Western", "sort": 6}
+  ],
+  "regions": [
+    {"id": "all", "cuisine_id": "vietnamese", "name_vi": "Cả nước", "name_en": "Nationwide", "sort": 1},
+    {"id": "north", "cuisine_id": "vietnamese", "name_vi": "Miền Bắc", "name_en": "North", "sort": 2},
+    {"id": "central", "cuisine_id": "vietnamese", "name_vi": "Miền Trung", "name_en": "Central", "sort": 3},
+    {"id": "south", "cuisine_id": "vietnamese", "name_vi": "Miền Nam", "name_en": "South", "sort": 4}
+  ],
+  "ingredient_categories": [
+    {"id": "meat", "name_vi": "Thịt", "name_en": "Meat", "sort": 1},
+    {"id": "seafood", "name_vi": "Hải sản", "name_en": "Seafood", "sort": 2},
+    {"id": "egg", "name_vi": "Trứng", "name_en": "Eggs", "sort": 3},
+    {"id": "processed", "name_vi": "Giò, chả, đồ chế biến", "name_en": "Processed meat & fish", "sort": 4},
+    {"id": "tofu", "name_vi": "Đậu phụ", "name_en": "Tofu", "sort": 4},
+    {"id": "mushroom", "name_vi": "Nấm", "name_en": "Mushrooms", "sort": 5},
+    {"id": "vegetable", "name_vi": "Rau củ", "name_en": "Vegetables", "sort": 5},
+    {"id": "herb", "name_vi": "Rau thơm", "name_en": "Herbs", "sort": 6},
+    {"id": "fruit", "name_vi": "Trái cây", "name_en": "Fruit", "sort": 7},
+    {"id": "aromatic", "name_vi": "Hành, tỏi, gừng", "name_en": "Aromatics", "sort": 8},
+    {"id": "legume", "name_vi": "Đậu, hạt", "name_en": "Legumes", "sort": 9},
+    {"id": "grain", "name_vi": "Gạo, ngũ cốc", "name_en": "Grains", "sort": 10},
+    {"id": "noodle", "name_vi": "Bún, mì, phở", "name_en": "Noodles", "sort": 11},
+    {"id": "flour", "name_vi": "Bột", "name_en": "Flour", "sort": 12},
+    {"id": "bakery", "name_vi": "Bánh mì", "name_en": "Bakery", "sort": 13},
+    {"id": "dairy", "name_vi": "Sữa", "name_en": "Dairy", "sort": 14},
+    {"id": "seasoning", "name_vi": "Gia vị", "name_en": "Seasonings", "sort": 15},
+    {"id": "spice", "name_vi": "Gia vị khô", "name_en": "Spices", "sort": 16},
+    {"id": "liquid", "name_vi": "Nước, chất lỏng", "name_en": "Liquids", "sort": 17},
+    {"id": "other", "name_vi": "Khác", "name_en": "Other", "sort": 99}
+  ],
+  "ingredient_groups": [
+    {"id": "main", "name_vi": "Nguyên liệu chính", "name_en": "Main", "sort": 1},
+    {"id": "vegetable", "name_vi": "Rau củ", "name_en": "Vegetables", "sort": 2},
+    {"id": "noodle", "name_vi": "Bún, mì", "name_en": "Noodles", "sort": 3},
+    {"id": "wrapper", "name_vi": "Vỏ cuốn", "name_en": "Wrapper", "sort": 4},
+    {"id": "filling", "name_vi": "Nhân", "name_en": "Filling", "sort": 5},
+    {"id": "binder", "name_vi": "Chất kết dính", "name_en": "Binder", "sort": 6},
+    {"id": "aromatic", "name_vi": "Gia vị tươi", "name_en": "Aromatics", "sort": 7},
+    {"id": "herb", "name_vi": "Rau thơm", "name_en": "Herbs", "sort": 8},
+    {"id": "spice", "name_vi": "Gia vị khô", "name_en": "Spices", "sort": 9},
+    {"id": "seasoning", "name_vi": "Gia vị", "name_en": "Seasoning", "sort": 10},
+    {"id": "sauce", "name_vi": "Nước chấm, sốt", "name_en": "Sauce", "sort": 11},
+    {"id": "garnish", "name_vi": "Trang trí", "name_en": "Garnish", "sort": 12},
+    {"id": "side", "name_vi": "Ăn kèm", "name_en": "On the side", "sort": 13}
+  ],
+  "dish_types": [
+    {"id": "soup", "name_vi": "Canh, súp", "name_en": "Soup", "sort": 1},
+    {"id": "braise", "name_vi": "Món kho", "name_en": "Braise", "sort": 2},
+    {"id": "simmer", "name_vi": "Món rim", "name_en": "Simmer", "sort": 3},
+    {"id": "stir_fry", "name_vi": "Món xào", "name_en": "Stir-fry", "sort": 4},
+    {"id": "fried", "name_vi": "Món chiên", "name_en": "Fried", "sort": 5},
+    {"id": "grilled", "name_vi": "Món nướng", "name_en": "Grilled", "sort": 6},
+    {"id": "steamed", "name_vi": "Món hấp", "name_en": "Steamed", "sort": 7},
+    {"id": "boiled", "name_vi": "Món luộc", "name_en": "Boiled", "sort": 8},
+    {"id": "stew", "name_vi": "Món hầm", "name_en": "Stew", "sort": 9},
+    {"id": "vegetable", "name_vi": "Món rau", "name_en": "Vegetable", "sort": 10},
+    {"id": "salad", "name_vi": "Gỏi, nộm", "name_en": "Salad", "sort": 11},
+    {"id": "roll", "name_vi": "Món cuốn", "name_en": "Roll", "sort": 12},
+    {"id": "rice", "name_vi": "Cơm", "name_en": "Rice", "sort": 13},
+    {"id": "sticky_rice", "name_vi": "Xôi", "name_en": "Sticky rice", "sort": 14},
+    {"id": "porridge", "name_vi": "Cháo", "name_en": "Porridge", "sort": 15},
+    {"id": "noodle", "name_vi": "Bún, mì khô", "name_en": "Noodles", "sort": 16},
+    {"id": "noodle_soup", "name_vi": "Bún, phở nước", "name_en": "Noodle soup", "sort": 17},
+    {"id": "pancake", "name_vi": "Bánh xèo, bánh", "name_en": "Pancake", "sort": 18},
+    {"id": "sandwich", "name_vi": "Bánh mì", "name_en": "Sandwich", "sort": 19},
+    {"id": "dip", "name_vi": "Món chấm", "name_en": "Dip", "sort": 20}
+  ],
+  "proteins": [
+    {"id": "pork", "name_vi": "Thịt heo", "name_en": "Pork", "sort": 1},
+    {"id": "beef", "name_vi": "Thịt bò", "name_en": "Beef", "sort": 2},
+    {"id": "chicken", "name_vi": "Thịt gà", "name_en": "Chicken", "sort": 3},
+    {"id": "fish", "name_vi": "Cá", "name_en": "Fish", "sort": 4},
+    {"id": "seafood", "name_vi": "Hải sản", "name_en": "Seafood", "sort": 5},
+    {"id": "egg", "name_vi": "Trứng", "name_en": "Egg", "sort": 6},
+    {"id": "tofu", "name_vi": "Đậu phụ", "name_en": "Tofu", "sort": 7},
+    {"id": "none", "name_vi": "Không", "name_en": "None", "sort": 99}
+  ],
+  "meal_types": [
+    {"id": "breakfast", "name_vi": "Bữa sáng", "name_en": "Breakfast", "sort": 1},
+    {"id": "lunch", "name_vi": "Bữa trưa", "name_en": "Lunch", "sort": 2},
+    {"id": "dinner", "name_vi": "Bữa tối", "name_en": "Dinner", "sort": 3},
+    {"id": "snack", "name_vi": "Ăn vặt", "name_en": "Snack", "sort": 4},
+    {"id": "party", "name_vi": "Đãi khách", "name_en": "Party", "sort": 5}
+  ],
+  "cooking_methods": [
+    {"id": "fry", "name_vi": "Chiên ngập dầu", "name_en": "Deep-fry", "sort": 1},
+    {"id": "pan_fry", "name_vi": "Chiên, áp chảo", "name_en": "Pan-fry", "sort": 2},
+    {"id": "sear", "name_vi": "Áp chảo nhanh", "name_en": "Sear", "sort": 3},
+    {"id": "stir_fry", "name_vi": "Xào", "name_en": "Stir-fry", "sort": 4},
+    {"id": "grill", "name_vi": "Nướng", "name_en": "Grill", "sort": 5},
+    {"id": "steam", "name_vi": "Hấp", "name_en": "Steam", "sort": 6},
+    {"id": "boil", "name_vi": "Luộc, nấu", "name_en": "Boil", "sort": 7},
+    {"id": "simmer", "name_vi": "Rim, ninh", "name_en": "Simmer", "sort": 8},
+    {"id": "braise", "name_vi": "Kho", "name_en": "Braise", "sort": 9},
+    {"id": "toss", "name_vi": "Trộn", "name_en": "Toss", "sort": 10},
+    {"id": "assemble", "name_vi": "Cuốn, ráp", "name_en": "Assemble", "sort": 11}
+  ],
+  "step_types": [
+    {"id": "prep", "name_vi": "Sơ chế", "name_en": "Prep", "sort": 1},
+    {"id": "marinate", "name_vi": "Ướp", "name_en": "Marinate", "sort": 2},
+    {"id": "cook", "name_vi": "Nấu", "name_en": "Cook", "sort": 3},
+    {"id": "rest", "name_vi": "Để nghỉ", "name_en": "Rest", "sort": 4},
+    {"id": "serve", "name_vi": "Hoàn thành", "name_en": "Serve", "sort": 5}
+  ],
+  "difficulty_levels": [
+    {"id": 1, "name_vi": "Rất dễ", "name_en": "Very easy", "description_vi": "Vài bước cơ bản: luộc, hấp, ốp la, xào nhanh. Ai cũng làm được."},
+    {"id": 2, "name_vi": "Dễ", "name_en": "Easy", "description_vi": "Xào, nấu canh, chiên đơn giản; cần canh lửa một chút."},
+    {"id": 3, "name_vi": "Trung bình", "name_en": "Medium", "description_vi": "Nhiều bước hơn: ướp, kho, rim, chiên rồi làm sốt."},
+    {"id": 4, "name_vi": "Khó", "name_en": "Hard", "description_vi": "Cần kỹ thuật (cuốn, tráng, nướng) hoặc làm nhiều món phụ cùng lúc."},
+    {"id": 5, "name_vi": "Rất khó", "name_en": "Very hard", "description_vi": "Ninh nước dùng nhiều giờ, nhiều thành phần — dành cho ngày rảnh."}
+  ]
+}

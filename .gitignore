@@ -1,0 +1,22 @@
+# Dependencies and builds
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Generated database (python db/build_db.py) and its copy in the app
+db/autorecipt.db
+app/public/autorecipt.db
+app/public/db-version.json
+
+# Admin backups of edited data files
+.admin-backups/
+
+# Python / OS / editor
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.log

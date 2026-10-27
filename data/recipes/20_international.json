@@ -1,0 +1,2174 @@
+[
+ {
+  "id": "com-chien-kim-chi",
+  "name_vi": "Cơm chiên kim chi",
+  "name_en": "Kimchi fried rice (kimchi-bokkeumbap)",
+  "other_names": [
+   "Kimchi bokkeumbap"
+  ],
+  "description": "Cơm nguội chiên với kim chi chua cay và thịt ba chỉ, phủ trứng ốp la lòng đào — món Hàn tận dụng cơm thừa trong 15 phút.",
+  "cuisine": "korean",
+  "region": null,
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "dish_type": "rice",
+  "cooking_methods": [
+   "stir_fry"
+  ],
+  "main_protein": "pork",
+  "difficulty": 1,
+  "servings": 2,
+  "time": {
+   "prep_min": 3,
+   "cook_min": 14,
+   "total_min": 17,
+   "active_min": 17
+  },
+  "tags": [
+   "món Hàn",
+   "tận dụng đồ thừa",
+   "nhanh",
+   "cay",
+   "sinh viên"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Korean_cuisine-Kimchi_bokkeumbap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Korean_cuisine-Kimchi_bokkeumbap.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Korean_cuisine-Kimchi_bokkeumbap.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "Audrey",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "cooked_rice",
+   "kimchi"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "cooked_rice",
+    "amount": 400,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "note": "cơm nguội",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "kimchi",
+    "amount": 150,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "note": "cắt nhỏ, giữ nước kim chi",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "pork_belly",
+    "amount": 100,
+    "unit": "g",
+    "group": "main",
+    "optional": true,
+    "note": "thái nhỏ",
+    "substitutes": [
+     {
+      "ingredient_id": "bacon",
+      "ratio": 1.0
+     },
+     {
+      "ingredient_id": "ham",
+      "ratio": 1.0
+     }
+    ]
+   },
+   {
+    "ingredient_id": "egg_chicken",
+    "amount": 2,
+    "unit": "piece",
+    "group": "main",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "scallion",
+    "amount": 2,
+    "unit": "stalk",
+    "group": "garnish",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "gochujang",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": true,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "soy_sauce",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sugar",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sesame_oil",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cooking_oil",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sesame",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "garnish",
+    "optional": true,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "seaweed_nori",
+    "amount": 2,
+    "unit": "g",
+    "group": "garnish",
+    "optional": true,
+    "note": "rong biển thái sợi",
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 3,
+    "title": "Chuẩn bị",
+    "text": "Cắt nhỏ kim chi và thịt, thái hành lá. Bóp tơi cơm nguội.",
+    "ingredients_used": [
+     "kimchi",
+     "pork_belly",
+     "scallion",
+     "cooked_rice"
+    ],
+    "passive": false
+   },
+   {
+    "order": 2,
+    "type": "cook",
+    "duration_min": 3,
+    "title": "Xào thịt",
+    "text": "Cho thịt vào chảo với chút dầu, xào đến khi ra mỡ.",
+    "ingredients_used": [
+     "cooking_oil",
+     "pork_belly"
+    ],
+    "passive": false
+   },
+   {
+    "order": 3,
+    "type": "cook",
+    "duration_min": 3,
+    "title": "Xào kim chi",
+    "text": "Cho kim chi, tương ớt Hàn và đường vào xào 2–3 phút đến khi kim chi mềm.",
+    "ingredients_used": [
+     "kimchi",
+     "gochujang",
+     "sugar"
+    ],
+    "passive": false
+   },
+   {
+    "order": 4,
+    "type": "cook",
+    "duration_min": 4,
+    "title": "Đảo cơm",
+    "text": "Cho cơm, 2 muỗng nước kim chi và nước tương vào, đảo đều đến khi cơm tơi và thấm màu.",
+    "ingredients_used": [
+     "cooked_rice",
+     "soy_sauce"
+    ],
+    "passive": false,
+    "tip": "Dùng kim chi đã chua kỹ và cơm nguội để cơm tơi, đậm vị."
+   },
+   {
+    "order": 5,
+    "type": "cook",
+    "duration_min": 3,
+    "title": "Ốp trứng",
+    "text": "Ốp la 2 quả trứng lòng đào ở chảo khác.",
+    "ingredients_used": [
+     "egg_chicken"
+    ],
+    "passive": false
+   },
+   {
+    "order": 6,
+    "type": "serve",
+    "duration_min": 1,
+    "title": "Hoàn thành",
+    "text": "Rưới dầu mè, cho trứng lên trên, rắc hành lá, mè và rong biển.",
+    "ingredients_used": [
+     "sesame_oil",
+     "scallion",
+     "sesame",
+     "seaweed_nori"
+    ],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Kimchi_fried_rice"
+   }
+  ]
+ },
+ {
+  "id": "tokbokki",
+  "name_vi": "Tokbokki bánh gạo cay",
+  "name_en": "Tteokbokki (spicy rice cakes)",
+  "other_names": [
+   "Tteokbokki",
+   "Bánh gạo cay Hàn Quốc"
+  ],
+  "description": "Bánh gạo Hàn Quốc dẻo dai rim trong sốt tương ớt ngọt cay cùng chả cá và trứng luộc — món ăn vặt đường phố Hàn.",
+  "cuisine": "korean",
+  "region": null,
+  "meal_types": [
+   "snack",
+   "lunch"
+  ],
+  "dish_type": "simmer",
+  "cooking_methods": [
+   "simmer"
+  ],
+  "main_protein": "none",
+  "difficulty": 2,
+  "servings": 3,
+  "time": {
+   "prep_min": 13,
+   "cook_min": 16,
+   "total_min": 29,
+   "active_min": 19
+  },
+  "tags": [
+   "món Hàn",
+   "cay",
+   "ăn vặt"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Korean.snacks-Tteokbokki-08.jpg/960px-Korean.snacks-Tteokbokki-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Korean.snacks-Tteokbokki-08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Korean.snacks-Tteokbokki-08.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "author": "jetalone",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "korean_rice_cake",
+   "gochujang"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "korean_rice_cake",
+    "amount": 400,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "fish_cake",
+    "amount": 150,
+    "unit": "g",
+    "group": "main",
+    "optional": true,
+    "note": "cắt miếng vừa ăn",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "gochujang",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "chili_powder",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "spice",
+    "optional": true,
+    "note": "ớt bột Hàn Quốc",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "soy_sauce",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sugar",
+    "amount": 1.5,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "garlic",
+    "amount": 2,
+    "unit": "clove",
+    "group": "aromatic",
+    "optional": false,
+    "note": "băm",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cabbage",
+    "amount": 100,
+    "unit": "g",
+    "group": "vegetable",
+    "optional": true,
+    "note": "cắt miếng",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "scallion",
+    "amount": 3,
+    "unit": "stalk",
+    "group": "garnish",
+    "optional": false,
+    "note": "cắt khúc",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "egg_chicken",
+    "amount": 2,
+    "unit": "piece",
+    "group": "side",
+    "optional": true,
+    "note": "luộc chín, bóc vỏ",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sesame",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "garnish",
+    "optional": true,
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 10,
+    "title": "Ngâm bánh gạo",
+    "text": "Nếu bánh gạo cứng, ngâm nước ấm khoảng 10 phút cho mềm, tách rời từng thỏi.",
+    "ingredients_used": [
+     "korean_rice_cake"
+    ],
+    "passive": true
+   },
+   {
+    "order": 2,
+    "type": "prep",
+    "duration_min": 3,
+    "title": "Chuẩn bị",
+    "text": "Cắt chả cá, bắp cải và hành lá.",
+    "ingredients_used": [
+     "fish_cake",
+     "cabbage",
+     "scallion"
+    ],
+    "passive": false
+   },
+   {
+    "order": 3,
+    "type": "cook",
+    "duration_min": 5,
+    "title": "Nấu sốt",
+    "text": "Cho 500 ml nước, tương ớt Hàn, ớt bột, nước tương, đường và tỏi vào nồi, khuấy tan rồi đun sôi.",
+    "ingredients_used": [
+     "gochujang",
+     "chili_powder",
+     "soy_sauce",
+     "sugar",
+     "garlic"
+    ],
+    "passive": false
+   },
+   {
+    "order": 4,
+    "type": "cook",
+    "duration_min": 10,
+    "title": "Rim bánh gạo",
+    "text": "Cho bánh gạo, chả cá và bắp cải vào, đun lửa vừa 8–10 phút, khuấy thường xuyên đến khi sốt sánh lại và bánh mềm dẻo.",
+    "ingredients_used": [
+     "korean_rice_cake",
+     "fish_cake",
+     "cabbage"
+    ],
+    "passive": false,
+    "tip": "Khuấy đều tay vì bánh gạo rất dễ dính đáy nồi."
+   },
+   {
+    "order": 5,
+    "type": "serve",
+    "duration_min": 1,
+    "title": "Hoàn thành",
+    "text": "Thêm trứng luộc và hành lá, rắc mè, ăn nóng.",
+    "ingredients_used": [
+     "egg_chicken",
+     "scallion",
+     "sesame"
+    ],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://vi.wikipedia.org/wiki/Tteokbokki"
+   }
+  ]
+ },
+ {
+  "id": "canh-rong-bien-han",
+  "name_vi": "Canh rong biển thịt bò",
+  "name_en": "Korean seaweed soup with beef (miyeok-guk)",
+  "other_names": [
+   "Miyeok-guk"
+  ],
+  "description": "Canh rong biển Hàn Quốc nấu với thịt bò và dầu mè, ngọt thanh, truyền thống được ăn vào ngày sinh nhật.",
+  "cuisine": "korean",
+  "region": null,
+  "meal_types": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "dish_type": "soup",
+  "cooking_methods": [
+   "simmer"
+  ],
+  "main_protein": "beef",
+  "difficulty": 2,
+  "servings": 4,
+  "time": {
+   "prep_min": 23,
+   "cook_min": 25,
+   "total_min": 48,
+   "active_min": 8
+  },
+  "tags": [
+   "món Hàn",
+   "canh",
+   "healthy",
+   "ít dầu mỡ"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Korea.food-Miyeok.guk-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Korea.food-Miyeok.guk-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Korea.food-Miyeok.guk-01.jpg",
+   "license": "CC BY-SA 2.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+   "author": "User:Feth",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "seaweed_nori",
+   "beef"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "seaweed_nori",
+    "amount": 20,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "note": "rong biển khô loại wakame (miyeok)",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "beef",
+    "amount": 150,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "note": "thái nhỏ",
+    "substitutes": [
+     {
+      "ingredient_id": "clam",
+      "ratio": 3.0,
+      "note": "khoảng 500 g nghêu"
+     }
+    ]
+   },
+   {
+    "ingredient_id": "garlic",
+    "amount": 3,
+    "unit": "clove",
+    "group": "aromatic",
+    "optional": false,
+    "note": "băm",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sesame_oil",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "soy_sauce",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "salt",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "fish_sauce",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": true,
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 20,
+    "title": "Ngâm rong biển",
+    "text": "Ngâm rong biển khô trong nước 20 phút cho nở, rửa sạch cát, vắt ráo, cắt ngắn.",
+    "ingredients_used": [
+     "seaweed_nori"
+    ],
+    "passive": true,
+    "tip": "Rong biển nở gấp nhiều lần — 20 g khô là đủ cho 4 người."
+   },
+   {
+    "order": 2,
+    "type": "prep",
+    "duration_min": 3,
+    "title": "Thái thịt",
+    "text": "Thái thịt bò thành miếng nhỏ, mỏng.",
+    "ingredients_used": [
+     "beef"
+    ],
+    "passive": false
+   },
+   {
+    "order": 3,
+    "type": "cook",
+    "duration_min": 4,
+    "title": "Xào",
+    "text": "Đun dầu mè, xào thịt bò 1–2 phút, thêm rong biển và tỏi, xào tiếp 2 phút.",
+    "ingredients_used": [
+     "sesame_oil",
+     "beef",
+     "seaweed_nori",
+     "garlic"
+    ],
+    "passive": false
+   },
+   {
+    "order": 4,
+    "type": "cook",
+    "duration_min": 20,
+    "title": "Nấu canh",
+    "text": "Đổ 1,5 lít nước và nước tương, nấu lửa vừa khoảng 20 phút đến khi rong mềm, nước ngọt.",
+    "ingredients_used": [
+     "soy_sauce"
+    ],
+    "passive": true
+   },
+   {
+    "order": 5,
+    "type": "serve",
+    "duration_min": 1,
+    "title": "Hoàn thành",
+    "text": "Nêm muối (và chút nước mắm) cho vừa, ăn nóng với cơm.",
+    "ingredients_used": [
+     "salt",
+     "fish_sauce"
+    ],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Miyeok-guk"
+   },
+   {
+    "source": "Bách hóa XANH",
+    "url": "https://www.bachhoaxanh.com/kinh-nghiem-hay/huong-dan-nau-canh-rong-bien-trung-ngon-dung-chuan-1163705"
+   }
+  ]
+ },
+ {
+  "id": "trung-cuon-han",
+  "name_vi": "Trứng cuộn Hàn Quốc",
+  "name_en": "Korean rolled omelette (gyeran-mari)",
+  "other_names": [
+   "Gyeran-mari"
+  ],
+  "description": "Trứng tráng nhiều lớp cuộn tròn với rau củ băm, cắt khoanh đẹp mắt — món ăn kèm và hộp cơm quen thuộc của Hàn Quốc.",
+  "cuisine": "korean",
+  "region": null,
+  "meal_types": [
+   "breakfast",
+   "lunch"
+  ],
+  "dish_type": "fried",
+  "cooking_methods": [
+   "pan_fry"
+  ],
+  "main_protein": "egg",
+  "difficulty": 3,
+  "servings": 2,
+  "time": {
+   "prep_min": 8,
+   "cook_min": 9,
+   "total_min": 17,
+   "active_min": 14
+  },
+  "tags": [
+   "món Hàn",
+   "trẻ em thích",
+   "ăn sáng",
+   "hộp cơm"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Gyeran-mari.jpg/960px-Gyeran-mari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Gyeran-mari.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gyeran-mari.jpg",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "author": "Hyeon-Jeong Suk",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "egg_chicken"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "egg_chicken",
+    "amount": 5,
+    "unit": "piece",
+    "group": "main",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "carrot",
+    "amount": 0.25,
+    "unit": "piece",
+    "group": "vegetable",
+    "optional": false,
+    "note": "băm nhuyễn",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "scallion",
+    "amount": 2,
+    "unit": "stalk",
+    "group": "vegetable",
+    "optional": false,
+    "note": "thái nhỏ",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "onion",
+    "amount": 0.25,
+    "unit": "piece",
+    "group": "vegetable",
+    "optional": true,
+    "note": "băm nhuyễn",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "salt",
+    "amount": 0.25,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cooking_oil",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "ketchup",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "side",
+    "optional": true,
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 5,
+    "title": "Chuẩn bị",
+    "text": "Băm nhuyễn cà rốt, hành tây, hành lá. Đánh tan trứng với muối rồi trộn rau vào.",
+    "ingredients_used": [
+     "carrot",
+     "onion",
+     "scallion",
+     "egg_chicken",
+     "salt"
+    ],
+    "passive": false
+   },
+   {
+    "order": 2,
+    "type": "cook",
+    "duration_min": 8,
+    "title": "Tráng và cuộn",
+    "text": "Chảo chống dính lửa nhỏ, quét dầu mỏng, đổ 1/3 trứng. Khi mặt trứng còn hơi ướt, cuộn từ một đầu lại. Đẩy cuộn về đầu chảo, quét dầu, đổ tiếp 1/3 trứng, nhấc nhẹ cuộn cho trứng chảy xuống dưới rồi cuộn tiếp. Lặp lại đến hết.",
+    "ingredients_used": [
+     "cooking_oil",
+     "egg_chicken"
+    ],
+    "passive": false,
+    "tip": "Luôn để lửa nhỏ và cuộn khi lớp trứng còn ướt mặt để các lớp dính chặt vào nhau."
+   },
+   {
+    "order": 3,
+    "type": "rest",
+    "duration_min": 3,
+    "title": "Để nghỉ",
+    "text": "Để cuộn trứng nghỉ 3 phút trên thớt cho định hình.",
+    "ingredients_used": [],
+    "passive": true
+   },
+   {
+    "order": 4,
+    "type": "serve",
+    "duration_min": 1,
+    "title": "Hoàn thành",
+    "text": "Cắt khoanh dày 2 cm, chấm tương cà.",
+    "ingredients_used": [
+     "ketchup"
+    ],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gyeran-mari"
+   }
+  ]
+ },
+ {
+  "id": "canh-miso",
+  "name_vi": "Súp miso đậu hũ rong biển",
+  "name_en": "Miso soup with tofu and wakame",
+  "other_names": [
+   "Miso soup",
+   "Canh miso"
+  ],
+  "description": "Súp miso Nhật Bản với đậu hũ non và rong biển, nấu trong 10 phút, ấm bụng và nhẹ nhàng.",
+  "cuisine": "japanese",
+  "region": null,
+  "meal_types": [
+   "breakfast",
+   "lunch",
+   "dinner"
+  ],
+  "dish_type": "soup",
+  "cooking_methods": [
+   "boil"
+  ],
+  "main_protein": "tofu",
+  "difficulty": 1,
+  "servings": 4,
+  "time": {
+   "prep_min": 5,
+   "cook_min": 8,
+   "total_min": 13,
+   "active_min": 13
+  },
+  "tags": [
+   "món Nhật",
+   "nhanh",
+   "dưới 15 phút",
+   "healthy",
+   "ít dầu mỡ"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Miso_Soup_001.jpg/960px-Miso_Soup_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Miso_Soup_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Miso_Soup_001.jpg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Ocdp",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "miso",
+   "silken_tofu"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "miso",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "silken_tofu",
+    "amount": 150,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "note": "cắt hạt lựu 1 cm",
+    "substitutes": [
+     {
+      "ingredient_id": "tofu",
+      "ratio": 1.0
+     }
+    ]
+   },
+   {
+    "ingredient_id": "seaweed_nori",
+    "amount": 5,
+    "unit": "g",
+    "group": "vegetable",
+    "optional": false,
+    "note": "rong biển khô wakame",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "dashi_powder",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": [
+     {
+      "ingredient_id": "seasoning_powder",
+      "ratio": 1.0
+     }
+    ]
+   },
+   {
+    "ingredient_id": "enoki",
+    "amount": 50,
+    "unit": "g",
+    "group": "vegetable",
+    "optional": true,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "scallion",
+    "amount": 2,
+    "unit": "stalk",
+    "group": "garnish",
+    "optional": false,
+    "note": "thái nhỏ",
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 5,
+    "title": "Chuẩn bị",
+    "text": "Ngâm rong biển 5 phút cho nở, cắt đậu hũ hạt lựu, thái hành lá.",
+    "ingredients_used": [
+     "seaweed_nori",
+     "silken_tofu",
+     "scallion"
+    ],
+    "passive": false
+   },
+   {
+    "order": 2,
+    "type": "cook",
+    "duration_min": 5,
+    "title": "Nấu nước dashi",
+    "text": "Đun sôi 800 ml nước với hạt nêm dashi, cho đậu hũ, rong biển và nấm vào nấu 2 phút.",
+    "ingredients_used": [
+     "dashi_powder",
+     "silken_tofu",
+     "seaweed_nori",
+     "enoki"
+    ],
+    "passive": false
+   },
+   {
+    "order": 3,
+    "type": "cook",
+    "duration_min": 2,
+    "title": "Hòa miso",
+    "text": "Hạ lửa thật nhỏ, hòa tan miso với một ít nước dùng trong muôi rồi đổ vào nồi, khuấy nhẹ.",
+    "ingredients_used": [
+     "miso"
+    ],
+    "passive": false,
+    "tip": "Không đun sôi lại sau khi cho miso để giữ hương thơm."
+   },
+   {
+    "order": 4,
+    "type": "serve",
+    "duration_min": 1,
+    "title": "Hoàn thành",
+    "text": "Múc ra chén, rắc hành lá.",
+    "ingredients_used": [
+     "scallion"
+    ],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://vi.wikipedia.org/wiki/X%C3%BAp_miso"
+   }
+  ]
+ },
+ {
+  "id": "ca-hoi-sot-teriyaki",
+  "name_vi": "Cá hồi sốt teriyaki",
+  "name_en": "Teriyaki salmon",
+  "other_names": [
+   "Salmon teriyaki"
+  ],
+  "description": "Cá hồi áp chảo da giòn, rim sốt teriyaki từ nước tương và mirin ngọt mặn bóng đẹp.",
+  "cuisine": "japanese",
+  "region": null,
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "dish_type": "grilled",
+  "cooking_methods": [
+   "pan_fry"
+  ],
+  "main_protein": "fish",
+  "difficulty": 2,
+  "servings": 4,
+  "time": {
+   "prep_min": 5,
+   "cook_min": 12,
+   "total_min": 17,
+   "active_min": 17
+  },
+  "tags": [
+   "món Nhật",
+   "healthy",
+   "nhanh"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Teriyaki_salmon.jpg/960px-Teriyaki_salmon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Teriyaki_salmon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Teriyaki_salmon.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "JIP",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "fish_salmon",
+   "soy_sauce"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "fish_salmon",
+    "amount": 500,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "note": "4 miếng phi lê",
+    "substitutes": [
+     {
+      "ingredient_id": "fish_mackerel",
+      "ratio": 1.0
+     },
+     {
+      "ingredient_id": "chicken_thigh",
+      "ratio": 1.0,
+      "note": "gà teriyaki"
+     }
+    ]
+   },
+   {
+    "ingredient_id": "salt",
+    "amount": 0.25,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "soy_sauce",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cooking_wine",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "note": "mirin",
+    "substitutes": [
+     {
+      "ingredient_id": "honey",
+      "ratio": 0.7,
+      "note": "thêm 1 muỗng nước"
+     }
+    ]
+   },
+   {
+    "ingredient_id": "sugar",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": [
+     {
+      "ingredient_id": "honey",
+      "ratio": 1.0
+     }
+    ]
+   },
+   {
+    "ingredient_id": "ginger",
+    "amount": 5,
+    "unit": "g",
+    "group": "aromatic",
+    "optional": true,
+    "note": "băm",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "garlic",
+    "amount": 1,
+    "unit": "clove",
+    "group": "aromatic",
+    "optional": true,
+    "note": "băm",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cooking_oil",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sesame",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "garnish",
+    "optional": true,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "scallion",
+    "amount": 1,
+    "unit": "stalk",
+    "group": "garnish",
+    "optional": true,
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 3,
+    "title": "Chuẩn bị cá",
+    "text": "Thấm khô cá bằng khăn giấy, rắc chút muối.",
+    "ingredients_used": [
+     "fish_salmon",
+     "salt"
+    ],
+    "passive": false
+   },
+   {
+    "order": 2,
+    "type": "prep",
+    "duration_min": 2,
+    "title": "Pha sốt",
+    "text": "Trộn nước tương, mirin, đường, gừng và tỏi băm.",
+    "ingredients_used": [
+     "soy_sauce",
+     "cooking_wine",
+     "sugar",
+     "ginger",
+     "garlic"
+    ],
+    "passive": false
+   },
+   {
+    "order": 3,
+    "type": "cook",
+    "duration_min": 8,
+    "title": "Áp chảo",
+    "text": "Đun nóng dầu, áp mặt da cá xuống trước khoảng 4 phút đến khi da giòn, lật lại áp thêm 3 phút.",
+    "ingredients_used": [
+     "cooking_oil",
+     "fish_salmon"
+    ],
+    "passive": false
+   },
+   {
+    "order": 4,
+    "type": "cook",
+    "duration_min": 3,
+    "title": "Rim sốt",
+    "text": "Đổ sốt vào chảo, hạ lửa nhỏ, liên tục rưới sốt lên cá đến khi sốt sệt bóng.",
+    "ingredients_used": [
+     "soy_sauce"
+    ],
+    "passive": false,
+    "tip": "Đường trong sốt rất dễ cháy — hạ lửa nhỏ ngay khi đổ sốt vào."
+   },
+   {
+    "order": 5,
+    "type": "serve",
+    "duration_min": 1,
+    "title": "Hoàn thành",
+    "text": "Rắc mè, hành lá; ăn với cơm trắng và rau luộc.",
+    "ingredients_used": [
+     "sesame",
+     "scallion"
+    ],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Teriyaki"
+   }
+  ]
+ },
+ {
+  "id": "com-bo-gyudon",
+  "name_vi": "Cơm bò Nhật (gyudon)",
+  "name_en": "Japanese beef bowl (gyūdon)",
+  "other_names": [
+   "Gyudon"
+  ],
+  "description": "Thịt bò thái mỏng và hành tây nấu trong nước sốt dashi ngọt mặn, chan lên cơm nóng — bữa trưa một tô kiểu Nhật.",
+  "cuisine": "japanese",
+  "region": null,
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "dish_type": "rice",
+  "cooking_methods": [
+   "simmer"
+  ],
+  "main_protein": "beef",
+  "difficulty": 2,
+  "servings": 2,
+  "time": {
+   "prep_min": 5,
+   "cook_min": 9,
+   "total_min": 14,
+   "active_min": 14
+  },
+  "tags": [
+   "món Nhật",
+   "nhanh",
+   "cơm một tô"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Gyuu-don_001.jpg/960px-Gyuu-don_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Gyuu-don_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Gyuu-don_001.jpg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Ocdp",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "beef_short_plate",
+   "onion",
+   "cooked_rice"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "beef_short_plate",
+    "amount": 300,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "note": "thái thật mỏng",
+    "substitutes": [
+     {
+      "ingredient_id": "beef",
+      "ratio": 1.0
+     }
+    ]
+   },
+   {
+    "ingredient_id": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "group": "vegetable",
+    "optional": false,
+    "note": "thái múi cau mỏng",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cooked_rice",
+    "amount": 400,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "note": "cơm nóng",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "soy_sauce",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cooking_wine",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "note": "mirin",
+    "substitutes": [
+     {
+      "ingredient_id": "sugar",
+      "ratio": 0.5,
+      "note": "và thêm chút nước"
+     }
+    ]
+   },
+   {
+    "ingredient_id": "sugar",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "dashi_powder",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "ginger",
+    "amount": 5,
+    "unit": "g",
+    "group": "garnish",
+    "optional": true,
+    "note": "thái sợi",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "egg_chicken",
+    "amount": 2,
+    "unit": "piece",
+    "group": "side",
+    "optional": true,
+    "note": "trứng lòng đào",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "scallion",
+    "amount": 1,
+    "unit": "stalk",
+    "group": "garnish",
+    "optional": true,
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 3,
+    "title": "Chuẩn bị",
+    "text": "Thái hành tây múi cau mỏng, thịt bò thái thật mỏng.",
+    "ingredients_used": [
+     "onion",
+     "beef_short_plate"
+    ],
+    "passive": false
+   },
+   {
+    "order": 2,
+    "type": "prep",
+    "duration_min": 2,
+    "title": "Pha nước sốt",
+    "text": "Trộn 200 ml nước với hạt nêm dashi, nước tương, mirin và đường.",
+    "ingredients_used": [
+     "dashi_powder",
+     "soy_sauce",
+     "cooking_wine",
+     "sugar"
+    ],
+    "passive": false
+   },
+   {
+    "order": 3,
+    "type": "cook",
+    "duration_min": 5,
+    "title": "Nấu hành",
+    "text": "Đun sôi nước sốt, cho hành tây vào nấu 4–5 phút đến khi mềm.",
+    "ingredients_used": [
+     "onion"
+    ],
+    "passive": false
+   },
+   {
+    "order": 4,
+    "type": "cook",
+    "duration_min": 3,
+    "title": "Nhúng bò",
+    "text": "Cho thịt bò vào, tách từng lát, nấu 2–3 phút, hớt bọt.",
+    "ingredients_used": [
+     "beef_short_plate"
+    ],
+    "passive": false,
+    "tip": "Thịt bò thái mỏng chín rất nhanh, nấu lâu sẽ dai."
+   },
+   {
+    "order": 5,
+    "type": "serve",
+    "duration_min": 1,
+    "title": "Hoàn thành",
+    "text": "Xới cơm ra tô, xếp bò và hành lên, chan nước sốt. Thêm trứng lòng đào, gừng và hành lá.",
+    "ingredients_used": [
+     "cooked_rice",
+     "egg_chicken",
+     "ginger",
+     "scallion"
+    ],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Gy%C5%ABdon"
+   }
+  ]
+ },
+ {
+  "id": "dau-hu-ma-po",
+  "name_vi": "Đậu hũ Tứ Xuyên (mapo tofu)",
+  "name_en": "Mapo tofu",
+  "other_names": [
+   "Mapo tofu",
+   "Đậu phụ Ma Bà"
+  ],
+  "description": "Đậu hũ mềm om trong sốt thịt bằm cay đỏ, tê nhẹ hạt tiêu Tứ Xuyên — món Hoa cực đưa cơm.",
+  "cuisine": "chinese",
+  "region": null,
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "dish_type": "simmer",
+  "cooking_methods": [
+   "stir_fry",
+   "simmer"
+  ],
+  "main_protein": "tofu",
+  "difficulty": 3,
+  "servings": 4,
+  "time": {
+   "prep_min": 5,
+   "cook_min": 14,
+   "total_min": 19,
+   "active_min": 14
+  },
+  "tags": [
+   "món Hoa",
+   "cay",
+   "đưa cơm"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Authentic_Mapo_Tofu.jpg/960px-Authentic_Mapo_Tofu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Authentic_Mapo_Tofu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Authentic_Mapo_Tofu.jpg",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "author": "Sichuanfoodlover",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "tofu",
+   "pork_minced"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "tofu",
+    "amount": 3,
+    "unit": "piece",
+    "group": "main",
+    "optional": false,
+    "note": "đậu hũ mềm, cắt vuông 2 cm",
+    "substitutes": [
+     {
+      "ingredient_id": "silken_tofu",
+      "ratio": 0,
+      "note": "khoảng 400 g đậu hũ non, đảo thật nhẹ tay"
+     }
+    ]
+   },
+   {
+    "ingredient_id": "pork_minced",
+    "amount": 150,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "substitutes": [
+     {
+      "ingredient_id": "beef_minced",
+      "ratio": 1.0
+     }
+    ]
+   },
+   {
+    "ingredient_id": "garlic",
+    "amount": 3,
+    "unit": "clove",
+    "group": "aromatic",
+    "optional": false,
+    "note": "băm",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "ginger",
+    "amount": 10,
+    "unit": "g",
+    "group": "aromatic",
+    "optional": false,
+    "note": "băm",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "scallion",
+    "amount": 2,
+    "unit": "stalk",
+    "group": "garnish",
+    "optional": false,
+    "note": "thái nhỏ",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "soybean_paste",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "note": "thay cho tương đậu cay Tứ Xuyên (doubanjiang)",
+    "substitutes": [
+     {
+      "ingredient_id": "satay_chili",
+      "ratio": 1.0
+     }
+    ]
+   },
+   {
+    "ingredient_id": "chili_powder",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "spice",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sichuan_pepper",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "spice",
+    "optional": true,
+    "note": "rang, giã",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "soy_sauce",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sugar",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "salt",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "note": "cho vào nước chần",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cornstarch",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "binder",
+    "optional": false,
+    "note": "hòa với 3 muỗng nước",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cooking_oil",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 5,
+    "title": "Cắt đậu",
+    "text": "Cắt đậu hũ vuông 2 cm; băm tỏi, gừng; thái hành lá.",
+    "ingredients_used": [
+     "tofu",
+     "garlic",
+     "ginger",
+     "scallion"
+    ],
+    "passive": false
+   },
+   {
+    "order": 2,
+    "type": "cook",
+    "duration_min": 2,
+    "title": "Chần đậu",
+    "text": "Chần đậu trong nước sôi có muối 1–2 phút rồi vớt ra.",
+    "ingredients_used": [
+     "tofu",
+     "salt"
+    ],
+    "passive": false,
+    "tip": "Chần đậu trong nước muối giúp đậu chắc hơn, không vỡ khi om."
+   },
+   {
+    "order": 3,
+    "type": "cook",
+    "duration_min": 4,
+    "title": "Xào thịt",
+    "text": "Xào thịt đến khi tơi săn, thêm tỏi, gừng, tương hột và ớt bột, xào đến khi dầu đỏ và thơm.",
+    "ingredients_used": [
+     "cooking_oil",
+     "pork_minced",
+     "garlic",
+     "ginger",
+     "soybean_paste",
+     "chili_powder"
+    ],
+    "passive": false
+   },
+   {
+    "order": 4,
+    "type": "cook",
+    "duration_min": 5,
+    "title": "Om đậu",
+    "text": "Thêm 250 ml nước, nước tương, đường, cho đậu vào, đẩy nhẹ (không đảo mạnh), om lửa vừa 5 phút.",
+    "ingredients_used": [
+     "soy_sauce",
+     "sugar",
+     "tofu"
+    ],
+    "passive": true
+   },
+   {
+    "order": 5,
+    "type": "cook",
+    "duration_min": 2,
+    "title": "Làm sánh",
+    "text": "Đổ nước bột bắp làm 2–3 lần, lắc nồi nhẹ đến khi sốt sánh bám vào đậu.",
+    "ingredients_used": [
+     "cornstarch"
+    ],
+    "passive": false
+   },
+   {
+    "order": 6,
+    "type": "serve",
+    "duration_min": 1,
+    "title": "Hoàn thành",
+    "text": "Rắc tiêu Tứ Xuyên và hành lá, ăn với cơm nóng.",
+    "ingredients_used": [
+     "sichuan_pepper",
+     "scallion"
+    ],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Mapo_tofu"
+   }
+  ]
+ },
+ {
+  "id": "mi-y-sot-bo-bam",
+  "name_vi": "Mì Ý sốt bò bằm",
+  "name_en": "Spaghetti with beef ragù (bolognese)",
+  "other_names": [
+   "Spaghetti bolognese"
+  ],
+  "description": "Sốt bò bằm cà chua ninh nhỏ lửa đậm đà, trộn với mì spaghetti và phô mai — món Âu trẻ con rất thích.",
+  "cuisine": "western",
+  "region": null,
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "dish_type": "noodle",
+  "cooking_methods": [
+   "boil",
+   "simmer"
+  ],
+  "main_protein": "beef",
+  "difficulty": 3,
+  "servings": 4,
+  "time": {
+   "prep_min": 8,
+   "cook_min": 42,
+   "total_min": 50,
+   "active_min": 25
+  },
+  "tags": [
+   "món Âu",
+   "trẻ em thích",
+   "cuối tuần"
+  ],
+  "image": {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Spaghetti_Bolognese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Spaghetti_Bolognese.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Spaghetti_Bolognese.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "Chingon",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "spaghetti",
+   "beef_minced",
+   "tomato"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "spaghetti",
+    "amount": 400,
+    "unit": "g",
+    "group": "noodle",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "beef_minced",
+    "amount": 300,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "substitutes": [
+     {
+      "ingredient_id": "pork_minced",
+      "ratio": 1.0
+     }
+    ]
+   },
+   {
+    "ingredient_id": "tomato",
+    "amount": 4,
+    "unit": "piece",
+    "group": "vegetable",
+    "optional": false,
+    "note": "băm nhỏ",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "onion",
+    "amount": 1,
+    "unit": "piece",
+    "group": "aromatic",
+    "optional": false,
+    "note": "băm",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "garlic",
+    "amount": 4,
+    "unit": "clove",
+    "group": "aromatic",
+    "optional": false,
+    "note": "băm",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "carrot",
+    "amount": 0.5,
+    "unit": "piece",
+    "group": "vegetable",
+    "optional": true,
+    "note": "băm nhỏ",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "ketchup",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "olive_oil",
+    "amount": 2,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": [
+     {
+      "ingredient_id": "cooking_oil",
+      "ratio": 1.0
+     }
+    ]
+   },
+   {
+    "ingredient_id": "salt",
+    "amount": 1.5,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "note": "1 muỗng cho nước luộc mì",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sugar",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "black_pepper",
+    "amount": 0.5,
+    "unit": "tsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cheese",
+    "amount": 40,
+    "unit": "g",
+    "group": "garnish",
+    "optional": true,
+    "note": "phô mai bào",
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 8,
+    "title": "Chuẩn bị",
+    "text": "Băm hành tây, tỏi, cà rốt; băm nhỏ cà chua.",
+    "ingredients_used": [
+     "onion",
+     "garlic",
+     "carrot",
+     "tomato"
+    ],
+    "passive": false
+   },
+   {
+    "order": 2,
+    "type": "cook",
+    "duration_min": 5,
+    "title": "Xào thịt",
+    "text": "Đun dầu ô liu, phi hành tây và tỏi, thêm cà rốt, cho thịt bò vào xào tơi đến khi săn.",
+    "ingredients_used": [
+     "olive_oil",
+     "onion",
+     "garlic",
+     "carrot",
+     "beef_minced"
+    ],
+    "passive": false
+   },
+   {
+    "order": 3,
+    "type": "cook",
+    "duration_min": 25,
+    "title": "Ninh sốt",
+    "text": "Cho cà chua, tương cà, muối, đường, tiêu và 200 ml nước vào, đun lửa nhỏ 20–25 phút đến khi sốt sệt, thỉnh thoảng khuấy.",
+    "ingredients_used": [
+     "tomato",
+     "ketchup",
+     "salt",
+     "sugar",
+     "black_pepper"
+    ],
+    "passive": true,
+    "tip": "Ninh lửa nhỏ càng lâu sốt càng đậm và ngọt; khuấy thỉnh thoảng để không bén đáy."
+   },
+   {
+    "order": 4,
+    "type": "cook",
+    "duration_min": 10,
+    "title": "Luộc mì",
+    "text": "Luộc mì trong 3 lít nước sôi có 1 muỗng cà phê muối theo thời gian trên bao bì (8–10 phút), vớt ra để ráo.",
+    "ingredients_used": [
+     "spaghetti",
+     "salt"
+    ],
+    "passive": false
+   },
+   {
+    "order": 5,
+    "type": "serve",
+    "duration_min": 2,
+    "title": "Hoàn thành",
+    "text": "Chia mì ra đĩa, chan sốt bò bằm, rắc phô mai và tiêu.",
+    "ingredients_used": [
+     "cheese",
+     "black_pepper"
+    ],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Bolognese_sauce"
+   }
+  ]
+ },
+ {
+  "id": "ga-xao-hung-que-thai",
+  "name_vi": "Gà xào húng quế kiểu Thái",
+  "name_en": "Thai basil chicken (pad kra pao)",
+  "other_names": [
+   "Pad kra pao",
+   "Phat kaphrao"
+  ],
+  "description": "Gà băm xào lửa lớn với tỏi ớt và lá húng quế, ăn với cơm nóng và trứng ốp la — món cơm bình dân nổi tiếng của Thái Lan.",
+  "cuisine": "thai",
+  "region": null,
+  "meal_types": [
+   "lunch",
+   "dinner"
+  ],
+  "dish_type": "stir_fry",
+  "cooking_methods": [
+   "stir_fry"
+  ],
+  "main_protein": "chicken",
+  "difficulty": 2,
+  "servings": 4,
+  "time": {
+   "prep_min": 5,
+   "cook_min": 15,
+   "total_min": 20,
+   "active_min": 20
+  },
+  "tags": [
+   "món Thái",
+   "cay",
+   "nhanh"
+  ],
+  "image": {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Kao_Rad_Pad_Kra-pao_with_chicken_and_fried_egg_-_Unithai_2025-07-30.jpg/960px-Kao_Rad_Pad_Kra-pao_with_chicken_and_fried_egg_-_Unithai_2025-07-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Kao_Rad_Pad_Kra-pao_with_chicken_and_fried_egg_-_Unithai_2025-07-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+   "source_page": "https://commons.wikimedia.org/wiki/File:Kao_Rad_Pad_Kra-pao_with_chicken_and_fried_egg_-_Unithai_2025-07-30.jpg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Andy Li",
+   "kind": "dish"
+  },
+  "key_ingredients": [
+   "chicken_thigh",
+   "thai_basil"
+  ],
+  "ingredients": [
+   {
+    "ingredient_id": "chicken_thigh",
+    "amount": 500,
+    "unit": "g",
+    "group": "main",
+    "optional": false,
+    "note": "lọc xương, băm hoặc thái nhỏ",
+    "substitutes": [
+     {
+      "ingredient_id": "chicken_minced",
+      "ratio": 0.8
+     },
+     {
+      "ingredient_id": "pork_minced",
+      "ratio": 0.8
+     }
+    ]
+   },
+   {
+    "ingredient_id": "thai_basil",
+    "amount": 1,
+    "unit": "bunch",
+    "group": "herb",
+    "optional": false,
+    "note": "húng quế; đúng vị Thái là lá é (holy basil)",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "garlic",
+    "amount": 5,
+    "unit": "clove",
+    "group": "aromatic",
+    "optional": false,
+    "note": "giã dập",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "chili",
+    "amount": 4,
+    "unit": "piece",
+    "group": "aromatic",
+    "optional": false,
+    "note": "giã dập",
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "oyster_sauce",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "fish_sauce",
+    "amount": 1,
+    "unit": "tbsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "soy_sauce",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "sugar",
+    "amount": 1,
+    "unit": "tsp",
+    "group": "sauce",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "cooking_oil",
+    "amount": 3,
+    "unit": "tbsp",
+    "group": "seasoning",
+    "optional": false,
+    "substitutes": []
+   },
+   {
+    "ingredient_id": "egg_chicken",
+    "amount": 4,
+    "unit": "piece",
+    "group": "side",
+    "optional": true,
+    "note": "ốp la",
+    "substitutes": []
+   }
+  ],
+  "steps": [
+   {
+    "order": 1,
+    "type": "prep",
+    "duration_min": 5,
+    "title": "Chuẩn bị",
+    "text": "Lọc xương gà, băm nhỏ. Giã dập tỏi và ớt, nhặt lá húng quế.",
+    "ingredients_used": [
+     "chicken_thigh",
+     "garlic",
+     "chili",
+     "thai_basil"
+    ],
+    "passive": false
+   },
+   {
+    "order": 2,
+    "type": "cook",
+    "duration_min": 2,
+    "title": "Phi tỏi ớt",
+    "text": "Đun nóng dầu lửa lớn, phi tỏi ớt đến khi thơm.",
+    "ingredients_used": [
+     "cooking_oil",
+     "garlic",
+     "chili"
+    ],
+    "passive": false
+   },
+   {
+    "order": 3,
+    "type": "cook",
+    "duration_min": 5,
+    "title": "Xào gà",
+    "text": "Cho gà vào xào lửa lớn 4–5 phút đến khi săn và chín.",
+    "ingredients_used": [
+     "chicken_thigh"
+    ],
+    "passive": false
+   },
+   {
+    "order": 4,
+    "type": "cook",
+    "duration_min": 2,
+    "title": "Nêm",
+    "text": "Nêm dầu hào, nước mắm, nước tương, đường và 2 muỗng nước, đảo đều.",
+    "ingredients_used": [
+     "oyster_sauce",
+     "fish_sauce",
+     "soy_sauce",
+     "sugar"
+    ],
+    "passive": false
+   },
+   {
+    "order": 5,
+    "type": "cook",
+    "duration_min": 1,
+    "title": "Cho húng quế",
+    "text": "Tắt bếp, cho lá húng quế vào đảo nhanh.",
+    "ingredients_used": [
+     "thai_basil"
+    ],
+    "passive": false,
+    "tip": "Cho lá húng sau khi tắt bếp để lá không bị đen và giữ mùi thơm."
+   },
+   {
+    "order": 6,
+    "type": "cook",
+    "duration_min": 4,
+    "title": "Ốp la",
+    "text": "Chiên trứng ốp la lòng đào, mép giòn.",
+    "ingredients_used": [
+     "egg_chicken"
+    ],
+    "passive": false
+   },
+   {
+    "order": 7,
+    "type": "serve",
+    "duration_min": 1,
+    "title": "Thưởng thức",
+    "text": "Ăn với cơm nóng và trứng ốp la.",
+    "ingredients_used": [],
+    "passive": false
+   }
+  ],
+  "notes": null,
+  "references": [
+   {
+    "source": "Wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Phat_kaphrao"
+   }
+  ]
+ }
+]

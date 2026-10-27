@@ -1,0 +1,202 @@
+[
+ {
+  "id": "canh-chua-ca-loc",
+  "difficulty": 3
+ },
+ {
+  "id": "thit-kho-trung",
+  "difficulty": 3
+ },
+ {
+  "id": "ca-kho-to",
+  "difficulty": 3
+ },
+ {
+  "id": "ga-kho-sa-gung",
+  "difficulty": 2
+ },
+ {
+  "id": "suon-xao-chua-ngot",
+  "difficulty": 3
+ },
+ {
+  "id": "thit-luoc",
+  "difficulty": 1
+ },
+ {
+  "id": "dau-hu-sot-ca",
+  "difficulty": 2
+ },
+ {
+  "id": "trung-chien-hanh",
+  "difficulty": 1
+ },
+ {
+  "id": "rau-muong-xao-toi",
+  "difficulty": 1
+ },
+ {
+  "id": "ga-xao-sa-ot",
+  "difficulty": 2
+ },
+ {
+  "id": "bo-luc-lac",
+  "difficulty": 3
+ },
+ {
+  "id": "thit-rang-chay-canh",
+  "difficulty": 2
+ },
+ {
+  "id": "dau-hu-nhoi-thit",
+  "difficulty": 3
+ },
+ {
+  "id": "cha-gio",
+  "difficulty": 4
+ },
+ {
+  "id": "goi-cuon",
+  "difficulty": 3
+ },
+ {
+  "id": "bo-nuong-la-lot",
+  "difficulty": 4
+ },
+ {
+  "id": "bo-kho",
+  "difficulty": 4
+ },
+ {
+  "id": "ga-luoc",
+  "difficulty": 2
+ },
+ {
+  "id": "chao-ga",
+  "difficulty": 2
+ },
+ {
+  "id": "com-chien-trung",
+  "difficulty": 1
+ },
+ {
+  "id": "com-tam-suon",
+  "difficulty": 4
+ },
+ {
+  "id": "bun-cha",
+  "difficulty": 4
+ },
+ {
+  "id": "bun-thit-nuong",
+  "difficulty": 3
+ },
+ {
+  "id": "pho-bo",
+  "difficulty": 5
+ },
+ {
+  "id": "bun-rieu-cua",
+  "difficulty": 5
+ },
+ {
+  "id": "bun-bo-hue",
+  "difficulty": 5
+ },
+ {
+  "id": "hu-tieu-nam-vang",
+  "difficulty": 4
+ },
+ {
+  "id": "mi-quang",
+  "difficulty": 4
+ },
+ {
+  "id": "banh-xeo",
+  "difficulty": 4
+ },
+ {
+  "id": "canh-bi-dao-tom",
+  "difficulty": 1
+ },
+ {
+  "id": "canh-mong-toi-tom",
+  "difficulty": 1
+ },
+ {
+  "id": "canh-kho-qua-nhoi-thit",
+  "difficulty": 3
+ },
+ {
+  "id": "kho-quet",
+  "difficulty": 2
+ },
+ {
+  "id": "banh-mi-thit-nuong",
+  "difficulty": 3
+ },
+ {
+  "id": "cha-trung-hap",
+  "difficulty": 2
+ },
+ {
+  "id": "muc-xao-hanh-can",
+  "difficulty": 2
+ },
+ {
+  "id": "tom-rim",
+  "difficulty": 2
+ },
+ {
+  "id": "canh-cua-rau-day",
+  "difficulty": 3
+ },
+ {
+  "id": "canh-rau-ngot-thit-bam",
+  "difficulty": 1
+ },
+ {
+  "id": "bo-xao-hanh-tay",
+  "difficulty": 2
+ },
+ {
+  "id": "ca-chien-gion",
+  "difficulty": 3
+ },
+ {
+  "id": "xoi-xeo",
+  "difficulty": 4
+ },
+ {
+  "id": "bun-dau-mam-tom",
+  "difficulty": 3
+ },
+ {
+  "id": "cai-ngot-xao-toi",
+  "difficulty": 1
+ },
+ {
+  "id": "dau-co-ve-xao-ca-rot",
+  "difficulty": 2
+ },
+ {
+  "id": "mien-ga",
+  "difficulty": 3
+ },
+ {
+  "id": "canh-ngheu-rau-muong",
+  "difficulty": 2
+ },
+ {
+  "id": "goi-ga-bap-cai",
+  "difficulty": 2
+ },
+ {
+  "id": "ca-hap-gung-hanh",
+  "difficulty": 2
+ },
+ {
+  "id": "pho-xao-bo",
+  "difficulty": 2
+ }
+]

@@ -1,0 +1,22 @@
+[
+{"id": "gio_thu", "name_vi": "Giò thủ", "name_en": "Head cheese", "category": "processed", "commonness": 2, "aliases": ["giò xào"]},
+{"id": "cha_que", "name_vi": "Chả quế", "name_en": "Cinnamon pork roll", "category": "processed", "commonness": 2, "aliases": []},
+{"id": "cha_bo", "name_vi": "Chả bò", "name_en": "Beef roll", "category": "processed", "commonness": 2, "aliases": ["chả bò Đà Nẵng"]},
+{"id": "fish_cake", "name_vi": "Chả cá", "name_en": "Fish cake", "category": "processed", "commonness": 3, "aliases": ["chả cá thác lác", "chả cá Nha Trang", "chả cá chiên", "chả cá Hàn"]},
+{"id": "nem_chua", "name_vi": "Nem chua", "name_en": "Fermented pork roll", "category": "processed", "commonness": 3, "aliases": ["nem Thanh Hóa"]},
+{"id": "sausage", "name_vi": "Xúc xích", "name_en": "Sausage", "category": "processed", "commonness": 4, "aliases": ["xúc xích Đức", "lạp xưởng tươi", "hotdog"]},
+{"id": "ham", "name_vi": "Thịt nguội", "name_en": "Ham", "category": "processed", "commonness": 3, "aliases": ["dăm bông", "jambon"]},
+{"id": "bacon", "name_vi": "Thịt xông khói", "name_en": "Bacon", "category": "processed", "commonness": 3, "aliases": ["ba rọi xông khói", "bacon"]},
+{"id": "beef_balls", "name_vi": "Bò viên", "name_en": "Beef balls", "category": "processed", "commonness": 4, "aliases": ["bò viên gân"]},
+{"id": "pork_balls", "name_vi": "Mọc", "name_en": "Pork balls", "category": "processed", "commonness": 3, "aliases": ["heo viên", "thịt viên", "mọc heo"]},
+{"id": "fish_balls", "name_vi": "Cá viên", "name_en": "Fish balls", "category": "processed", "commonness": 4, "aliases": ["cá viên chiên"]},
+{"id": "crab_stick", "name_vi": "Thanh cua", "name_en": "Crab stick (surimi)", "category": "processed", "commonness": 3, "aliases": ["surimi", "cua thanh"]},
+{"id": "frozen_spring_rolls", "name_vi": "Chả giò làm sẵn", "name_en": "Frozen spring rolls", "category": "processed", "commonness": 3, "aliases": ["nem rán đông lạnh", "chả giò đông lạnh"]},
+{"id": "meat_floss", "name_vi": "Chà bông", "name_en": "Pork floss", "category": "processed", "commonness": 3, "aliases": ["ruốc thịt", "ruốc heo", "ruốc"]},
+{"id": "canned_fish", "name_vi": "Cá hộp", "name_en": "Canned fish", "category": "processed", "commonness": 3, "aliases": ["cá mòi hộp", "cá nục hộp", "cá sốt cà hộp", "cá ngừ hộp"]},
+{"id": "canned_meat", "name_vi": "Thịt hộp", "name_en": "Canned luncheon meat", "category": "processed", "commonness": 2, "aliases": ["spam", "pate hộp", "thịt heo hộp"]},
+{"id": "beef_jerky", "name_vi": "Khô bò", "name_en": "Beef jerky", "category": "processed", "commonness": 2, "aliases": []},
+{"id": "char_siu", "name_vi": "Xá xíu", "name_en": "Chinese BBQ pork", "category": "processed", "commonness": 2, "aliases": ["thịt xá xíu"]},
+{"id": "roast_pork", "name_vi": "Heo quay", "name_en": "Roast pork belly", "category": "processed", "commonness": 3, "aliases": ["thịt quay", "lợn quay"]},
+{"id": "vegetarian_ham", "name_vi": "Chả lụa chay", "name_en": "Vegetarian pork roll", "category": "processed", "commonness": 1, "aliases": ["giò chay"]}
+]
