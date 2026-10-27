@@ -34,6 +34,8 @@ export interface Settings {
   language: Lang
   /** 'system' follows the device's light/dark setting */
   theme: Theme
+  /** the landing page was seen (it opens first until then) */
+  welcomed: boolean
 }
 
 export type Theme = 'system' | 'light' | 'dark'
@@ -65,7 +67,7 @@ const EMPTY: UserData = {
   cooked: [],
   favorites: [],
   plan: [],
-  settings: { no_repeat_enabled: false, no_repeat_days: 7, cloud_scan_enabled: false, language: detectLang(), theme: 'system' },
+  settings: { no_repeat_enabled: false, no_repeat_days: 7, cloud_scan_enabled: false, language: detectLang(), theme: 'system', welcomed: false },
   profile: null,
 }
 

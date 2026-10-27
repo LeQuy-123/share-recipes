@@ -25,11 +25,15 @@ describe('ingredient search', () => {
 
   it('ranks accent-exact whole words first', () => {
     expect(top('cá').every((n) => n.startsWith('Cá'))).toBe(true)
-    expect(top('cà')[0]).toBe('Cà chua')
+    // "cà" typed with its accent: eggplant/tomato/carrot words, never "cá" (fish).
+    expect(top('cà').every((n) => n.startsWith('Cà '))).toBe(true)
+    expect(top('cà')).toContain('Cà chua')
   })
   it('ranks common ingredients first', () => {
     expect(top('gà', 1)[0]).toBe('Trứng gà')
-    expect(top('dau', 2)).toEqual(['Dầu ăn', 'Dầu hào'])
+    // Without accents "dau" covers both dầu (oil) and đậu (beans); the most-used comes first.
+    expect(top('dau', 1)).toEqual(['Dầu ăn'])
+    expect(top('dau', 4)).toContain('Dầu hào')
   })
   it('matches receipt abbreviations and English', () => {
     expect(searchIngredients('TH.BA CHI', 1)[0].id).toBe('pork_belly')

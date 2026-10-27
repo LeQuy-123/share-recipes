@@ -81,6 +81,8 @@ def sync(only=None, db_path=DB, out=OUT, quiet=False):
             failed.append(rid)
             continue
         name = f"{rid}.{ext}"
+        if entry and entry["file"] != name:  # replaced by a photo of another type
+            (out / entry["file"]).unlink(missing_ok=True)
         (out / name).write_bytes(data)
         index[rid] = {"file": name, "source": source}
         downloaded.append(rid)

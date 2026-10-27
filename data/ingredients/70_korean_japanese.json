@@ -1,0 +1,14 @@
+[
+{"id": "soybean_sprouts", "name_vi": "Giá đậu nành", "name_en": "Soybean sprouts", "category": "vegetable", "commonness": 2, "aliases": ["giá đỗ tương", "kongnamul"]},
+{"id": "black_bean_paste", "name_vi": "Tương đen Hàn Quốc", "name_en": "Korean black bean paste (chunjang)", "category": "seasoning", "commonness": 1, "aliases": ["chunjang", "tương đen jjajang", "sốt tương đen"]},
+{"id": "ginseng", "name_vi": "Nhân sâm tươi", "name_en": "Fresh ginseng", "category": "herb", "commonness": 1, "aliases": ["sâm", "sâm tươi", "củ sâm"]},
+{"id": "kombu", "name_vi": "Tảo bẹ kombu", "name_en": "Kombu (dried kelp)", "category": "vegetable", "commonness": 1, "aliases": ["kombu", "rong biển kombu", "tảo bẹ khô"]},
+{"id": "katsuobushi", "name_vi": "Cá ngừ bào", "name_en": "Bonito flakes (katsuobushi)", "category": "seafood", "commonness": 1, "aliases": ["katsuobushi", "cá bào", "bonito"]},
+{"id": "japanese_curry_roux", "name_vi": "Viên cà ri Nhật", "name_en": "Japanese curry roux", "category": "seasoning", "commonness": 2, "aliases": ["viên sốt cà ri", "golden curry", "cà ri khối"]},
+{"id": "tonkatsu_sauce", "name_vi": "Sốt tonkatsu", "name_en": "Tonkatsu sauce", "category": "seasoning", "commonness": 1, "aliases": ["sốt bulldog", "sốt okonomiyaki", "sốt chiên xù Nhật"]},
+{"id": "pickled_ginger", "name_vi": "Gừng hồng ngâm", "name_en": "Pickled ginger (gari / beni shoga)", "category": "seasoning", "commonness": 1, "aliases": ["gừng ngâm", "gari", "beni shoga", "gừng đỏ"]},
+{"id": "sake", "name_vi": "Rượu sake", "name_en": "Sake", "category": "seasoning", "commonness": 1, "aliases": ["sake nấu ăn", "rượu Nhật"]},
+{"id": "fish_saba", "name_vi": "Cá saba", "name_en": "Mackerel (saba)", "category": "seafood", "commonness": 3, "aliases": ["saba", "cá thu Nhật", "cá thu Na Uy"]},
+{"id": "red_wine", "name_vi": "Rượu vang đỏ", "name_en": "Red wine", "category": "liquid", "commonness": 2, "aliases": ["vang đỏ", "rượu vang"]},
+{"id": "fermented_rice", "name_vi": "Mẻ", "name_en": "Fermented rice (me)", "category": "seasoning", "commonness": 2, "aliases": ["cơm mẻ", "nước mẻ"]}
+]

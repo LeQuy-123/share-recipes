@@ -49,7 +49,9 @@
     {"id": "seasoning", "name_vi": "Gia vị", "name_en": "Seasoning", "sort": 10},
     {"id": "sauce", "name_vi": "Nước chấm, sốt", "name_en": "Sauce", "sort": 11},
     {"id": "garnish", "name_vi": "Trang trí", "name_en": "Garnish", "sort": 12},
-    {"id": "side", "name_vi": "Ăn kèm", "name_en": "On the side", "sort": 13}
+    {"id": "side", "name_vi": "Ăn kèm", "name_en": "On the side", "sort": 13},
+    {"id": "batter", "name_vi": "Bột áo, bột chiên", "name_en": "Batter & coating", "sort": 14},
+    {"id": "marinade", "name_vi": "Nước ướp", "name_en": "Marinade", "sort": 15}
   ],
   "dish_types": [
     {"id": "soup", "name_vi": "Canh, súp", "name_en": "Soup", "sort": 1},
@@ -71,7 +73,12 @@
     {"id": "noodle_soup", "name_vi": "Bún, phở nước", "name_en": "Noodle soup", "sort": 17},
     {"id": "pancake", "name_vi": "Bánh xèo, bánh", "name_en": "Pancake", "sort": 18},
     {"id": "sandwich", "name_vi": "Bánh mì", "name_en": "Sandwich", "sort": 19},
-    {"id": "dip", "name_vi": "Món chấm", "name_en": "Dip", "sort": 20}
+    {"id": "dip", "name_vi": "Món chấm", "name_en": "Dip", "sort": 20},
+    {"id": "hotpot", "name_vi": "Lẩu", "name_en": "Hotpot", "sort": 21},
+    {"id": "side_dish", "name_vi": "Món ăn kèm", "name_en": "Side dish (banchan)", "sort": 22},
+    {"id": "pickle", "name_vi": "Kim chi, dưa muối", "name_en": "Pickles & kimchi", "sort": 23},
+    {"id": "snack", "name_vi": "Món ăn vặt", "name_en": "Snack", "sort": 24},
+    {"id": "dessert", "name_vi": "Chè, tráng miệng", "name_en": "Dessert", "sort": 25}
   ],
   "proteins": [
     {"id": "pork", "name_vi": "Thịt heo", "name_en": "Pork", "sort": 1},

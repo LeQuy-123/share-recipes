@@ -5,7 +5,7 @@ import { loadCatalog, loadImageIndex } from './db/catalog'
 import { openDatabase } from './db/sqlite'
 import { initI18n, useT } from './i18n'
 import { useNewDataAvailable } from './lib/dataVersion'
-import { href, useRoute } from './lib/router'
+import { href, navigate, useRoute } from './lib/router'
 import { CookPage } from './pages/Cook'
 import { ExplorePage } from './pages/Explore'
 import { HomePage } from './pages/Home'
@@ -14,6 +14,7 @@ import { PantryPage } from './pages/Pantry'
 import { PlanPage } from './pages/Plan'
 import { ProfilePage } from './pages/Profile'
 import { RecipePage } from './pages/Recipe'
+import { WelcomePage } from './pages/Welcome'
 import { getUser, useUser, type Theme } from './store/user'
 
 const TABS: { path: string; icon: IconName; key: string }[] = [
@@ -60,6 +61,8 @@ export default function App() {
     Promise.all([openDatabase(), loadImageIndex()])
       .then(() => {
         loadCatalog()
+        // First launch on the home screen: show the landing page once.
+        if (!getUser().settings.welcomed && /^#?\/?$/.test(window.location.hash)) navigate('/welcome', undefined, true)
         setStatus('ready')
       })
       .catch((e: unknown) => setStatus(e instanceof Error ? e : new Error(String(e))))
@@ -95,6 +98,7 @@ export function Shell() {
   const [section = '', id] = path
   const newData = useNewDataAvailable()
 
+  if (section === 'welcome') return <WelcomePage />
   if (section === 'cook' && id) {
     const s = Number(query.get('s'))
     return <CookPage id={id} servings={s > 0 ? s : null} />

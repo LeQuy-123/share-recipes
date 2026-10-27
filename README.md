@@ -5,6 +5,10 @@ step-by-step recipes, a weekly meal plan, calorie/macro tracking and a shopping 
 Vietnamese and English, light and dark mode. Runs fully in the browser — the recipe database is
 SQLite loaded with sql.js, and personal data stays on the device.
 
+253 recipes (140 Vietnamese, 56 Korean, 54 Japanese, a few Chinese/Thai/Western) and 480
+ingredients. On first launch the app opens a landing page (`#/welcome`) that explains what it does;
+it is also reachable from Profile → "Giới thiệu / About".
+
 | Folder | What it is |
 |---|---|
 | `recipt.json`, `data/` | Source data: recipes, ingredients, nutrition, lookups (JSON) |

@@ -125,3 +125,47 @@ describe('difficulty in the UI', () => {
     expect(show('#/explore?cuisine=korean').textContent).toContain('Tokbokki')
   })
 })
+
+describe('landing page', () => {
+  it('explains the app with live counts, cuisines and a way in', () => {
+    const page = show('#/welcome')
+    expect(page.textContent).toContain('Tủ lạnh có gì, nấu ngay món đó')
+    expect(page.querySelector('.tabbar')).toBeNull()
+    const stats = page.querySelector('.landing-stats')?.textContent ?? ''
+    expect(Number(stats.match(/(\d+) món ăn/)?.[1])).toBeGreaterThan(200)
+    expect(page.querySelectorAll('.landing-features .feature').length).toBe(6)
+    expect(page.querySelectorAll('.cuisine-tile').length).toBeGreaterThanOrEqual(3)
+  })
+  it('the call to action remembers the visit and opens the pantry', () => {
+    show('#/welcome')
+    click('Nhập nguyên liệu')
+    expect(getUser().settings.welcomed).toBe(true)
+    expect(window.location.hash).toBe('#/pantry')
+  })
+  it('Profile links back to the landing page', () => {
+    const link = show('#/profile').querySelector('a[href="#/welcome"]')
+    expect(link?.textContent).toContain('Giới thiệu')
+  })
+})
+
+describe('cuisines', () => {
+  it('Explore lists each cuisine with its dish count and a rail for the big ones', () => {
+    const page = show('#/explore')
+    const tiles = [...page.querySelectorAll('.cuisine-tile')].map((a) => a.textContent ?? '')
+    for (const name of ['Món Việt', 'Món Hàn', 'Món Nhật']) {
+      const tile = tiles.find((t) => t.includes(name))
+      expect(tile).toBeDefined()
+      expect(Number(tile!.match(/(\d+) món/)?.[1])).toBeGreaterThanOrEqual(50)
+    }
+    expect(page.textContent).toContain('Món Hàn dễ làm')
+    expect(page.textContent).toContain('Món Nhật dễ làm')
+  })
+  it('a cuisine tile opens only that cuisine, titled by its name', () => {
+    show('#/explore')
+    click('Món Nhật')
+    expect(container.querySelector('.section-title')?.textContent).toContain('Món Nhật')
+    expect(container.textContent).toContain('Cơm cà ri Nhật')
+    expect(container.textContent).toContain('Súp miso đậu hũ')
+    expect(container.textContent).not.toContain('Canh kim chi')
+  })
+})

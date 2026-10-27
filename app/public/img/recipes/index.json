@@ -27,10 +27,6 @@
   "file": "dau-hu-sot-ca.jpg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/5/57/B%E1%BB%AFa_c%C6%A1m_gia_%C4%91%C3%ACnh_ng6th4n2021_%28t%C3%B4_%C4%91%E1%BA%ADu_h%C5%A9_s%E1%BB%91t_c%C3%A0%29_%281%29.jpg"
  },
- "trung-chien-hanh": {
-  "file": "trung-chien-hanh.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/1/11/C%C6%A1m_tr%E1%BB%A9ng_chi%C3%AAn_t%E1%BA%A1i_s%C3%A2n_bay_Ph%C3%BA_B%C3%A0i_%28th%C3%A1ng_9_n%C4%83m_2018%29_%281%29.jpg"
- },
  "rau-muong-xao-toi": {
   "file": "rau-muong-xao-toi.jpg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Rau_mu%E1%BB%91ng_x%C3%A0o_t%E1%BB%8Fi%2C_th%C3%A1ng_4_n%C4%83m_2018.jpg"
@@ -111,10 +107,6 @@
   "file": "canh-bi-dao-tom.jpg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/8/86/B%E1%BB%AFa_c%C6%A1m_nh%C3%A0_Mheo%2C_ng19th1n2020_%28n%E1%BB%93i_canh_b%C3%AD_%C4%91ao%29.jpg"
  },
- "canh-mong-toi-tom": {
-  "file": "canh-mong-toi-tom.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/b/be/M%E1%BB%93ng_t%C6%A1i.jpg"
- },
  "canh-kho-qua-nhoi-thit": {
   "file": "canh-kho-qua-nhoi-thit.png",
   "source": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Canh_kh%E1%BB%95_qua_nh%E1%BB%93i_th%E1%BB%8Bt.png"
@@ -138,10 +130,6 @@
  "tom-rim": {
   "file": "tom-rim.jpg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e7/M%C3%B3n_t%C3%B4m_kho_rim_nh%C3%A0_l%C3%A0m%2C_th%C3%A1ng_4_n%C4%83m_2018_%283%29.jpg"
- },
- "canh-rau-ngot-thit-bam": {
-  "file": "canh-rau-ngot-thit-bam.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/3/34/Rau_ng%C3%B3t.jpg"
  },
  "bo-xao-hanh-tay": {
   "file": "bo-xao-hanh-tay.jpg",
@@ -187,49 +175,25 @@
   "file": "pho-xao-bo.jpg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/9/90/Ph%E1%BB%9F_x%C3%A0o_b%C3%B2.jpg"
  },
- "rau-cu-luoc": {
-  "file": "rau-cu-luoc.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/3/37/Dia_rau_den_luoc.jpg"
- },
  "rau-muong-luoc": {
   "file": "rau-muong-luoc.jpg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Noi_rau_muong_luoc.jpg"
  },
  "ngon-su-su-xao-toi": {
   "file": "ngon-su-su-xao-toi.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Sechium_edule_in_Vietnam_chayote_contd_34_lo.jpg"
- },
- "bi-do-xao-toi": {
-  "file": "bi-do-xao-toi.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Seminole_pumpkin_cut_in_half.jpg"
+  "source": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Stir_fried_chayote_shoots_in_Taiwan.jpg"
  },
  "dau-que-xao-toi": {
   "file": "dau-que-xao-toi.jpeg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Green_Bean_Stir_Fry_%28140491597%29.jpeg"
  },
- "canh-cai-ngot-thit-bam": {
-  "file": "canh-cai-ngot-thit-bam.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Choy-sum.jpg"
- },
- "canh-bi-do-thit-bam": {
-  "file": "canh-bi-do-thit-bam.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Cucurbita_moschata_Bell_group_%22Anco%22_fruit_cut_open_pulp_and_seeds.jpg"
- },
  "canh-trung-ca-chua": {
   "file": "canh-trung-ca-chua.jpg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tomato_and_egg_soup.jpg"
  },
- "canh-rau-den-tom-kho": {
-  "file": "canh-rau-den-tom-kho.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/9/91/Amaranthus_tricolor0.jpg"
- },
- "canh-bau-tom": {
-  "file": "canh-bau-tom.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/6/61/Edible_immature_Lagenaria_siceraria_fruits%2C_longissima_snake_gourds.jpg"
- },
  "trung-xao-ca-chua": {
   "file": "trung-xao-ca-chua.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/1/19/Stir_Fried_Tomatoes_with_Scrambled_Eggs.jpg"
+  "source": "https://upload.wikimedia.org/wikipedia/commons/8/87/Hunan_cuisine%2C_stir-fried_tomato_with_eggs.jpg"
  },
  "thit-kho-tieu": {
   "file": "thit-kho-tieu.jpg",
@@ -261,23 +225,15 @@
  },
  "kho-qua-xao-trung": {
   "file": "kho-qua-xao-trung.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Indian_bitter_melons_-_Heart_of_the_City_Farmers%27_Market_-_San_Francisco.jpg"
+  "source": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Stir_fried_bitter_melon%2C_tofu%2C_pork%2C_and_egg_with_pumpkin_miso_soup_and_marinated_cucumbers_accompanied_by_rice_%E3%82%B4%E3%83%BC%E3%83%A4%E3%83%BC%E3%83%81%E3%83%A3%E3%83%B3%E3%83%97%E3%83%AB%E3%83%BC%E3%80%81%E3%82%AB%E3%83%9C%E3%83%81%E3%83%A3%E3%81%A8%E9%BA%A9%E3%81%AE%E5%91%B3%E5%99%8C%E6%B1%81%E3%80%81%E3%82%AD%E3%83%A5%E3%82%A6%E3%83%AA%E3%81%AE%E6%98%86%E5%B8%83%E6%BC%AC%E3%81%91%E3%80%81%E7%99%BD%E9%A3%AF.jpg"
  },
  "muop-xao-trung": {
   "file": "muop-xao-trung.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Starr-120606-7065-Luffa_aegyptiaca-fruit-Laulima_Farm_Kipahulu-Maui_%2842837845094%29.jpg"
- },
- "nam-kim-cham-xao-toi": {
-  "file": "nam-kim-cham-xao-toi.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/2/23/Flammulina_velutipes_~_Enoki.jpg"
+  "source": "https://upload.wikimedia.org/wikipedia/commons/3/33/Phat_buap.jpg"
  },
  "mi-xao-trung-rau-cai": {
   "file": "mi-xao-trung-rau-cai.jpg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/a/af/Maggi_Goreng_dengan_Telur.jpg"
- },
- "banh-mi-op-la": {
-  "file": "banh-mi-op-la.jpg",
-  "source": "https://upload.wikimedia.org/wikipedia/commons/0/07/M%C5%A9i_N%C3%A9_th7n2023%2C_Khu_ND_%28b%E1%BB%AFa_s%C3%A1ng_ki%E1%BB%83u_l%E1%BB%A5c_%C4%91%E1%BB%8Ba-Vietnam_Continental_breakfast-b%C3%A1nh_m%C3%AC%2C_x%C3%BAc_x%C3%ADch%2C_th%E1%BB%8Bt_ngu%E1%BB%99i%2C_%E1%BB%91p_la%29_%282%29.jpg"
  },
  "canh-ga-nuong-mat-ong": {
   "file": "canh-ga-nuong-mat-ong.jpg",
@@ -334,5 +290,501 @@
  "ga-xao-hung-que-thai": {
   "file": "ga-xao-hung-que-thai.jpg",
   "source": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Kao_Rad_Pad_Kra-pao_with_chicken_and_fried_egg_-_Unithai_2025-07-30.jpg"
+ },
+ "bun-mang-vit": {
+  "file": "bun-mang-vit.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/0f/B%C3%BAn_m%C4%83ng_th%E1%BB%8Bt_v%E1%BB%8Bt.jpg"
+ },
+ "canh-bo-vien": {
+  "file": "canh-bo-vien.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Beef_Ball_Soup_-_20170301.jpg"
+ },
+ "ga-xe-phay": {
+  "file": "ga-xe-phay.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/d6/G%C3%A0_x%C3%A9_phay_%282%29.jpg"
+ },
+ "banh-cuon": {
+  "file": "banh-cuon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/97/B%C3%A1nh_cu%E1%BB%91n_nh%C3%A2n_th%E1%BB%8Bt.JPG"
+ },
+ "bun-moc": {
+  "file": "bun-moc.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/1/1a/B%C3%BAn_m%E1%BB%8Dc_s%C6%B0%E1%BB%9Dn.jpg"
+ },
+ "bun-cha-ca": {
+  "file": "bun-cha-ca.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/3/32/B%C3%BAn_ch%E1%BA%A3_c%C3%A1%2C_th%C3%A1ng_8_n%C4%83m_2018.JPG"
+ },
+ "banh-canh-gio-heo": {
+  "file": "banh-canh-gio-heo.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/e6/B%C3%A1nh_canh_gi%C3%B2_heo.jpg"
+ },
+ "pho-ga": {
+  "file": "pho-ga.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Pho_ga_%28noodle_soup_with_chicken%29%2C_Hanoi_%286945821707%29.jpg"
+ },
+ "nui-xao-bo": {
+  "file": "nui-xao-bo.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Nui_x%C3%A0o_b%C3%B2.jpg"
+ },
+ "sup-cua": {
+  "file": "sup-cua.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f8/S%C3%BAp_cua_Vi%E1%BB%87t_Nam.jpg"
+ },
+ "banh-mi-chao": {
+  "file": "banh-mi-chao.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/4/4d/M%E1%BB%99t_ph%E1%BA%A7n_b%C3%A1nh_m%C3%AC_ch%E1%BA%A3o_v%E1%BB%9Bi_tr%E1%BB%A9ng_v%C3%A0_ch%E1%BA%A3_%2838657217774%29.jpg"
+ },
+ "banh-khot": {
+  "file": "banh-khot.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/5/5a/B%C3%A1nh_kh%E1%BB%8Dt_by_Nguyenhai314.jpg"
+ },
+ "cha-ca-la-vong": {
+  "file": "cha-ca-la-vong.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/02/Cha_ca_La_Vong.jpg"
+ },
+ "dau-hu-kho-nam": {
+  "file": "dau-hu-kho-nam.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Tr%C3%BAt_%C4%91%E1%BA%ADu_h%C5%A9_kho_t%E1%BB%AB_ch%E1%BA%A3o%2C_ng16th7n2022.jpg"
+ },
+ "hau-nuong-mo-hanh": {
+  "file": "hau-nuong-mo-hanh.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/cc/C%E1%BB%ADa_Vi%E1%BB%87t_th4n2023%2C_Ks_Song_Ph%C6%B0%C6%A1ng_%28%C4%91%E1%BB%93_%C4%83n%2C_m%C3%B3n_h%C3%A0u_n%C6%B0%E1%BB%9Bng_m%E1%BB%A1_h%C3%A0nh%29_%289%29.jpg"
+ },
+ "tom-chien-gion": {
+  "file": "tom-chien-gion.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/2d/T%C3%B4m_v%C3%A0_m%E1%BB%B1c_t%E1%BA%A9m_b%E1%BB%99t_chi%C3%AAn%2C_th%C3%A1ng_4_n%C4%83m_2018_%283%29.jpg"
+ },
+ "bo-bia": {
+  "file": "bo-bia.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Bo_Bia_Jicama_Rolls.jpg"
+ },
+ "goi-du-du-kho-bo": {
+  "file": "goi-du-du-kho-bo.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/9f/G%E1%BB%8Fi_%C4%91u_%C4%91%E1%BB%A7_kh%C3%B4_b%C3%B2.jpg"
+ },
+ "banh-trang-tron": {
+  "file": "banh-trang-tron.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/6/63/Vietnamese_%22banh_trang_tron%22.JPG"
+ },
+ "che-chuoi": {
+  "file": "che-chuoi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/5/52/Ch%C3%A8_chu%E1%BB%91i_20201125.jpg"
+ },
+ "che-dau-xanh": {
+  "file": "che-dau-xanh.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Ch%C3%A8_%C4%91%E1%BA%ADu_xanh_nha_%C4%91am.jpg"
+ },
+ "bo-cuon-nam-kim-cham": {
+  "file": "bo-cuon-nam-kim-cham.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Beef_Rolls_with_Enoki_Mushrooms.JPG"
+ },
+ "bap-xao-tom-kho": {
+  "file": "bap-xao-tom-kho.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f8/B%E1%BB%AFa_%C4%83n_gia_%C4%91%C3%ACnh_m%C3%B3n_b%E1%BA%AFp_x%C3%A0o_t%C3%A9p_hay_ru%E1%BB%91c%2C_ng1th12n2019_%281%29.jpg"
+ },
+ "banh-mi-xiu-mai": {
+  "file": "banh-mi-xiu-mai.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/c1/B%C3%A1nh_m%C3%AC_x%C3%ADu_m%E1%BA%A1i-meatball-sandwich.jpg"
+ },
+ "banh-da-cua": {
+  "file": "banh-da-cua.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/8/81/BANH_DA_CUA_1.jpg"
+ },
+ "kimchi-jjigae": {
+  "file": "kimchi-jjigae.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Korean.cuisine-Kimchi_jjigae-01.jpg"
+ },
+ "doenjang-jjigae": {
+  "file": "doenjang-jjigae.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/01/Doenjang-jjigae_2.jpg"
+ },
+ "sundubu-jjigae": {
+  "file": "sundubu-jjigae.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/3/33/Korean_stew-Sundubu_jjigae-05.jpg"
+ },
+ "budae-jjigae": {
+  "file": "budae-jjigae.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Korean_stew-Budae_jjigae-01.jpg"
+ },
+ "bibimbap": {
+  "file": "bibimbap.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Bibimbap_7.jpg"
+ },
+ "bulgogi": {
+  "file": "bulgogi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Korean.cuisine-Bulgogi-01.jpg"
+ },
+ "dakgalbi": {
+  "file": "dakgalbi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/3/32/Korean_cuisine-Dakgalbi-01.jpg"
+ },
+ "jeyuk-bokkeum": {
+  "file": "jeyuk-bokkeum.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/7/70/Jeyuk-bokkeum_4.jpg"
+ },
+ "japchae": {
+  "file": "japchae.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/1/11/Japchae_2.jpg"
+ },
+ "kimbap": {
+  "file": "kimbap.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Gimbap_%28pixabay%29.jpg"
+ },
+ "haemul-pajeon": {
+  "file": "haemul-pajeon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/97/Pajeon.jpg"
+ },
+ "kimchi-jeon": {
+  "file": "kimchi-jeon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Korean_pancake-Kimchijeon-01.jpg"
+ },
+ "gyeran-jjim": {
+  "file": "gyeran-jjim.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Gyeran-jjim.jpg"
+ },
+ "samgyetang": {
+  "file": "samgyetang.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Korean_soup-Samgyetang-13.jpg"
+ },
+ "galbi-jjim": {
+  "file": "galbi-jjim.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/96/Korean_braised_beef_short_ribs-Galbijjim.jpg"
+ },
+ "tteokguk": {
+  "file": "tteokguk.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Tteokguk_1.jpg"
+ },
+ "gun-mandu": {
+  "file": "gun-mandu.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/7/77/Gun-mandu.jpg"
+ },
+ "yangnyeom-chicken": {
+  "file": "yangnyeom-chicken.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Korean.cuisine-Yangnyeom_chicken-01.jpg"
+ },
+ "jjajangmyeon": {
+  "file": "jjajangmyeon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/5/51/Jajangmyeon_1.jpg"
+ },
+ "jjamppong": {
+  "file": "jjamppong.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Jjamppong_4.jpg"
+ },
+ "naengmyeon": {
+  "file": "naengmyeon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Mul-naengmyeon_3.jpg"
+ },
+ "bibim-guksu": {
+  "file": "bibim-guksu.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bibim-guksu.jpg"
+ },
+ "kalguksu": {
+  "file": "kalguksu.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Korean.noodle-Kalguksu-01.jpg"
+ },
+ "ramyeon": {
+  "file": "ramyeon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/A_spicy_ramyeon.jpg"
+ },
+ "kongnamul-guk": {
+  "file": "kongnamul-guk.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Korean_soup-Kongnamul_guk-01.jpg"
+ },
+ "kongnamul-muchim": {
+  "file": "kongnamul-muchim.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/5/55/Kongnamul-muchim_1.jpg"
+ },
+ "sigeumchi-namul": {
+  "file": "sigeumchi-namul.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Korean.cuisine-Sigeumchi_namul-01.jpg"
+ },
+ "gamja-jorim": {
+  "file": "gamja-jorim.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Gamja_jorim_Korean.jpg"
+ },
+ "jangjorim": {
+  "file": "jangjorim.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Korean.food-Jangjorim-01.jpg"
+ },
+ "eomuk-bokkeum": {
+  "file": "eomuk-bokkeum.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/06/Eomuk-bokkeum_2.jpg"
+ },
+ "myeolchi-bokkeum": {
+  "file": "myeolchi-bokkeum.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Korean_cuisine-Myeolchi_bokkeum-01.jpg"
+ },
+ "oi-muchim": {
+  "file": "oi-muchim.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Oi_Muchim_%EC%98%A4%EC%9D%B4%EB%AC%B4%EC%B9%A81.jpg"
+ },
+ "baechu-kimchi": {
+  "file": "baechu-kimchi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/6/61/Baechu_kimchi.jpg"
+ },
+ "kkakdugi": {
+  "file": "kkakdugi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Korean.food-kkakdugi-01.jpg"
+ },
+ "dubu-jorim": {
+  "file": "dubu-jorim.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Korean_cuisine-Dubu_jorim-01.jpg"
+ },
+ "dubu-kimchi": {
+  "file": "dubu-kimchi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Korean_cuisine-Dubu_kimchi-01.jpg"
+ },
+ "jjimdak": {
+  "file": "jjimdak.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/1/17/Andong-jjimdak.jpg"
+ },
+ "bossam": {
+  "file": "bossam.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Korean_cuisine-Bossam-04.jpg"
+ },
+ "samgyeopsal-gui": {
+  "file": "samgyeopsal-gui.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Korean.cuisine-Samgyeopsal-01.jpg"
+ },
+ "galbi-gui": {
+  "file": "galbi-gui.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/01/Galbi-gui_1.jpg"
+ },
+ "dwaeji-gukbap": {
+  "file": "dwaeji-gukbap.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Dwaeji-gukbap_1.jpg"
+ },
+ "galbitang": {
+  "file": "galbitang.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/8/88/Korean_soup-Galbitang-01.jpg"
+ },
+ "yukgaejang": {
+  "file": "yukgaejang.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Korean_soup-Yukgaejang-01.jpg"
+ },
+ "eomuk-guk": {
+  "file": "eomuk-guk.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/4/47/Korean_fishcake_bunsik_eoumuk_01.jpg"
+ },
+ "hobak-jeon": {
+  "file": "hobak-jeon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/a/af/Hobak-jeon.jpg"
+ },
+ "tteokgalbi": {
+  "file": "tteokgalbi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/7/71/Korean.cuisine-Tteokgalbi-01.jpg"
+ },
+ "ojingeo-bokkeum": {
+  "file": "ojingeo-bokkeum.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/6/60/Ojingeo-bokkeum_1.jpg"
+ },
+ "godeungeo-jorim": {
+  "file": "godeungeo-jorim.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Korean_cuisine-Godeungeo_jorim-01.jpg"
+ },
+ "hobak-juk": {
+  "file": "hobak-juk.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Korean_pumpkin_porridge-Hobakjuk-01.jpg"
+ },
+ "kare-raisu": {
+  "file": "kare-raisu.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Beef_curry_rice_003.jpg"
+ },
+ "tonkatsu": {
+  "file": "tonkatsu.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tonkatsu_of_Kimukatsu.jpg"
+ },
+ "katsudon": {
+  "file": "katsudon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Katsudon_001.jpg"
+ },
+ "oyakodon": {
+  "file": "oyakodon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/29/Oyakodon_003.jpg"
+ },
+ "chicken-teriyaki": {
+  "file": "chicken-teriyaki.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Chicken_teriyaki_bento_box_-_Massachusetts.jpg"
+ },
+ "karaage": {
+  "file": "karaage.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Chicken_karaage_003.jpg"
+ },
+ "shoyu-ramen": {
+  "file": "shoyu-ramen.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Shoyu_Ramen.jpg"
+ },
+ "miso-ramen": {
+  "file": "miso-ramen.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Chicken_miso_butter_ramen_-_Goemon_Ramen_Bar.jpg"
+ },
+ "yakisoba": {
+  "file": "yakisoba.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/03/Yakisoba_Houhi.jpg"
+ },
+ "yaki-udon": {
+  "file": "yaki-udon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Yaki-udon.jpg"
+ },
+ "kitsune-udon": {
+  "file": "kitsune-udon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Kitsune_udon_at_Tenn%C5%8Dji.jpg"
+ },
+ "zaru-soba": {
+  "file": "zaru-soba.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/6/69/Zaru_soba_by_spinachdip.jpg"
+ },
+ "tempura": {
+  "file": "tempura.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tempura_01.jpg"
+ },
+ "okonomiyaki": {
+  "file": "okonomiyaki.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/5/59/Okonomiyaki_001.jpg"
+ },
+ "takoyaki": {
+  "file": "takoyaki.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Takoyaki_by_yomi955.jpg"
+ },
+ "gyoza": {
+  "file": "gyoza.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Gyoza_no_Antei_-_3.jpg"
+ },
+ "onigiri": {
+  "file": "onigiri.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/22/Japanese_rice_balls_%28onigiri%29.jpg"
+ },
+ "makizushi": {
+  "file": "makizushi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/25/Kanpy%C5%8D-maki_001.jpg"
+ },
+ "chirashizushi": {
+  "file": "chirashizushi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/90/Chirashi-zushi.jpg"
+ },
+ "tamagoyaki": {
+  "file": "tamagoyaki.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/06/%E9%B3%A5%E7%84%BC%E3%81%8D%E5%B1%85%E9%85%92%E5%B1%8B_%2839394233682%29.jpg"
+ },
+ "chawanmushi": {
+  "file": "chawanmushi.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chawanmushi_001.jpg"
+ },
+ "nikujaga": {
+  "file": "nikujaga.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Nikujaga_by_donaldglen.jpg"
+ },
+ "shogayaki": {
+  "file": "shogayaki.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/df/Shogayaki_002.jpg"
+ },
+ "sukiyaki": {
+  "file": "sukiyaki.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/3/32/Sukiyaki_01.jpg"
+ },
+ "shabu-shabu": {
+  "file": "shabu-shabu.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Tajima_Beef_Shabu-Shabu_Hot_Pot_%2825519259666%29.jpg"
+ },
+ "tonjiru": {
+  "file": "tonjiru.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Tonjiru_teishoku.jpg"
+ },
+ "omurice": {
+  "file": "omurice.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Omurice_by_Taimeiken.jpg"
+ },
+ "hayashi-rice": {
+  "file": "hayashi-rice.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Hayashi_rice.jpg"
+ },
+ "hambagu": {
+  "file": "hambagu.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/22/Hambagu_2.jpg"
+ },
+ "korokke": {
+  "file": "korokke.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Korokke.jpg"
+ },
+ "ebi-fry": {
+  "file": "ebi-fry.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/29/Ebi_Fry_003.jpg"
+ },
+ "saba-misoni": {
+  "file": "saba-misoni.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/db/SABAMISO_Zen_%284948732742%29.jpg"
+ },
+ "agedashi-tofu": {
+  "file": "agedashi-tofu.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Agedashi_tofu%2C_fried_tofu_with_broth.jpg"
+ },
+ "hiyayakko": {
+  "file": "hiyayakko.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/2/23/Hiyayakko_with_bonito_flakes_and_welsh_onion_2.jpg"
+ },
+ "goma-ae": {
+  "file": "goma-ae.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Spinach_Goma-ae_001.jpg"
+ },
+ "sunomono": {
+  "file": "sunomono.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Ebi_sunomono_%283453504907%29.jpg"
+ },
+ "nasu-dengaku": {
+  "file": "nasu-dengaku.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/9/97/Nasu_dengaku_%2815284831066%29.jpg"
+ },
+ "yakitori": {
+  "file": "yakitori.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Yakitori_-_Tora.jpg"
+ },
+ "chicken-nanban": {
+  "file": "chicken-nanban.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/1/19/Chicken_Nanban_-_Korpan_2024-12-05.jpg"
+ },
+ "ochazuke": {
+  "file": "ochazuke.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sake_chazuke_by_matsukawa1971.jpg"
+ },
+ "tamago-sando": {
+  "file": "tamago-sando.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Tamago_Sando_elaborado_en_Argentina.jpg"
+ },
+ "curry-udon": {
+  "file": "curry-udon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Curry_Udon.jpg"
+ },
+ "zosui": {
+  "file": "zosui.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Kinoko_Zosui%2C_at_Restaurant_Gusto_%282012.02.26%29.jpg"
+ },
+ "ikayaki": {
+  "file": "ikayaki.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/df/Ika-yaki_001.jpg"
+ },
+ "butadon": {
+  "file": "butadon.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Butadon.jpg"
+ },
+ "potato-salad-nhat": {
+  "file": "potato-salad-nhat.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Potato_salad_in_Japan.jpg"
+ },
+ "chahan": {
+  "file": "chahan.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/1/18/Niku_Chahan_06.jpg"
+ },
+ "hiyashi-chuka": {
+  "file": "hiyashi-chuka.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Hiyashi_chuka_002.jpg"
+ },
+ "oden": {
+  "file": "oden.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/5/52/Oden_by_Mori_Chan.jpg"
+ },
+ "canh-cai-thao-cuon-thit": {
+  "file": "canh-cai-thao-cuon-thit.jpg",
+  "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Canh_bap_cai_cuon_thit.jpg"
  }
 }

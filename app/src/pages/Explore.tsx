@@ -11,6 +11,10 @@ import { useUser } from '../store/user'
 const FILTER_KEYS = ['dish', 'method', 'meal', 'protein', 'cuisine', 'healthy', 'quick', 'diff'] as const
 /** Filters behind the "More filters" button on phones. */
 const MORE_KEYS = ['dish', 'method', 'protein', 'cuisine', 'diff'] as const
+/** Country code shown on the cuisine tiles (text, so it renders the same everywhere). */
+const CUISINE_MARK: Record<string, string> = { vietnamese: 'VN', korean: 'KR', japanese: 'JP', chinese: 'CN', thai: 'TH', western: 'EU' }
+/** Cuisines with at least this many dishes get their own rail on the browse view. */
+const RAIL_MIN = 20
 
 export function ExplorePage() {
   const { t } = useT()
@@ -51,7 +55,10 @@ export function ExplorePage() {
       ? matching
       : [...matching].sort(byEase)
 
-  const presentCuisines = [...new Set(cards.map((c) => c.cuisine_id))]
+  // Lookup order (Vietnamese, Korean, Japanese, …), only cuisines that have recipes.
+  const cuisineList = [...cuisines.values()]
+    .map((c) => ({ ...c, count: count((r) => r.cuisine_id === c.id) }))
+    .filter((c) => c.count > 0)
   const favorites = user.favorites.map((id) => getCard(id)).filter((c) => !!c)
   const seeAll = (query: Record<string, string | number>) => (
     <a className="btn ghost small" href={href('/explore', query)}>
@@ -154,13 +161,13 @@ export function ExplorePage() {
               ))}
           </div>
         </div>
-        {presentCuisines.length > 1 && (
+        {cuisineList.length > 1 && (
           <div className="filter-row">
             <span className="filter-label">{t('explore.cuisine')}</span>
             <div className="chips scroll">
-              {presentCuisines.map((id) => (
-                <Chip key={id} active={filters.cuisine === id} onClick={() => setParam('cuisine', id)}>
-                  {label(cuisines, id)}
+              {cuisineList.map((c) => (
+                <Chip key={c.id} active={filters.cuisine === c.id} onClick={() => setParam('cuisine', c.id)}>
+                  {displayName(c)} <span className="chip-count">{c.count}</span>
                 </Chip>
               ))}
             </div>
@@ -171,7 +178,7 @@ export function ExplorePage() {
       {(q || hasFilter) && (
         <section>
           <SectionHead
-            title={q ? t('explore.resultsFor', { q }) : t('explore.results')}
+            title={q ? t('explore.resultsFor', { q }) : filters.cuisine ? label(cuisines, filters.cuisine) : t('explore.results')}
             count={filtered.length}
             action={
               hasFilter && (
@@ -235,6 +242,40 @@ export function ExplorePage() {
               </CardRail>
             </section>
           )}
+          {cuisineList.length > 1 && (
+            <section>
+              <SectionHead title={t('explore.byCuisine')} />
+              <div className="cuisine-grid">
+                {cuisineList.map((c) => (
+                  <a key={c.id} className="cuisine-tile" data-cuisine={c.id} href={href('/explore', { cuisine: c.id })}>
+                    <span className="cuisine-mark" aria-hidden="true">
+                      {CUISINE_MARK[c.id] ?? c.id.slice(0, 2).toUpperCase()}
+                    </span>
+                    <span className="cuisine-text">
+                      <strong>{displayName(c)}</strong>
+                      <span>{t('explore.dishCount', { count: c.count })}</span>
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
+          {cuisineList
+            .filter((c) => c.count >= RAIL_MIN)
+            .map((c) => (
+              <section key={c.id}>
+                <SectionHead title={t('explore.cuisineRail', { name: displayName(c) })} action={seeAll({ cuisine: c.id })} />
+                <CardRail>
+                  {cards
+                    .filter((r) => r.cuisine_id === c.id)
+                    .sort(byEase)
+                    .slice(0, 8)
+                    .map((r) => (
+                      <RecipeCardView key={r.id} card={r} />
+                    ))}
+                </CardRail>
+              </section>
+            ))}
           <section>
             <SectionHead title={t('explore.easiest')} action={seeAll({ diff: EASY_MAX })} />
             <CardRail>

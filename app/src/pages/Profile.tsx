@@ -77,6 +77,9 @@ export function ProfilePage() {
           <p className="eyebrow">{t('nav.profile')}</p>
           <h1>{t('profile.title')}</h1>
         </div>
+        <a className="btn ghost small" href={href('/welcome')}>
+          <Icon name="info" size={16} /> {t('welcome.about')}
+        </a>
       </header>
 
       <div className="panel-grid">

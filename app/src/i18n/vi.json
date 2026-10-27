@@ -74,7 +74,7 @@
     "4": "Cần kỹ thuật (cuốn, tráng, nướng) hoặc làm nhiều món phụ cùng lúc.",
     "5": "Ninh nước dùng nhiều giờ, nhiều thành phần — dành cho ngày rảnh."
   },
-  "role": { "main": "Món mặn", "veg": "Món rau", "soup": "Canh", "one_dish": "Món một tô" },
+  "role": { "main": "Món mặn", "veg": "Món rau", "soup": "Canh", "one_dish": "Món một tô", "extra": "Món phụ, tráng miệng" },
   "filters": { "easy": "Dễ làm", "healthy": "Lành mạnh", "quick": "≤ 30 phút" },
   "health": {
     "scoreTitle": "Điểm lành mạnh (0–100)",
@@ -169,7 +169,10 @@
     "favorites": "Món yêu thích",
     "easiest": "Dễ làm nhất",
     "healthiest": "Lành mạnh nhất",
-    "quickest": "Nhanh gọn dưới 30 phút"
+    "quickest": "Nhanh gọn dưới 30 phút",
+    "byCuisine": "Ẩm thực các nước",
+    "dishCount": "{{count}} món",
+    "cuisineRail": "{{name}} dễ làm"
   },
   "recipe": {
     "notFound": "Không tìm thấy món này",
@@ -296,6 +299,45 @@
     "copied": "Đã sao chép ✓"
   },
   "bmi": { "under": "Thiếu cân", "normal": "Bình thường", "over": "Thừa cân", "obese": "Béo phì" },
+  "welcome": {
+    "about": "Giới thiệu",
+    "eyebrow": "Trợ lý nấu ăn cho bữa cơm nhà",
+    "title": "Tủ lạnh có gì, nấu ngay món đó",
+    "lead": "Nhập nguyên liệu bạn đang có, AutoRecipt gợi ý món ăn hợp nhất — ưu tiên món dễ làm, hướng dẫn từng bước rõ ràng, kèm calo và thực đơn cả tuần.",
+    "ctaPantry": "Nhập nguyên liệu",
+    "ctaExplore": "Xem các món",
+    "ctaStart": "Bắt đầu nấu",
+    "statRecipes": "món ăn",
+    "statIngredients": "nguyên liệu",
+    "statCuisines": "nền ẩm thực",
+    "howTitle": "Cách dùng",
+    "how1Title": "Cho biết nhà có gì",
+    "how1Text": "Chọn nhanh nguyên liệu trong tủ lạnh — gõ không dấu cũng tìm được.",
+    "how2Title": "Chọn món được gợi ý",
+    "how2Text": "Món nấu được ngay xếp trước, món dễ làm lên đầu; thiếu gì thì có gợi ý thay thế.",
+    "how3Title": "Nấu theo từng bước",
+    "how3Text": "Chế độ nấu hiện từng bước với lượng nguyên liệu và hẹn giờ, chỉnh số người ăn tuỳ ý.",
+    "featuresTitle": "Mọi thứ cho bữa cơm mỗi ngày",
+    "feature": {
+      "pantryTitle": "Gợi ý theo tủ lạnh",
+      "pantryText": "Tính xem món nào nấu được với nguyên liệu bạn có, thiếu món gì để mua thêm.",
+      "stepsTitle": "Hướng dẫn từng bước",
+      "stepsText": "Các bước ngắn gọn, có mẹo nhỏ và thời gian cho từng bước.",
+      "easyTitle": "Độ khó 1–5 sao",
+      "easyText": "Món dễ được ưu tiên; lọc nhanh những món ai cũng làm được.",
+      "planTitle": "Thực đơn cả tuần",
+      "planText": "Tự lên mâm cơm cân bằng cho 7 ngày và tạo danh sách đi chợ.",
+      "healthyTitle": "Calo và dinh dưỡng",
+      "healthyText": "Calo, đạm, béo, tinh bột mỗi phần ăn và mục tiêu theo cơ thể bạn.",
+      "freshTitle": "Không lặp món",
+      "freshText": "Bật chế độ tránh món đã nấu gần đây để bữa ăn luôn mới."
+    },
+    "cuisinesTitle": "Món Việt, món Hàn, món Nhật và hơn thế",
+    "installText": "Cài AutoRecipt lên điện thoại để mở nhanh như ứng dụng và xem công thức cả khi không có mạng.",
+    "finalTitle": "Hôm nay ăn gì? Bắt đầu thôi.",
+    "footerData": "Công thức tham khảo Bách hóa XANH, Điện máy XANH và Wikipedia; ảnh từ Wikimedia Commons theo giấy phép tự do.",
+    "footerPrivacy": "Dữ liệu của bạn (tủ lạnh, thực đơn, hồ sơ) chỉ lưu trên thiết bị này."
+  },
   "install": {
     "title": "Cài ứng dụng",
     "text": "Thêm AutoRecipt vào màn hình chính để mở nhanh như ứng dụng và dùng được khi không có mạng.",

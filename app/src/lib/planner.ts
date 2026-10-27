@@ -6,20 +6,23 @@ import { displayName, t } from '../i18n'
 import { formatAmount } from './format'
 import { add, cardNutrients, eatenWithRice, RICE_BOWL, ZERO, type Nutrients, type Targets } from './nutrition'
 
-export type Role = 'main' | 'veg' | 'soup' | 'one_dish'
+export type Role = 'main' | 'veg' | 'soup' | 'one_dish' | 'extra'
 
-const ONE_DISH = new Set(['noodle', 'noodle_soup', 'rice', 'porridge', 'sticky_rice', 'sandwich', 'pancake', 'roll'])
+const ONE_DISH = new Set(['noodle', 'noodle_soup', 'rice', 'porridge', 'sticky_rice', 'sandwich', 'pancake', 'roll', 'hotpot'])
+/** Never picked for a tray or the auto-plan: kimchi and pickles, desserts, snacks. */
+const EXTRA = new Set(['pickle', 'dessert', 'snack'])
 
 /** What part of a Vietnamese meal a dish plays. */
 export function roleOf(card: RecipeCard): Role {
   const t = card.dish_type_id ?? ''
+  if (EXTRA.has(t)) return 'extra'
   if (t === 'soup') return 'soup'
   if (ONE_DISH.has(t)) return 'one_dish'
   if (t === 'vegetable' || card.main_protein_id === 'none') return 'veg'
   return 'main'
 }
 
-export const ROLES: Role[] = ['main', 'soup', 'veg', 'one_dish']
+export const ROLES: Role[] = ['main', 'soup', 'veg', 'one_dish', 'extra']
 export const roleLabel = (role: Role) => t(`role.${role}`)
 
 export interface Filters {

@@ -89,3 +89,14 @@ FROM recipe_steps WHERE recipe_id = :recipe_id ORDER BY step_order;
 
 -- 6. Record that the user cooked a dish (feeds the no-repeat window).
 INSERT INTO meal_history (recipe_id, event) VALUES (:recipe_id, 'cooked');
+
+-- 7. Browse by cuisine: how many dishes each country has, then one cuisine's dishes,
+--    easiest first. :cuisine is a cuisines.id such as 'vietnamese', 'korean', 'japanese'.
+SELECT cu.id, cu.name_vi, cu.name_en, COUNT(r.id) AS recipes
+FROM cuisines cu LEFT JOIN recipes r ON r.cuisine_id = cu.id
+GROUP BY cu.id ORDER BY cu.sort;
+
+SELECT r.id, r.name_vi, r.name_en, r.difficulty, r.total_min, r.dish_type_id
+FROM recipes r
+WHERE r.cuisine_id = :cuisine
+ORDER BY r.difficulty, r.total_min, r.name_vi;

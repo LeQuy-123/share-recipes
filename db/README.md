@@ -21,7 +21,8 @@ publishes on every save.
 ## Recipes and difficulty
 
 `recipt.json` holds the first 50 recipes; `data/recipes/*.json` adds more in the same format
-(`10_vietnamese_everyday.json`, `20_international.json`). Same rules as the ingredient files:
+(`10_vietnamese_everyday.json`, `20_international.json`, `30_vietnamese_more.json`,
+`40_korean.json`, `50_japanese.json`). Same rules as the ingredient files:
 an entry with `name_vi` adds a recipe, an entry with only `id` patches one (`difficulty`, `tags`,
 `meal_types`, `notes`, `image`). Every recipe cites at least one source in `references`.
 
@@ -30,6 +31,15 @@ an entry with `name_vi` adds a recipe, an entry with only `id` patches one (`dif
 5 rất khó (ninh nước dùng nhiều giờ). `data/recipes/00_existing.json` re-rates the 50 recipes
 from `recipt.json`, whose own `difficulty` field is the older 1-3 scale. The app ranks easy
 recipes first among those with a similar pantry match.
+
+## Cuisines
+
+Every recipe has a `cuisine` (`recipes.cuisine_id` → `cuisines`, indexed): today 140 Vietnamese,
+56 Korean, 54 Japanese and a few Chinese/Thai/Western dishes (253 in all). Query 7 in
+`queries.sql` lists the counts and one cuisine's dishes; the app's Explore tab has a tile per
+cuisine (`#/explore?cuisine=korean`). Korean and Japanese recipes also use the dish types
+`hotpot`, `side_dish` (banchan), `pickle` (kimchi), `snack` and `dessert`; pickles, snacks and
+desserts are never picked for a meal tray or the auto-plan.
 
 ## Nutrition
 

@@ -216,6 +216,7 @@ export function label(map: Map<string, Lookup>, id: string | null | undefined): 
 export const getCards = () => cards
 export const getCard = (id: string) => cardById.get(id)
 export const getIngredient = (id: string) => ingredients.get(id)
+export const ingredientCount = () => ingredients.size
 export const getKeyIngredients = (recipeId: string) => (keyLines.get(recipeId) ?? []).map((k) => k.ingredient_id)
 
 /** How well a recipe's key ingredients are covered by the pantry. */
