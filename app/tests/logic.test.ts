@@ -148,6 +148,7 @@ describe('format & nutrition', () => {
   it('formats amounts', () => {
     expect(formatAmount(600, 'g')).toBe('600 g')
     expect(formatAmount(1.5, 'kg', 0.5)).toBe('750 g')
+    expect(formatAmount(1.5, 'kg')).toBe('1½ kg')
     expect(formatAmount(2, 'tbsp', 0.75)).toBe('1½ muỗng canh')
     expect(formatAmount(3, 'clove', 2)).toBe('6 tép')
     expect(formatAmount(1, 'piece', 0.5)).toBe('½')

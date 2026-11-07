@@ -2,20 +2,24 @@
 
 Mobile-first web app: "Hôm nay ăn gì?" — dishes you can cook from what is at home, step-by-step
 recipes, a weekly meal plan with calories, and a shopping list. Runs fully in the browser:
-the recipe database (`../db/autorecipt.db`) is opened with sql.js, and the user's own data is
+the recipe database (`public/autorecipt.db`, a committed copy of `../db/autorecipt.db`) is opened
+with sql.js, and the user's own data is
 kept in localStorage on the device. Nothing is sent to a server.
 
 ## Run
 
 ```
-python ../db/build_db.py      # after changing recipt.json or data/*.json
 npm install
 npm run dev                   # http://localhost:5173, also on your Wi-Fi IP for a phone
 npm test                      # logic + screen tests against the real database
 npm run build                 # static site in dist/ (any static host, relative paths)
 ```
 
-`npm run dev` and `npm run build` copy the database into `public/` first.
+This folder builds on its own. After changing `recipt.json` or `data/*.json`, run
+`python ../db/build_db.py`; the next `npm run dev` / `npm run build` copies the new database into
+`public/`. Commit `public/autorecipt.db` and `public/db-version.json` to release it.
+
+Deploying to Vercel (Root Directory = `app`): see [DEPLOY.md](DEPLOY.md).
 
 On a phone, open the Network URL that `npm run dev` prints (same Wi-Fi). Installing it to the home
 screen and offline use need HTTPS, so use a deployed build for that.

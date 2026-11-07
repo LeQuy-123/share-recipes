@@ -6,7 +6,7 @@ import { getLookups, getRecipeDetail, label, type RecipeLine } from '../db/catal
 import { displayName, useT } from '../i18n'
 import { difficultyLabel, formatAmount, formatMinutes, timeAgo } from '../lib/format'
 import { cardNutrients } from '../lib/nutrition'
-import { href } from '../lib/router'
+import { goBack, href } from '../lib/router'
 import { actions, recentlyCooked, useUser } from '../store/user'
 
 export function RecipePage({ id }: { id: string }) {
@@ -51,7 +51,7 @@ export function RecipePage({ id }: { id: string }) {
       <div className="recipe-top">
         <div className="hero">
           <RecipeImage card={card} className="hero-img" eager />
-          <button type="button" className="hero-back icon-btn" onClick={() => window.history.back()} aria-label={t('common.back')}>
+          <button type="button" className="hero-back icon-btn" onClick={() => goBack('/explore')} aria-label={t('common.back')}>
             <Icon name="left" />
           </button>
           <button

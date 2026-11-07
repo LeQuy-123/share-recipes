@@ -15,7 +15,7 @@ const MEALS: PlanMeal[] = ['breakfast', 'lunch', 'dinner']
 export function PlanPage() {
   const { t } = useT()
   const user = useUser()
-  const today = isoDate(new Date())
+  const [today] = useState(() => isoDate(new Date()))
   const [start, setStart] = useState(weekStart(today))
   const [day, setDay] = useState(today)
   const [picker, setPicker] = useState<PlanMeal | null>(null)
@@ -146,7 +146,9 @@ export function PlanPage() {
             )}
             {!user.profile && (
               <p className="hint">
-                {t('plan.defaultTarget')} <a href={href('/profile')}>{t('plan.setProfile')}</a>
+                <span>
+                  {t('plan.defaultTarget')} <a href={href('/profile')}>{t('plan.setProfile')}</a>
+                </span>
               </p>
             )}
           </section>

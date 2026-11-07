@@ -36,6 +36,7 @@ export function formatAmount(amount: number | null, unit: string | null, scale =
   if (u === 'tbsp' || u === 'tsp') v = roundTo(v, 0.25)
   else if (u !== 'kg') v = roundTo(v, 0.5)
   if (!u || u === 'piece') return formatNumber(v)
+  if (u === 'kg') return `${formatNumber(v)} kg`
   const label = t(`unit.${u}`, { count: v > 1 ? 2 : 1 })
   return `${formatNumber(v)} ${label}`
 }

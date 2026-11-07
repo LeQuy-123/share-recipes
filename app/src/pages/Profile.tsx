@@ -55,8 +55,11 @@ export function ProfilePage() {
     const a = document.createElement('a')
     a.href = URL.createObjectURL(blob)
     a.download = `autorecipt-${new Date().toISOString().slice(0, 10)}.json`
+    document.body.appendChild(a)
     a.click()
-    URL.revokeObjectURL(a.href)
+    a.remove()
+    // Safari on iPhone starts the download asynchronously; revoking right away cancels it.
+    setTimeout(() => URL.revokeObjectURL(a.href), 30_000)
   }
 
   const importData = async (file: File) => {
@@ -237,7 +240,7 @@ export function ProfilePage() {
           <input
             ref={fileRef}
             type="file"
-            accept="application/json"
+            accept=".json,application/json"
             hidden
             onChange={(e) => {
               const f = e.target.files?.[0]

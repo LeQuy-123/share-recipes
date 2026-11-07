@@ -1,6 +1,6 @@
 import { act } from 'react'
 import { createRoot, type Root } from 'react-dom/client'
-import { afterEach, beforeAll, beforeEach, describe, expect, it } from 'vitest'
+import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest'
 import { Shell } from '../src/App'
 import { actions, getUser } from '../src/store/user'
 import { openTestDatabase } from './helpers'
@@ -58,10 +58,14 @@ describe('screens render', () => {
 
 describe('flows', () => {
   it('pantry items drive "Nấu được ngay"', () => {
+    // Home starts on the current meal; at dinner time the soup is a fit whatever the real clock says.
+    vi.useFakeTimers({ toFake: ['Date'] })
+    vi.setSystemTime(new Date(2026, 0, 5, 18, 0))
     actions.addToPantry(['fish_snakehead', 'tamarind', 'pineapple', 'tomato', 'bean_sprouts'])
     const home = show('#/')
     expect(home.textContent).toContain('Nấu được ngay')
     expect(home.textContent).toContain('Canh chua cá lóc')
+    vi.useRealTimers()
   })
 
   it('recipe servings scale the amounts', () => {

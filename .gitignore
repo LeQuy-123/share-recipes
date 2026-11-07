@@ -3,10 +3,9 @@ node_modules/
 dist/
 *.tsbuildinfo
 
-# Generated database (python db/build_db.py) and its copy in the app
+# Generated database (python db/build_db.py). Its copy in app/public/ IS committed, so the
+# app/ folder deploys on its own (Vercel Root Directory = app).
 db/autorecipt.db
-app/public/autorecipt.db
-app/public/db-version.json
 
 # Admin backups of edited data files
 .admin-backups/

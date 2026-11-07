@@ -14,7 +14,7 @@ const MEALS: PlanMeal[] = ['breakfast', 'lunch', 'dinner']
 /** Put one or more dishes into the meal plan. */
 export function AddToPlanDialog(props: { open: boolean; onClose: () => void; cards: RecipeCard[]; defaultMeal?: PlanMeal }) {
   const { t } = useT()
-  const today = isoDate(new Date())
+  const [today] = useState(() => isoDate(new Date()))
   const [date, setDate] = useState(today)
   const [meal, setMeal] = useState<PlanMeal>(props.defaultMeal ?? 'dinner')
   const [servings, setServings] = useState(1)

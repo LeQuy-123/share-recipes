@@ -16,6 +16,20 @@ function parse(hash: string): Route {
   }
 }
 
+// Each history entry the app creates gets an index (0 = the page the visit started on), so
+// "back" can stay inside the app instead of leaving to the site the person came from.
+const entryIndex = (): number => (window.history.state as { idx?: number } | null)?.idx ?? -1
+let lastIndex = 0
+if (typeof window !== 'undefined') {
+  if (entryIndex() < 0) window.history.replaceState({ idx: 0 }, '')
+  lastIndex = entryIndex()
+  window.addEventListener('hashchange', () => {
+    // A new entry (link tap, location.hash) has no index yet; back/forward entries keep theirs.
+    if (entryIndex() < 0) window.history.replaceState({ idx: lastIndex + 1 }, '')
+    lastIndex = entryIndex()
+  })
+}
+
 function subscribe(listener: () => void) {
   window.addEventListener('hashchange', listener)
   return () => window.removeEventListener('hashchange', listener)
@@ -40,12 +54,14 @@ export function href(path: string, query?: Record<string, string | number | null
 
 export function navigate(path: string, query?: Record<string, string | number | null | undefined>, replace = false) {
   const target = href(path, query)
-  if (replace) window.history.replaceState(null, '', target)
-  if (replace) window.dispatchEvent(new HashChangeEvent('hashchange'))
-  else window.location.hash = target
+  if (replace) {
+    window.history.replaceState({ idx: lastIndex }, '', target)
+    window.dispatchEvent(new HashChangeEvent('hashchange'))
+  } else window.location.hash = target
 }
 
+/** Back within the app; on the first screen of the visit (e.g. opened from a link), go to `fallback`. */
 export function goBack(fallback = '/') {
-  if (window.history.length > 1) window.history.back()
-  else navigate(fallback)
+  if (lastIndex > 0) window.history.back()
+  else navigate(fallback, undefined, true)
 }

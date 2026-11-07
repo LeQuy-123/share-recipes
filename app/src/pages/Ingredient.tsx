@@ -3,7 +3,7 @@ import { CardRail, RecipeCardView } from '../components/RecipeCard'
 import { EmptyState, Icon, SectionHead } from '../components/ui'
 import { getIngredientDetail, getLookups, label, matchRecipe, prepStepsFor, recipesUsing } from '../db/catalog'
 import { displayName, useT } from '../i18n'
-import { href } from '../lib/router'
+import { goBack, href } from '../lib/router'
 import { actions, useUser } from '../store/user'
 
 /** One ingredient: how to prepare it, what to cook with it. */
@@ -32,7 +32,7 @@ export function IngredientPage({ id }: { id: string }) {
   return (
     <div className="page">
       <header className="page-head with-back">
-        <button type="button" className="icon-btn" onClick={() => window.history.back()} aria-label={t('common.back')}>
+        <button type="button" className="icon-btn" onClick={() => goBack('/pantry')} aria-label={t('common.back')}>
           <Icon name="left" />
         </button>
         <div>

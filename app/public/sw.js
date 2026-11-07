@@ -1,6 +1,7 @@
 // AutoRecipt offline support.
 // install : cache everything listed in precache.json (app shell, database, icons) so the app
 //           works offline from the first visit.
+// activate: remove build files of earlier deploys from the cache.
 // fetch   : app files and the database -> network first, cache as fallback (updates arrive);
 //           recipe photos (local and Wikimedia) -> cache first.
 const SHELL = 'autorecipt-shell'
@@ -11,8 +12,9 @@ self.addEventListener('install', (event) => {
     (async () => {
       const res = await fetch('./precache.json', { cache: 'no-store' })
       if (res.ok) {
-        const { files } = await res.json()
         const cache = await caches.open(SHELL)
+        await cache.put('./precache.json', res.clone())
+        const { files } = await res.json()
         // Add one by one so a single missing file does not abort the install.
         await Promise.all(files.map((f) => cache.add(new Request(f, { cache: 'reload' })).catch(() => {})))
       }
@@ -25,6 +27,16 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     (async () => {
       for (const key of await caches.keys()) if (![SHELL, IMAGES].includes(key)) await caches.delete(key)
+      // Drop hashed build files from earlier deploys (they are never requested again).
+      const shell = await caches.open(SHELL)
+      const list = await shell.match('./precache.json')
+      if (list) {
+        const keep = new Set((await list.json()).files.map((f) => new URL(f, self.registration.scope).pathname))
+        for (const req of await shell.keys()) {
+          const path = new URL(req.url).pathname
+          if (path.includes('/assets/') && !keep.has(path)) await shell.delete(req)
+        }
+      }
       await self.clients.claim()
     })(),
   )

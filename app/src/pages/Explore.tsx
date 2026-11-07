@@ -22,6 +22,12 @@ export function ExplorePage() {
   const user = useUser()
   const q = query.get('q') ?? ''
   const [text, setText] = useState(q)
+  const [shownQ, setShownQ] = useState(q)
+  if (q !== shownQ) {
+    // The query changed from outside the box (tab tap, "See all", a cuisine tile): show it.
+    setShownQ(q)
+    if (q !== text.trim()) setText(q)
+  }
   const [showMore, setShowMore] = useState(false)
   const filters: Filters = {
     dish: query.get('dish'),
@@ -76,7 +82,12 @@ export function ExplorePage() {
       </header>
 
       <div className="sticky-tools">
-        <form className="search-box" role="search" onSubmit={(e) => e.preventDefault()}>
+        <form className="search-box" role="search" onSubmit={(e) => {
+            e.preventDefault()
+            // Search key on a phone keyboard: results are already shown, so just close the keyboard.
+            ;(document.activeElement as HTMLElement | null)?.blur()
+          }}
+        >
           <Icon name="search" size={18} />
           <input
             type="search"

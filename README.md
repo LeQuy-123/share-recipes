@@ -29,6 +29,10 @@ npm test
 npm run build                  # static site in app/dist/ — host anywhere over HTTPS
 ```
 
+The `app/` folder is self-contained (the built database is committed as
+`app/public/autorecipt.db`), so it deploys on its own. Vercel: set Root Directory to `app` —
+see [app/DEPLOY.md](app/DEPLOY.md).
+
 Admin dashboard (edit recipes, ingredients, nutrition, lookups; every save is validated, built
 and published to the app):
 

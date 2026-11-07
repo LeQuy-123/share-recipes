@@ -170,54 +170,60 @@ function FinishScreen(props: { recipeId: string; lines: RecipeLine[]; pantry: Se
 
 function StepTimer({ minutes, passive }: { minutes: number; passive: boolean }) {
   const { t } = useT()
-  const [left, setLeft] = useState(minutes * 60)
-  const [running, setRunning] = useState(false)
+  const full = minutes * 60
+  // While running, the end time is kept rather than a countdown: phones pause timers when the
+  // screen locks, and the clock catches up when the page is back.
+  const [endsAt, setEndsAt] = useState<number | null>(null)
+  const [left, setLeft] = useState(full)
+  const running = endsAt !== null
 
   useEffect(() => {
-    if (!running) return
-    const timer = window.setInterval(() => {
-      setLeft((s) => {
-        if (s <= 1) {
-          setRunning(false)
-          alarm()
-          return 0
-        }
-        return s - 1
-      })
-    }, 1000)
-    return () => window.clearInterval(timer)
-  }, [running])
+    if (endsAt === null) return
+    const tick = () => {
+      const s = Math.max(0, Math.ceil((endsAt - Date.now()) / 1000))
+      setLeft(s)
+      if (s === 0) {
+        setEndsAt(null)
+        alarm()
+      }
+    }
+    tick()
+    const timer = window.setInterval(tick, 250)
+    document.addEventListener('visibilitychange', tick)
+    return () => {
+      window.clearInterval(timer)
+      document.removeEventListener('visibilitychange', tick)
+    }
+  }, [endsAt])
+
+  const start = (seconds: number) => {
+    unlockAudio()
+    setLeft(seconds)
+    setEndsAt(Date.now() + seconds * 1000)
+  }
+  const pause = () => setEndsAt(null)
 
   const mm = String(Math.floor(left / 60)).padStart(2, '0')
   const ss = String(left % 60).padStart(2, '0')
-  const full = left === minutes * 60
+  const atStart = left === full && !running
   return (
     <div className={`timer${left === 0 ? ' done' : ''}${running ? ' running' : ''}`}>
       <span className="timer-label">{passive ? t('cook.waitTime', { count: minutes }) : t('cook.about', { count: minutes })}</span>
-      <span className="timer-clock" aria-live="polite">
+      <span className="timer-clock" role="timer" aria-live={left === 0 ? 'assertive' : 'off'}>
         {left === 0 ? t('cook.timeUp') : `${mm}:${ss}`}
       </span>
       <div className="timer-buttons">
-        <button
-          type="button"
-          className="btn primary"
-          onClick={() => {
-            if (left === 0) {
-              setLeft(minutes * 60)
-              setRunning(true)
-            } else setRunning(!running)
-          }}
-        >
+        <button type="button" className="btn primary" onClick={() => (running ? pause() : start(left === 0 ? full : left))}>
           <Icon name={running ? 'pause' : 'play'} size={18} />{' '}
-          {running ? t('cook.pause') : full ? t('cook.startTimer') : left === 0 ? t('cook.again') : t('cook.resume')}
+          {running ? t('cook.pause') : atStart ? t('cook.startTimer') : left === 0 ? t('cook.again') : t('cook.resume')}
         </button>
-        {!full && (
+        {!atStart && (
           <button
             type="button"
             className="btn"
             onClick={() => {
-              setRunning(false)
-              setLeft(minutes * 60)
+              pause()
+              setLeft(full)
             }}
             aria-label={t('cook.reset')}
           >
@@ -229,10 +235,25 @@ function StepTimer({ minutes, passive }: { minutes: number; passive: boolean }) 
   )
 }
 
+// One audio context for the page. iPhone Safari only lets it make sound once it has been
+// created or resumed during a tap, so the timer's Start button unlocks it.
+let audio: AudioContext | null = null
+function unlockAudio() {
+  try {
+    const Ctx = window.AudioContext ?? (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext
+    if (!Ctx) return
+    audio ??= new Ctx()
+    if (audio.state === 'suspended') audio.resume().catch(() => {})
+  } catch {
+    audio = null
+  }
+}
+
 function alarm() {
   navigator.vibrate?.([300, 150, 300, 150, 300])
   try {
-    const ctx = new AudioContext()
+    const ctx = audio
+    if (!ctx) return
     ;[0, 0.4, 0.8].forEach((at) => {
       const osc = ctx.createOscillator()
       const gain = ctx.createGain()
