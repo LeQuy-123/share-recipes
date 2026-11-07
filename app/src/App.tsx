@@ -1,11 +1,13 @@
 import { useEffect, useState } from 'react'
 import { QuickSettings } from './components/QuickSettings'
 import { Icon, type IconName } from './components/ui'
-import { loadCatalog, loadImageIndex } from './db/catalog'
+import { getCard, getIngredient, loadCatalog, loadImageIndex } from './db/catalog'
 import { openDatabase } from './db/sqlite'
-import { initI18n, useT } from './i18n'
+import { displayName, initI18n, useT } from './i18n'
 import { useNewDataAvailable } from './lib/dataVersion'
+import { usePageMeta } from './lib/pageMeta'
 import { href, navigate, useRoute } from './lib/router'
+import { versionLabel } from './lib/version'
 import { CookPage } from './pages/Cook'
 import { ExplorePage } from './pages/Explore'
 import { HomePage } from './pages/Home'
@@ -62,7 +64,7 @@ export default function App() {
       .then(() => {
         loadCatalog()
         // First launch on the home screen: show the landing page once.
-        if (!getUser().settings.welcomed && /^#?\/?$/.test(window.location.hash)) navigate('/welcome', undefined, true)
+        if (!getUser().settings.welcomed && window.location.pathname === '/') navigate('/welcome', undefined, true)
         setStatus('ready')
       })
       .catch((e: unknown) => setStatus(e instanceof Error ? e : new Error(String(e))))
@@ -97,6 +99,13 @@ export function Shell() {
   const { path, query } = useRoute()
   const [section = '', id] = path
   const newData = useNewDataAvailable()
+  const card = section === 'recipe' || section === 'cook' ? getCard(id ?? '') : undefined
+  const ingredient = section === 'ingredient' ? getIngredient(id ?? '') : undefined
+  const tab = TABS.find((x) => x.path === section && x.path)
+  usePageMeta(
+    card ? displayName(card) : ingredient ? displayName(ingredient) : tab ? t(tab.key) : section === 'welcome' ? t('welcome.about') : null,
+    card?.description,
+  )
 
   if (section === 'welcome') return <WelcomePage />
   if (section === 'cook' && id) {
@@ -154,7 +163,10 @@ export function Shell() {
             </button>
           </div>
         )}
-        <main>{page}</main>
+        <main>
+          {page}
+          <footer className="app-footer">AutoRecipt {versionLabel}</footer>
+        </main>
       </div>
     </div>
   )

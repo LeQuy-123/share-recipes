@@ -73,8 +73,8 @@ describe('translations', () => {
     document.body.appendChild(container)
     const root = createRoot(container)
     act(() => {
-      window.location.hash = '#/recipe/canh-chua-ca-loc'
-      window.dispatchEvent(new HashChangeEvent('hashchange'))
+      window.history.pushState(null, '', '/recipe/canh-chua-ca-loc')
+      window.dispatchEvent(new PopStateEvent('popstate'))
     })
     act(() => root.render(<Shell />))
     const text = container.textContent ?? ''

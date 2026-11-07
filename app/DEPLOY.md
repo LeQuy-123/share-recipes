@@ -15,7 +15,10 @@ inside this folder, including the recipe database (`public/autorecipt.db`) and r
    - Build command: `npm run build`
    - Output directory: `dist`
 5. Node.js version (Project Settings → Build and Deployment): 20.x or newer.
-6. Click **Deploy**. No environment variables are needed.
+6. Click **Deploy**. No environment variables are needed: the site address used in canonical
+   links, `sitemap.xml` and link previews comes from Vercel's `VERCEL_PROJECT_PRODUCTION_URL`
+   (your production domain, including a custom one). To force another address, add the
+   environment variable `SITE_URL=https://your-domain.com`.
 
 Every push to `main` then deploys to production; other branches and pull requests get preview URLs.
 
@@ -51,16 +54,47 @@ New recipe photos (`python db/fetch_images.py`) land in `app/public/img/recipes/
 | `/img/*`, `/icons/*` | 1 week |
 | `/`, `index.html`, `sw.js`, `precache.json`, `db-version.json`, `autorecipt.db`, `manifest.webmanifest` | always revalidated, so a deploy is picked up right away |
 
-It also sets basic security headers. Routing uses the URL hash (`#/recipe/pho-bo`), so no rewrites
-are needed.
+It also sets basic security headers, `cleanUrls` (so `/recipe/pho-bo` serves the built
+`recipe/pho-bo.html`), and a rewrite that sends every other path (`/profile`, `/cook/…`) to
+`index.html`. Old `#/recipe/pho-bo` links are turned into `/recipe/pho-bo` by the app.
+
+## Release number
+
+Every screen shows the release at the bottom, e.g. `AutoRecipt v0.2.0 · 1a2b3c4`: the `version`
+in `app/package.json` and the commit Vercel built. For a new release, bump `version` (e.g.
+`npm version minor --no-git-tag-version` in `app/`), commit and push.
+
+## SEO
+
+The build (`scripts/seo.ts`) writes, from the recipe database:
+
+- one HTML page per recipe (`/recipe/<id>`) and per ingredient used in recipes
+  (`/ingredient/<id>`), plus `/welcome`, `/explore`, `/pantry`, `/plan`, each with its own
+  `<title>`, description, canonical link, Open Graph / Twitter tags (photo of the dish), and
+  readable text in the body for crawlers and link previews that do not run JavaScript;
+- schema.org `Recipe` data on recipe pages (ingredients, steps, times, calories), which Google
+  uses for recipe results;
+- `sitemap.xml` (all of the above) and `robots.txt` (points to the sitemap; `/cook/` and
+  `/profile` are not indexed).
+
+In the app, `<title>` and the description follow the screen. Source maps (`assets/*.js.map`) are
+published for debugging and marked `noindex`.
+
+After the first production deploy, add the site in
+[Google Search Console](https://search.google.com/search-console) and submit
+`https://<your-domain>/sitemap.xml`. Check a recipe with the
+[Rich Results Test](https://search.google.com/test/rich-results).
 
 ## Check after deploying
 
 On a computer:
 
 - The site opens on the landing page; "Start" leads to the home screen with dishes.
-- A recipe link opened in a new tab (e.g. `https://<your-app>.vercel.app/#/recipe/pho-bo`) shows
-  the recipe, and its back arrow goes to Explore.
+- A recipe link opened in a new tab (e.g. `https://<your-app>.vercel.app/recipe/pho-bo`) shows
+  the recipe, and its back arrow goes to Explore. Reloading any screen works.
+- `https://<your-app>.vercel.app/robots.txt` and `/sitemap.xml` open; the sitemap lists your
+  domain, not `localhost`.
+- The release at the bottom of a screen matches the commit you pushed.
 - DevTools → Application: the service worker is active and the manifest has no errors.
 
 On an iPhone (Safari):

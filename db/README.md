@@ -37,7 +37,7 @@ recipes first among those with a similar pantry match.
 Every recipe has a `cuisine` (`recipes.cuisine_id` → `cuisines`, indexed): today 140 Vietnamese,
 56 Korean, 54 Japanese and a few Chinese/Thai/Western dishes (253 in all). Query 7 in
 `queries.sql` lists the counts and one cuisine's dishes; the app's Explore tab has a tile per
-cuisine (`#/explore?cuisine=korean`). Korean and Japanese recipes also use the dish types
+cuisine (`/explore?cuisine=korean`). Korean and Japanese recipes also use the dish types
 `hotpot`, `side_dish` (banchan), `pickle` (kimchi), `snack` and `dessert`; pickles, snacks and
 desserts are never picked for a meal tray or the auto-plan.
 

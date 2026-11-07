@@ -12,7 +12,7 @@ kept in localStorage on the device. Nothing is sent to a server.
 npm install
 npm run dev                   # http://localhost:5173, also on your Wi-Fi IP for a phone
 npm test                      # logic + screen tests against the real database
-npm run build                 # static site in dist/ (any static host, relative paths)
+npm run build                 # static site in dist/ + one SEO page per recipe/ingredient, sitemap, robots.txt
 ```
 
 This folder builds on its own. After changing `recipt.json` or `data/*.json`, run
@@ -20,6 +20,10 @@ This folder builds on its own. After changing `recipt.json` or `data/*.json`, ru
 `public/`. Commit `public/autorecipt.db` and `public/db-version.json` to release it.
 
 Deploying to Vercel (Root Directory = `app`): see [DEPLOY.md](DEPLOY.md).
+
+URLs are real paths (`/recipe/pho-bo`); old `#/…` links are redirected. The host must send
+unknown paths to `index.html` (vercel.json does). The release shown at the bottom of every
+screen is `version` in package.json plus the commit it was built from.
 
 On a phone, open the Network URL that `npm run dev` prints (same Wi-Fi). Installing it to the home
 screen and offline use need HTTPS, so use a deployed build for that.
@@ -46,5 +50,8 @@ src/store/user.ts     pantry, history, favorites, plan, settings, profile (local
 src/lib/planner.ts    recommend, mâm cơm, auto-plan, shopping list
 src/lib/nutrition.ts  targets, rice bowl, day advice
 src/pages/*           one file per screen
+src/lib/pageMeta.ts   <title>/description per screen
+src/lib/version.ts    release label (package.json version + commit)
+scripts/seo.ts        build step: static page per recipe/ingredient with its own <head>, sitemap, robots
 public/sw.js          offline cache (app + database: network first; photos: cache first)
 ```

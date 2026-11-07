@@ -1,12 +1,12 @@
 {
-  "id": "./",
+  "id": "/",
   "name": "AutoRecipt — Hôm nay ăn gì?",
   "short_name": "AutoRecipt",
   "description": "Gợi ý món nấu từ nguyên liệu nhà bạn có, công thức từng bước, kế hoạch bữa ăn và tính calo.",
   "lang": "vi",
   "dir": "ltr",
-  "start_url": "./",
-  "scope": "./",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
   "background_color": "#faf6f0",
@@ -19,7 +19,7 @@
     { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ],
   "shortcuts": [
-    { "name": "Tủ lạnh", "short_name": "Tủ lạnh", "url": "./#/pantry", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "Kế hoạch bữa ăn", "short_name": "Kế hoạch", "url": "./#/plan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+    { "name": "Tủ lạnh", "short_name": "Tủ lạnh", "url": "/pantry", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Kế hoạch bữa ăn", "short_name": "Kế hoạch", "url": "/plan", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
   ]
 }
