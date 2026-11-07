@@ -4,7 +4,7 @@
   "name_vi": "Canh kim chi (Kimchi jjigae)",
   "name_en": "Kimchi stew (kimchi jjigae)",
   "other_names": [],
-  "description": "Kim chi chua lâu năm nấu cùng thịt ba chỉ, đậu phụ và hành, nước canh đỏ cay nồng — món canh hầm quốc dân của Hàn Quốc.",
+  "description": "Kim chi chua lâu năm nấu cùng thịt ba chỉ, đậu phụ và hành, nước canh đỏ cay nồng. Món canh hầm quốc dân của Hàn Quốc.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -243,7 +243,7 @@
   "name_vi": "Canh tương đậu Hàn Quốc (Doenjang jjigae)",
   "name_en": "Soybean paste stew (doenjang jjigae)",
   "other_names": [],
-  "description": "Tương đậu doenjang đậm đà nấu với bí ngòi, khoai tây, nấm, đậu phụ và nước dùng cá cơm — món canh hằng ngày của gia đình Hàn.",
+  "description": "Tương đậu doenjang đậm đà nấu với bí ngòi, khoai tây, nấm, đậu phụ và nước dùng cá cơm. Món canh hằng ngày của gia đình Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -462,7 +462,7 @@
   "name_vi": "Canh đậu hũ non cay (Sundubu jjigae)",
   "name_en": "Soft tofu stew (sundubu jjigae)",
   "other_names": [],
-  "description": "Đậu hũ non mềm như kem nấu với hải sản, thịt và ớt bột, đập trứng sống vào khi còn sôi sùng sục — ấm nóng, cay thơm.",
+  "description": "Đậu hũ non mềm như kem nấu với hải sản, thịt và ớt bột, đập trứng sống vào khi còn sôi sùng sục. Ấm nóng, cay thơm.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -686,7 +686,7 @@
   "name_vi": "Lẩu quân đội (Budae jjigae)",
   "name_en": "Army base stew (budae jjigae)",
   "other_names": [],
-  "description": "Xúc xích, thịt hộp, mì gói, bánh gạo, kim chi và phô mai trong nước lẩu cay — món lẩu ra đời sau chiến tranh, nay là món tụ họp bạn bè.",
+  "description": "Xúc xích, thịt hộp, mì gói, bánh gạo, kim chi và phô mai trong nước lẩu cay. Món lẩu ra đời sau chiến tranh, nay là món tụ họp bạn bè.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -950,7 +950,7 @@
   "name_vi": "Cơm trộn Hàn Quốc (Bibimbap)",
   "name_en": "Bibimbap",
   "other_names": [],
-  "description": "Bát cơm nóng phủ rau namul, giá, cà rốt, thịt bò xào, trứng ốp la, trộn đều với tương ớt gochujang — đủ chất, đẹp mắt.",
+  "description": "Bát cơm nóng phủ rau namul, giá, cà rốt, thịt bò xào, trứng ốp la, trộn đều với tương ớt gochujang. Đủ chất, đẹp mắt.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -1235,7 +1235,7 @@
   "name_vi": "Thịt bò xào Bulgogi",
   "name_en": "Beef bulgogi",
   "other_names": [],
-  "description": "Thịt bò thái mỏng ướp nước tương, lê, tỏi, dầu mè rồi xào hoặc nướng — ngọt mềm, thơm, món Hàn được yêu thích nhất.",
+  "description": "Thịt bò thái mỏng ướp nước tương, lê, tỏi, dầu mè rồi xào hoặc nướng. Ngọt mềm, thơm, món Hàn được yêu thích nhất.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -1477,7 +1477,7 @@
   "name_vi": "Gà xào cay Hàn Quốc (Dakgalbi)",
   "name_en": "Spicy stir-fried chicken (dakgalbi)",
   "other_names": [],
-  "description": "Đùi gà ướp tương ớt xào trên chảo lớn cùng bắp cải, khoai lang, bánh gạo, lá tía tô — đặc sản thành phố Chuncheon.",
+  "description": "Đùi gà ướp tương ớt xào trên chảo lớn cùng bắp cải, khoai lang, bánh gạo, lá tía tô. Đặc sản thành phố Chuncheon.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -1699,7 +1699,7 @@
      "onion"
     ],
     "passive": false,
-    "tip": "Còn lại ít sốt trong chảo thì cho cơm vào xào thành cơm chiên — cách ăn truyền thống."
+    "tip": "Còn lại ít sốt trong chảo thì cho cơm vào xào thành cơm chiên. Cách ăn truyền thống."
    },
    {
     "order": 5,
@@ -1727,7 +1727,7 @@
   "name_vi": "Thịt heo xào cay Hàn Quốc (Jeyuk bokkeum)",
   "name_en": "Spicy stir-fried pork (jeyuk bokkeum)",
   "other_names": [],
-  "description": "Thịt vai heo thái mỏng xào tương ớt cay ngọt với hành tây, cuốn xà lách ăn cùng cơm — món cơm phần bán chạy ở Hàn.",
+  "description": "Thịt vai heo thái mỏng xào tương ớt cay ngọt với hành tây, cuốn xà lách ăn cùng cơm. Món cơm phần bán chạy ở Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -1965,7 +1965,7 @@
   "name_vi": "Miến trộn Hàn Quốc (Japchae)",
   "name_en": "Stir-fried glass noodles (japchae)",
   "other_names": [],
-  "description": "Miến khoai lang dai trong xào nước tương ngọt cùng rau bina, cà rốt, nấm, thịt bò — món tiệc truyền thống của Hàn.",
+  "description": "Miến khoai lang dai trong xào nước tương ngọt cùng rau bina, cà rốt, nấm, thịt bò. Món tiệc truyền thống của Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -2221,7 +2221,7 @@
   "name_vi": "Cơm cuộn Hàn Quốc (Kimbap)",
   "name_en": "Kimbap",
   "other_names": [],
-  "description": "Cơm trộn dầu mè cuộn rong biển cùng trứng, xúc xích, cà rốt, rau bina, củ cải vàng — món cơm hộp dã ngoại của người Hàn.",
+  "description": "Cơm trộn dầu mè cuộn rong biển cùng trứng, xúc xích, cà rốt, rau bina, củ cải vàng. Món cơm hộp dã ngoại của người Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -2448,7 +2448,7 @@
   "name_vi": "Bánh xèo hành hải sản (Haemul pajeon)",
   "name_en": "Seafood scallion pancake (haemul pajeon)",
   "other_names": [],
-  "description": "Bánh bột chiên giòn với nhiều hành lá, mực, tôm, chấm nước tương giấm — món ăn ngày mưa kèm rượu gạo của người Hàn.",
+  "description": "Bánh bột chiên giòn với nhiều hành lá, mực, tôm, chấm nước tương giấm. Món ăn ngày mưa kèm rượu gạo của người Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -2682,7 +2682,7 @@
   "name_vi": "Bánh kim chi (Kimchi jeon)",
   "name_en": "Kimchi pancake (kimchi jeon)",
   "other_names": [],
-  "description": "Kim chi chua thái nhỏ trộn bột chiên thành bánh giòn viền, cay chua nhẹ — cách tận dụng kim chi để lâu ngon nhất.",
+  "description": "Kim chi chua thái nhỏ trộn bột chiên thành bánh giòn viền, cay chua nhẹ. Cách tận dụng kim chi để lâu ngon nhất.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -2838,7 +2838,7 @@
   "name_vi": "Trứng hấp Hàn Quốc (Gyeran jjim)",
   "name_en": "Korean steamed egg (gyeran jjim)",
   "other_names": [],
-  "description": "Trứng đánh với nước dùng nấu trong nồi đất nhỏ, phồng cao mềm xốp như mây — món ăn kèm dịu vị cho bữa thịt nướng cay.",
+  "description": "Trứng đánh với nước dùng nấu trong nồi đất nhỏ, phồng cao mềm xốp như mây. Món ăn kèm dịu vị cho bữa thịt nướng cay.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -3016,7 +3016,7 @@
   "name_vi": "Gà tần sâm (Samgyetang)",
   "name_en": "Ginseng chicken soup (samgyetang)",
   "other_names": [],
-  "description": "Gà non nhồi gạo nếp, tỏi, táo đỏ, nhân sâm hầm nhừ trong nồi đất, nước dùng trắng ngọt — món bồi bổ ngày hè của người Hàn.",
+  "description": "Gà non nhồi gạo nếp, tỏi, táo đỏ, nhân sâm hầm nhừ trong nồi đất, nước dùng trắng ngọt. Món bồi bổ ngày hè của người Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -3212,7 +3212,7 @@
   "name_vi": "Sườn bò hầm Hàn Quốc (Galbi jjim)",
   "name_en": "Braised beef short ribs (galbi jjim)",
   "other_names": [],
-  "description": "Sườn bò hầm mềm rục với nước tương ngọt, lê, củ cải, cà rốt, hạt dẻ — món sang trọng cho ngày lễ Tết Hàn Quốc.",
+  "description": "Sườn bò hầm mềm rục với nước tương ngọt, lê, củ cải, cà rốt, hạt dẻ. Món sang trọng cho ngày lễ Tết Hàn Quốc.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -3502,7 +3502,7 @@
   "name_vi": "Canh bánh gạo (Tteokguk)",
   "name_en": "Rice cake soup (tteokguk)",
   "other_names": [],
-  "description": "Bánh gạo thái lát nấu trong nước dùng bò trong, thêm trứng và rong biển — món bắt buộc sáng mùng 1 Tết của người Hàn.",
+  "description": "Bánh gạo thái lát nấu trong nước dùng bò trong, thêm trứng và rong biển. Món bắt buộc sáng mùng 1 Tết của người Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -3721,7 +3721,7 @@
   "name_vi": "Bánh xếp chiên Hàn Quốc (Gun mandu)",
   "name_en": "Pan-fried Korean dumplings (gun mandu)",
   "other_names": [],
-  "description": "Vỏ bánh mỏng gói thịt heo, đậu phụ, kim chi, miến, chiên giòn đáy rồi hấp chín — chấm nước tương giấm.",
+  "description": "Vỏ bánh mỏng gói thịt heo, đậu phụ, kim chi, miến, chiên giòn đáy rồi hấp chín. Chấm nước tương giấm.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -3960,7 +3960,7 @@
   "name_vi": "Gà rán sốt cay Hàn Quốc (Yangnyeom chicken)",
   "name_en": "Korean sweet-spicy fried chicken (yangnyeom)",
   "other_names": [],
-  "description": "Gà chiên hai lần giòn rụm, phủ sốt tương ớt mật ong tỏi bóng bẩy — món gà rán Hàn Quốc ăn cùng bia.",
+  "description": "Gà chiên hai lần giòn rụm, phủ sốt tương ớt mật ong tỏi bóng bẩy. Món gà rán Hàn Quốc ăn cùng bia.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -4234,7 +4234,7 @@
   "name_vi": "Mì tương đen (Jjajangmyeon)",
   "name_en": "Black bean sauce noodles (jjajangmyeon)",
   "other_names": [],
-  "description": "Sợi mì dai phủ sốt tương đen chunjang xào thịt heo, hành tây, khoai tây, bí — món mì Hàn – Hoa ăn kèm củ cải vàng.",
+  "description": "Sợi mì dai phủ sốt tương đen chunjang xào thịt heo, hành tây, khoai tây, bí. Món mì Hàn – Hoa ăn kèm củ cải vàng.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -4510,7 +4510,7 @@
   "name_vi": "Mì hải sản cay (Jjamppong)",
   "name_en": "Spicy seafood noodle soup (jjamppong)",
   "other_names": [],
-  "description": "Nước dùng đỏ cay nồng xào ớt bột với thịt heo, mực, tôm, nghêu, bắp cải — món mì nước Hàn – Hoa đi cặp cùng jjajangmyeon.",
+  "description": "Nước dùng đỏ cay nồng xào ớt bột với thịt heo, mực, tôm, nghêu, bắp cải. Món mì nước Hàn – Hoa đi cặp cùng jjajangmyeon.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -4750,7 +4750,7 @@
      "chili_powder"
     ],
     "passive": false,
-    "tip": "Ớt bột cháy nhanh — luôn hạ lửa trước khi cho vào."
+    "tip": "Ớt bột cháy nhanh. Luôn hạ lửa trước khi cho vào."
    },
    {
     "order": 4,
@@ -4802,7 +4802,7 @@
   "name_vi": "Mì lạnh Hàn Quốc (Naengmyeon)",
   "name_en": "Korean cold noodles (naengmyeon)",
   "other_names": [],
-  "description": "Sợi mì kiều mạch dai mảnh trong nước dùng bò ướp lạnh chua ngọt, thêm lê, dưa leo, trứng luộc — món giải nhiệt mùa hè.",
+  "description": "Sợi mì kiều mạch dai mảnh trong nước dùng bò ướp lạnh chua ngọt, thêm lê, dưa leo, trứng luộc. Món giải nhiệt mùa hè.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -5056,7 +5056,7 @@
   "name_vi": "Mì trộn cay Hàn Quốc (Bibim guksu)",
   "name_en": "Spicy mixed cold noodles (bibim guksu)",
   "other_names": [],
-  "description": "Sợi mì mảnh trộn sốt tương ớt chua ngọt với dưa leo, kim chi và trứng luộc — món mì lạnh làm nhanh 15 phút.",
+  "description": "Sợi mì mảnh trộn sốt tương ớt chua ngọt với dưa leo, kim chi và trứng luộc. Món mì lạnh làm nhanh 15 phút.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -5293,7 +5293,7 @@
   "name_vi": "Mì cắt tay Hàn Quốc (Kalguksu)",
   "name_en": "Knife-cut noodle soup (kalguksu)",
   "other_names": [],
-  "description": "Sợi mì cán tay cắt dao nấu trong nước dùng nghêu và cá cơm cùng bí ngòi, khoai tây — nước dùng ngọt thanh, ấm bụng.",
+  "description": "Sợi mì cán tay cắt dao nấu trong nước dùng nghêu và cá cơm cùng bí ngòi, khoai tây. Nước dùng ngọt thanh, ấm bụng.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -5532,7 +5532,7 @@
   "name_vi": "Mì cay Hàn Quốc nấu trứng (Ramyeon)",
   "name_en": "Korean instant ramyeon with egg and scallion",
   "other_names": [],
-  "description": "Mì gói Hàn nấu cùng trứng, hành lá, kim chi và phô mai — bữa khuya nhanh gọn chỉ 7 phút như trong phim Hàn.",
+  "description": "Mì gói Hàn nấu cùng trứng, hành lá, kim chi và phô mai. Bữa khuya nhanh gọn chỉ 7 phút như trong phim Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -5658,7 +5658,7 @@
      "instant_noodles"
     ],
     "passive": false,
-    "tip": "Nhấc mì lên cho tiếp xúc không khí giúp sợi dai hơn — mẹo của người Hàn."
+    "tip": "Nhấc mì lên cho tiếp xúc không khí giúp sợi dai hơn. Mẹo của người Hàn."
    },
    {
     "order": 3,
@@ -5698,7 +5698,7 @@
   "name_vi": "Canh giá đậu nành (Kongnamul guk)",
   "name_en": "Soybean sprout soup (kongnamul guk)",
   "other_names": [],
-  "description": "Giá đậu nành giòn nấu trong nước dùng cá cơm trong vắt, thêm tỏi, hành — canh thanh nhẹ, giúp giải rượu.",
+  "description": "Giá đậu nành giòn nấu trong nước dùng cá cơm trong vắt, thêm tỏi, hành. Canh thanh nhẹ, giúp giải rượu.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -5883,7 +5883,7 @@
   "name_vi": "Giá đậu nành trộn (Kongnamul muchim)",
   "name_en": "Seasoned soybean sprouts (kongnamul muchim)",
   "other_names": [],
-  "description": "Giá đậu nành luộc trộn dầu mè, tỏi, muối, ớt bột — món banchan giòn thơm có mặt trong mọi bữa cơm Hàn.",
+  "description": "Giá đậu nành luộc trộn dầu mè, tỏi, muối, ớt bột. Món banchan giòn thơm có mặt trong mọi bữa cơm Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -6042,7 +6042,7 @@
   "name_vi": "Rau bina trộn Hàn Quốc (Sigeumchi namul)",
   "name_en": "Seasoned spinach (sigeumchi namul)",
   "other_names": [],
-  "description": "Rau bina chần nhanh, vắt ráo, trộn tỏi, dầu mè, nước tương và mè rang — banchan rau xanh đơn giản, giàu sắt.",
+  "description": "Rau bina chần nhanh, vắt ráo, trộn tỏi, dầu mè, nước tương và mè rang. Banchan rau xanh đơn giản, giàu sắt.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -6208,7 +6208,7 @@
   "name_vi": "Khoai tây rim nước tương (Gamja jorim)",
   "name_en": "Soy-braised potatoes (gamja jorim)",
   "other_names": [],
-  "description": "Khoai tây cắt hạt lựu rim với nước tương, đường, mật ong đến khi bóng bẩy — banchan mặn ngọt trẻ con mê.",
+  "description": "Khoai tây cắt hạt lựu rim với nước tương, đường, mật ong đến khi bóng bẩy. Banchan mặn ngọt trẻ con mê.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -6406,7 +6406,7 @@
   "name_vi": "Thịt bò rim tương trứng cút (Jangjorim)",
   "name_en": "Soy-braised beef with quail eggs (jangjorim)",
   "other_names": [],
-  "description": "Thịt bò xé sợi và trứng cút rim trong nước tương ngọt với tỏi, ớt — banchan để được lâu, ăn kèm cơm trắng.",
+  "description": "Thịt bò xé sợi và trứng cút rim trong nước tương ngọt với tỏi, ớt. Banchan để được lâu, ăn kèm cơm trắng.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -6598,7 +6598,7 @@
   "name_vi": "Chả cá xào Hàn Quốc (Eomuk bokkeum)",
   "name_en": "Stir-fried fish cakes (eomuk bokkeum)",
   "other_names": [],
-  "description": "Chả cá Hàn thái lát xào hành tây, cà rốt với nước tương ngọt — banchan nhanh, rẻ, cho vào cơm hộp rất tiện.",
+  "description": "Chả cá Hàn thái lát xào hành tây, cà rốt với nước tương ngọt. Banchan nhanh, rẻ, cho vào cơm hộp rất tiện.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -6789,7 +6789,7 @@
   "name_vi": "Cá cơm rim giòn (Myeolchi bokkeum)",
   "name_en": "Stir-fried dried anchovies (myeolchi bokkeum)",
   "other_names": [],
-  "description": "Cá cơm khô nhỏ rang giòn rồi rim với mật ong, nước tương, hạnh nhân — banchan giàu canxi, giòn ngọt.",
+  "description": "Cá cơm khô nhỏ rang giòn rồi rim với mật ong, nước tương, hạnh nhân. Banchan giàu canxi, giòn ngọt.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -6976,7 +6976,7 @@
   "name_vi": "Dưa leo trộn cay (Oi muchim)",
   "name_en": "Spicy cucumber salad (oi muchim)",
   "other_names": [],
-  "description": "Dưa leo thái lát ướp muối rồi trộn ớt bột, giấm, tỏi, dầu mè — banchan giòn mát, làm trong 10 phút.",
+  "description": "Dưa leo thái lát ướp muối rồi trộn ớt bột, giấm, tỏi, dầu mè. Banchan giòn mát, làm trong 10 phút.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -7167,7 +7167,7 @@
   "name_vi": "Kim chi cải thảo (Baechu kimchi)",
   "name_en": "Napa cabbage kimchi (baechu kimchi)",
   "other_names": [],
-  "description": "Cải thảo ngâm muối, phết hỗn hợp ớt bột, tỏi, gừng, lê, nước mắm, hành lá, củ cải rồi ủ lên men — kim chi truyền thống tự làm tại nhà.",
+  "description": "Cải thảo ngâm muối, phết hỗn hợp ớt bột, tỏi, gừng, lê, nước mắm, hành lá, củ cải rồi ủ lên men. Kim chi truyền thống tự làm tại nhà.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -7422,7 +7422,7 @@
   "name_vi": "Kim chi củ cải (Kkakdugi)",
   "name_en": "Cubed radish kimchi (kkakdugi)",
   "other_names": [],
-  "description": "Củ cải trắng cắt khối vuông trộn ớt bột, tỏi, nước mắm, hành lá — giòn rụm, chua cay, ăn kèm canh và cơm.",
+  "description": "Củ cải trắng cắt khối vuông trộn ớt bột, tỏi, nước mắm, hành lá. Giòn rụm, chua cay, ăn kèm canh và cơm.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -7608,7 +7608,7 @@
   "name_vi": "Đậu phụ rim cay Hàn Quốc (Dubu jorim)",
   "name_en": "Spicy braised tofu (dubu jorim)",
   "other_names": [],
-  "description": "Đậu phụ áp chảo vàng rồi rim sốt nước tương ớt bột, hành lá — banchan chay đậm vị, rẻ mà ngon cơm.",
+  "description": "Đậu phụ áp chảo vàng rồi rim sốt nước tương ớt bột, hành lá. Banchan chay đậm vị, rẻ mà ngon cơm.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -7801,7 +7801,7 @@
   "name_vi": "Đậu phụ kim chi xào thịt (Dubu kimchi)",
   "name_en": "Tofu with stir-fried kimchi and pork (dubu kimchi)",
   "other_names": [],
-  "description": "Đậu phụ luộc nóng ăn kèm kim chi xào thịt ba chỉ cay ngọt — món nhắm truyền thống đi cùng rượu makgeolli.",
+  "description": "Đậu phụ luộc nóng ăn kèm kim chi xào thịt ba chỉ cay ngọt. Món nhắm truyền thống đi cùng rượu makgeolli.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -8002,7 +8002,7 @@
   "name_vi": "Gà hầm xì dầu Andong (Jjimdak)",
   "name_en": "Andong braised chicken (jjimdak)",
   "other_names": [],
-  "description": "Gà hầm nước tương ngọt với khoai tây, cà rốt, miến khoai lang và ớt khô — món gà nổi tiếng của vùng Andong.",
+  "description": "Gà hầm nước tương ngọt với khoai tây, cà rốt, miến khoai lang và ớt khô. Món gà nổi tiếng của vùng Andong.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -8251,7 +8251,7 @@
      "scallion"
     ],
     "passive": false,
-    "tip": "Miến hút nhiều nước — thêm chút nước nếu sốt quá cạn."
+    "tip": "Miến hút nhiều nước. Thêm chút nước nếu sốt quá cạn."
    },
    {
     "order": 6,
@@ -8532,7 +8532,7 @@
   "name_vi": "Ba chỉ nướng Hàn Quốc (Samgyeopsal)",
   "name_en": "Korean grilled pork belly (samgyeopsal)",
   "other_names": [],
-  "description": "Ba chỉ heo thái dày nướng trên vỉ, cuốn xà lách, lá tía tô với tỏi nướng, kim chi và ssamjang — bữa nướng bạn bè kiểu Hàn.",
+  "description": "Ba chỉ heo thái dày nướng trên vỉ, cuốn xà lách, lá tía tô với tỏi nướng, kim chi và ssamjang. Bữa nướng bạn bè kiểu Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -8744,7 +8744,7 @@
   "name_vi": "Sườn bò nướng Hàn Quốc (Galbi gui)",
   "name_en": "Korean grilled beef short ribs (galbi)",
   "other_names": [],
-  "description": "Sườn bò cắt mỏng kiểu LA ướp nước tương, lê, tỏi, mật ong rồi nướng than — mềm ngọt, thơm caramel, món nướng đãi khách.",
+  "description": "Sườn bò cắt mỏng kiểu LA ướp nước tương, lê, tỏi, mật ong rồi nướng than. Mềm ngọt, thơm caramel, món nướng đãi khách.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -8957,7 +8957,7 @@
      "beef_ribs"
     ],
     "passive": false,
-    "tip": "Lửa đường trong nước ướp dễ cháy — giữ lửa vừa và lật thường xuyên."
+    "tip": "Lửa đường trong nước ướp dễ cháy. Giữ lửa vừa và lật thường xuyên."
    },
    {
     "order": 5,
@@ -8986,7 +8986,7 @@
   "name_vi": "Canh cơm thịt heo Busan (Dwaeji gukbap)",
   "name_en": "Busan pork and rice soup (dwaeji gukbap)",
   "other_names": [],
-  "description": "Nước dùng xương heo ninh trắng đục, thịt luộc thái mỏng chan lên cơm, nêm hẹ trộn ớt và mắm tôm — đặc sản cảng Busan.",
+  "description": "Nước dùng xương heo ninh trắng đục, thịt luộc thái mỏng chan lên cơm, nêm hẹ trộn ớt và mắm tôm. Đặc sản cảng Busan.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -9234,7 +9234,7 @@
   "name_vi": "Canh sườn bò Hàn Quốc (Galbitang)",
   "name_en": "Beef short rib soup (galbitang)",
   "other_names": [],
-  "description": "Sườn bò hầm củ cải trắng trong nước dùng trong vắt, thêm miến và trứng — món canh bổ dưỡng cho tiệc cưới và ngày lễ.",
+  "description": "Sườn bò hầm củ cải trắng trong nước dùng trong vắt, thêm miến và trứng. Món canh bổ dưỡng cho tiệc cưới và ngày lễ.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -9469,7 +9469,7 @@
   "name_vi": "Canh bò cay Hàn Quốc (Yukgaejang)",
   "name_en": "Spicy shredded beef soup (yukgaejang)",
   "other_names": [],
-  "description": "Bắp bò luộc xé sợi nấu với giá đỗ, hành baro, nấm, dầu ớt cay nồng — món canh bò cay đỏ rực ấm người.",
+  "description": "Bắp bò luộc xé sợi nấu với giá đỗ, hành baro, nấm, dầu ớt cay nồng. Món canh bò cay đỏ rực ấm người.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -9714,7 +9714,7 @@
   "name_vi": "Canh chả cá Hàn Quốc (Eomuk guk)",
   "name_en": "Korean fish cake soup (eomuk guk)",
   "other_names": [],
-  "description": "Chả cá xiên que nấu trong nước dùng cá cơm, củ cải, tảo bẹ — món ăn đường phố mùa đông ở Hàn, nước dùng thanh ngọt.",
+  "description": "Chả cá xiên que nấu trong nước dùng cá cơm, củ cải, tảo bẹ. Món ăn đường phố mùa đông ở Hàn, nước dùng thanh ngọt.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -9921,7 +9921,7 @@
   "name_vi": "Canh thịt bò củ cải (Soegogi muguk)",
   "name_en": "Beef and radish soup (soegogi muguk)",
   "other_names": [],
-  "description": "Thịt bò xào dầu mè nấu với củ cải trắng thái lát, nước canh trong ngọt nhẹ — món canh nhà làm quen thuộc của người Hàn.",
+  "description": "Thịt bò xào dầu mè nấu với củ cải trắng thái lát, nước canh trong ngọt nhẹ. Món canh nhà làm quen thuộc của người Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -10096,7 +10096,7 @@
   "name_vi": "Bí ngòi chiên trứng (Hobak jeon)",
   "name_en": "Pan-fried zucchini (hobak jeon)",
   "other_names": [],
-  "description": "Bí ngòi thái lát lăn bột mì và trứng rồi chiên vàng — món jeon đơn giản, mềm ngọt, chấm nước tương giấm.",
+  "description": "Bí ngòi thái lát lăn bột mì và trứng rồi chiên vàng. Món jeon đơn giản, mềm ngọt, chấm nước tương giấm.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -10268,7 +10268,7 @@
   "name_vi": "Chả sườn bò nướng (Tteokgalbi)",
   "name_en": "Grilled beef patties (tteokgalbi)",
   "other_names": [],
-  "description": "Thịt bò và heo băm nhuyễn ướp kiểu galbi, nặn miếng dẹt rồi áp chảo hoặc nướng, phết sốt nước tương bóng — món hoàng gia xứ Hàn.",
+  "description": "Thịt bò và heo băm nhuyễn ướp kiểu galbi, nặn miếng dẹt rồi áp chảo hoặc nướng, phết sốt nước tương bóng. Món hoàng gia xứ Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -10507,7 +10507,7 @@
   "name_vi": "Mực xào cay Hàn Quốc (Ojingeo bokkeum)",
   "name_en": "Spicy stir-fried squid (ojingeo bokkeum)",
   "other_names": [],
-  "description": "Mực tươi khứa vảy xào lửa lớn với sốt tương ớt cay ngọt, hành tây, cà rốt, bắp cải — ăn với cơm hoặc mì somyeon.",
+  "description": "Mực tươi khứa vảy xào lửa lớn với sốt tương ớt cay ngọt, hành tây, cà rốt, bắp cải. Ăn với cơm hoặc mì somyeon.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -10750,7 +10750,7 @@
   "name_vi": "Cá thu rim củ cải Hàn Quốc (Godeungeo jorim)",
   "name_en": "Braised mackerel with radish (godeungeo jorim)",
   "other_names": [],
-  "description": "Cá thu kho với củ cải trắng trong sốt nước tương ớt bột cay ngọt — củ cải thấm vị còn ngon hơn cá.",
+  "description": "Cá thu kho với củ cải trắng trong sốt nước tương ớt bột cay ngọt. Củ cải thấm vị còn ngon hơn cá.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -10970,7 +10970,7 @@
   "name_vi": "Cháo bí đỏ Hàn Quốc (Hobak juk)",
   "name_en": "Korean pumpkin porridge (hobak juk)",
   "other_names": [],
-  "description": "Bí đỏ hấp nghiền với bột nếp nấu thành cháo sánh mịn ngọt dịu, thêm đậu đỏ — món ăn sáng và bồi bổ dịu nhẹ.",
+  "description": "Bí đỏ hấp nghiền với bột nếp nấu thành cháo sánh mịn ngọt dịu, thêm đậu đỏ. Món ăn sáng và bồi bổ dịu nhẹ.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -11142,7 +11142,7 @@
   "name_vi": "Lẩu cá cay Hàn Quốc (Maeuntang)",
   "name_en": "Spicy fish stew (maeuntang)",
   "other_names": [],
-  "description": "Cá trắng nấu với củ cải, đậu phụ, bí ngòi, cải cúc trong nước dùng ớt bột và tương ớt cay nồng — món lẩu cá của vùng biển Hàn.",
+  "description": "Cá trắng nấu với củ cải, đậu phụ, bí ngòi, cải cúc trong nước dùng ớt bột và tương ớt cay nồng. Món lẩu cá của vùng biển Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [

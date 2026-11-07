@@ -122,6 +122,6 @@
     {"id": 2, "name_vi": "Dễ", "name_en": "Easy", "description_vi": "Xào, nấu canh, chiên đơn giản; cần canh lửa một chút."},
     {"id": 3, "name_vi": "Trung bình", "name_en": "Medium", "description_vi": "Nhiều bước hơn: ướp, kho, rim, chiên rồi làm sốt."},
     {"id": 4, "name_vi": "Khó", "name_en": "Hard", "description_vi": "Cần kỹ thuật (cuốn, tráng, nướng) hoặc làm nhiều món phụ cùng lúc."},
-    {"id": 5, "name_vi": "Rất khó", "name_en": "Very hard", "description_vi": "Ninh nước dùng nhiều giờ, nhiều thành phần — dành cho ngày rảnh."}
+    {"id": 5, "name_vi": "Rất khó", "name_en": "Very hard", "description_vi": "Ninh nước dùng nhiều giờ, nhiều thành phần. Hợp nấu vào ngày rảnh."}
   ]
 }

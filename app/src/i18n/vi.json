@@ -72,7 +72,7 @@
     "2": "Xào, nấu canh, chiên đơn giản; cần canh lửa một chút.",
     "3": "Nhiều bước hơn: ướp, kho, rim, chiên rồi làm sốt.",
     "4": "Cần kỹ thuật (cuốn, tráng, nướng) hoặc làm nhiều món phụ cùng lúc.",
-    "5": "Ninh nước dùng nhiều giờ, nhiều thành phần — dành cho ngày rảnh."
+    "5": "Ninh nước dùng nhiều giờ, nhiều thành phần. Hợp nấu vào ngày rảnh."
   },
   "role": { "main": "Món mặn", "veg": "Món rau", "soup": "Canh", "one_dish": "Món một tô", "extra": "Món phụ, tráng miệng" },
   "filters": { "easy": "Dễ làm", "healthy": "Lành mạnh", "quick": "≤ 30 phút" },
@@ -137,7 +137,7 @@
     "scanReceipt": "Quét hoá đơn",
     "soon": "Sắp có",
     "soonTitle": "Sẽ có trong phiên bản sau",
-    "quickAdd": "Thêm nhanh — hay dùng nhất",
+    "quickAdd": "Thêm nhanh món hay dùng",
     "popular": "Phổ biến",
     "allAdded": "Đã thêm hết nhóm này.",
     "have": "Đang có",
@@ -194,7 +194,7 @@
     "forPeople": "Cho {{count}} người",
     "missingKey": "thiếu {{count}} nguyên liệu chính",
     "haveAll": "bạn có đủ nguyên liệu chính",
-    "iHaveAll": "Tôi đã có đủ — thêm vào tủ lạnh",
+    "iHaveAll": "Tôi có đủ rồi, thêm vào tủ lạnh",
     "nutrition": "Dinh dưỡng / phần",
     "nutritionHint": "Ước tính theo nguyên liệu, chưa tính cơm ăn kèm. Dầu chiên ngập chỉ tính phần thấm vào món (~15%).",
     "steps": "Các bước ({{count}})",
@@ -230,7 +230,7 @@
   },
   "ingredient": {
     "notFound": "Không tìm thấy nguyên liệu",
-    "staple": "Gia vị cơ bản — luôn coi là nhà có sẵn.",
+    "staple": "Gia vị cơ bản, luôn coi như nhà có sẵn.",
     "inPantry": "Đang có trong tủ lạnh",
     "addToPantry": "Thêm vào tủ lạnh",
     "per100g": "Dinh dưỡng / 100 g",
@@ -265,12 +265,12 @@
   },
   "advice": {
     "over": "Vượt {{kcal}} kcal so với mục tiêu",
-    "under": "Còn thiếu {{kcal}} kcal — thêm món hoặc thêm cơm",
+    "under": "Còn thiếu {{kcal}} kcal, thêm món hoặc thêm cơm",
     "ok": "Năng lượng vừa đủ",
-    "lowProtein": "Ít đạm — thêm cá, thịt nạc, trứng hoặc đậu hũ",
-    "highFat": "Nhiều chất béo — chọn món luộc, hấp, canh",
-    "highCarbs": "Nhiều tinh bột — bớt cơm/bún, thêm rau",
-    "lowVeg": "Ít rau — thêm một món rau hoặc canh rau",
+    "lowProtein": "Ít đạm, nên thêm cá, thịt nạc, trứng hoặc đậu hũ",
+    "highFat": "Nhiều chất béo, nên chọn món luộc, hấp hoặc canh",
+    "highCarbs": "Nhiều tinh bột, nên bớt cơm/bún và ăn thêm rau",
+    "lowVeg": "Ít rau, nên thêm một món rau hoặc canh rau",
     "balanced": "Cân đối đạm, béo, tinh bột và rau"
   },
   "planDialog": {
@@ -302,7 +302,7 @@
   "welcome": {
     "about": "Giới thiệu",
     "title": "Tủ lạnh có gì, nấu ngay món đó",
-    "lead": "Chọn nguyên liệu nhà có — nhận món ngon và hướng dẫn từng bước.",
+    "lead": "Chọn nguyên liệu nhà có, nhận ngay món ngon và cách nấu từng bước.",
     "ctaPantry": "Nhập nguyên liệu",
     "ctaExplore": "Xem các món",
     "ctaStart": "Bắt đầu nấu",
@@ -350,7 +350,7 @@
     "suggestions": "Gợi ý món",
     "days": "{{count}} ngày",
     "cloudScan": "Quét bằng AI trên mạng",
-    "cloudScanHint": "Tắt — mọi dữ liệu xử lý ngay trên máy. Tính năng quét sẽ có ở phiên bản sau.",
+    "cloudScanHint": "Đang tắt. Mọi dữ liệu được xử lý ngay trên máy. Tính năng quét sẽ có ở phiên bản sau.",
     "history": "Đã nấu gần đây",
     "historyEmpty": "Chưa có món nào. Bấm “Tôi đã nấu món này” ở cuối công thức.",
     "removeHistory": "Xoá khỏi lịch sử",

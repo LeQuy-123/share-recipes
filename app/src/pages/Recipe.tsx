@@ -292,7 +292,7 @@ function IngredientLineView({ line, scale, pantry }: { line: RecipeLine; scale: 
         <a href={href(`/ingredient/${line.ingredient_id}`)}>{displayName(line)}</a>
         {line.optional && <em> ({t('recipe.optional')})</em>}
         {line.note && <small>{line.note}</small>}
-        {sub && <small className="sub-note">{t('recipe.useInstead', { name: displayName(sub) })}{sub.note ? ` — ${sub.note}` : ''}</small>}
+        {sub && <small className="sub-note">{t('recipe.useInstead', { name: displayName(sub) })}{sub.note ? ` (${sub.note})` : ''}</small>}
         {!has && !sub && line.substitutes.length > 0 && <small>{t('recipe.canSwap', { names: line.substitutes.map(displayName).join(', ') })}</small>}
       </span>
       <span className="ing-amount">{formatAmount(line.amount, line.unit_id, scale)}</span>

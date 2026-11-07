@@ -80,7 +80,7 @@
     "2": "Stir-fries, soups, simple frying; needs a little heat control.",
     "3": "More steps: marinating, braising, simmering, frying then making a sauce.",
     "4": "Needs technique (rolling, thin pancakes, grilling) or several side dishes at once.",
-    "5": "Broth simmered for hours, many parts — for a free day."
+    "5": "Broth simmered for hours with many parts. Save it for a free day."
   },
   "role": { "main": "Main dish", "veg": "Vegetable dish", "soup": "Soup", "one_dish": "One-bowl meal", "extra": "Sides & desserts" },
   "filters": { "easy": "Easy", "healthy": "Healthy", "quick": "≤ 30 min" },
@@ -149,7 +149,7 @@
     "scanReceipt": "Scan receipt",
     "soon": "Soon",
     "soonTitle": "Coming in a later version",
-    "quickAdd": "Quick add — most used",
+    "quickAdd": "Quick add your usual items",
     "popular": "Popular",
     "allAdded": "Everything in this group is added.",
     "have": "In your pantry",
@@ -211,7 +211,7 @@
     "missingKey_one": "missing {{count}} main ingredient",
     "missingKey_other": "missing {{count}} main ingredients",
     "haveAll": "you have all main ingredients",
-    "iHaveAll": "I have these — add to pantry",
+    "iHaveAll": "I have these, add to pantry",
     "nutrition": "Nutrition per serving",
     "nutritionHint": "Estimated from the ingredients, without the rice on the side. Deep-frying oil counts only the part absorbed (~15%).",
     "steps": "Steps ({{count}})",
@@ -249,7 +249,7 @@
   },
   "ingredient": {
     "notFound": "Ingredient not found",
-    "staple": "Basic seasoning — assumed to be at home.",
+    "staple": "Basic seasoning, assumed to be at home.",
     "inPantry": "In your pantry",
     "addToPantry": "Add to pantry",
     "per100g": "Nutrition per 100 g",
@@ -284,12 +284,12 @@
   },
   "advice": {
     "over": "{{kcal}} kcal over your target",
-    "under": "{{kcal}} kcal short — add a dish or more rice",
+    "under": "{{kcal}} kcal short, add a dish or more rice",
     "ok": "Energy is about right",
-    "lowProtein": "Low in protein — add fish, lean meat, eggs or tofu",
-    "highFat": "High in fat — choose boiled, steamed dishes or soups",
-    "highCarbs": "High in carbs — less rice or noodles, more vegetables",
-    "lowVeg": "Few vegetables — add a vegetable dish or soup",
+    "lowProtein": "Low in protein, try adding fish, lean meat, eggs or tofu",
+    "highFat": "High in fat, try boiled or steamed dishes and soups",
+    "highCarbs": "High in carbs, try less rice or noodles and more vegetables",
+    "lowVeg": "Few vegetables, try adding a vegetable dish or soup",
     "balanced": "Protein, fat, carbs and vegetables are balanced"
   },
   "planDialog": {
@@ -322,7 +322,7 @@
   "welcome": {
     "about": "About",
     "title": "Cook what's already in your fridge",
-    "lead": "Pick what you have — get a dish and a step-by-step guide.",
+    "lead": "Pick what you have and get a dish with a step-by-step guide.",
     "ctaPantry": "Add ingredients",
     "ctaExplore": "Browse dishes",
     "ctaStart": "Start cooking",
@@ -371,7 +371,7 @@
     "days_one": "{{count}} day",
     "days_other": "{{count}} days",
     "cloudScan": "Online AI scanning",
-    "cloudScanHint": "Off — everything is processed on this device. Scanning comes in a later version.",
+    "cloudScanHint": "Off. Everything is processed on this device. Scanning comes in a later version.",
     "history": "Recently cooked",
     "historyEmpty": "Nothing yet. Tap “I cooked this” at the end of a recipe.",
     "removeHistory": "Remove from history",

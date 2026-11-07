@@ -4,7 +4,7 @@
   "name_vi": "Cơm cà ri Nhật (Kare raisu)",
   "name_en": "Japanese curry rice (kare raisu)",
   "other_names": [],
-  "description": "Thịt, khoai tây, cà rốt, hành tây hầm với viên cà ri Nhật thành sốt sánh ngọt dịu, rưới lên cơm trắng — món cơm nhà quốc dân của Nhật.",
+  "description": "Thịt, khoai tây, cà rốt, hành tây hầm với viên cà ri Nhật thành sốt sánh ngọt dịu, rưới lên cơm trắng. Món cơm nhà quốc dân của Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -212,7 +212,7 @@
   "name_vi": "Thịt heo chiên xù (Tonkatsu)",
   "name_en": "Tonkatsu",
   "other_names": [],
-  "description": "Thăn heo dày tẩm bột chiên xù panko chiên vàng giòn, ăn với bắp cải thái chỉ và sốt tonkatsu — món chiên kinh điển của Nhật.",
+  "description": "Thăn heo dày tẩm bột chiên xù panko chiên vàng giòn, ăn với bắp cải thái chỉ và sốt tonkatsu. Món chiên kinh điển của Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -642,7 +642,7 @@
   "name_vi": "Cơm gà trứng (Oyakodon)",
   "name_en": "Chicken and egg rice bowl (oyakodon)",
   "other_names": [],
-  "description": "Thịt đùi gà nấu với hành tây trong nước dùng dashi nước tương ngọt, phủ trứng lòng đào trên cơm — tên món nghĩa là 'cha mẹ và con'.",
+  "description": "Thịt đùi gà nấu với hành tây trong nước dùng dashi nước tương ngọt, phủ trứng lòng đào trên cơm. Tên món nghĩa là 'cha mẹ và con'.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -837,7 +837,7 @@
   "name_vi": "Gà sốt teriyaki",
   "name_en": "Chicken teriyaki",
   "other_names": [],
-  "description": "Đùi gà áp chảo da giòn rồi rim với sốt nước tương, mirin, đường bóng bẩy — món gà Nhật dễ làm, trẻ con rất thích.",
+  "description": "Đùi gà áp chảo da giòn rồi rim với sốt nước tương, mirin, đường bóng bẩy. Món gà Nhật dễ làm, trẻ con rất thích.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -1037,7 +1037,7 @@
   "name_vi": "Gà chiên kiểu Nhật (Karaage)",
   "name_en": "Japanese fried chicken (karaage)",
   "other_names": [],
-  "description": "Thịt đùi gà ướp nước tương, gừng, tỏi, lăn bột khoai rồi chiên hai lần — giòn rụm ngoài, mọng nước trong.",
+  "description": "Thịt đùi gà ướp nước tương, gừng, tỏi, lăn bột khoai rồi chiên hai lần. Giòn rụm ngoài, mọng nước trong.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -1260,7 +1260,7 @@
   "name_vi": "Mì ramen xì dầu (Shoyu ramen)",
   "name_en": "Shoyu ramen",
   "other_names": [],
-  "description": "Nước dùng gà trong thơm vị nước tương, sợi ramen dai, thịt xá xíu chashu, trứng lòng đào ngâm tương, rong biển, măng — bát ramen kiểu Tokyo.",
+  "description": "Nước dùng gà trong thơm vị nước tương, sợi ramen dai, thịt xá xíu chashu, trứng lòng đào ngâm tương, rong biển, măng. Bát ramen kiểu Tokyo.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -1517,7 +1517,7 @@
   "name_vi": "Mì ramen tương miso (Miso ramen)",
   "name_en": "Miso ramen",
   "other_names": [],
-  "description": "Nước dùng đậm vị miso xào với thịt bằm, tỏi, gừng, thêm giá, bắp, bơ — bát ramen béo ấm kiểu Sapporo.",
+  "description": "Nước dùng đậm vị miso xào với thịt bằm, tỏi, gừng, thêm giá, bắp, bơ. Bát ramen béo ấm kiểu Sapporo.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -1790,7 +1790,7 @@
   "name_vi": "Mì xào kiểu Nhật (Yakisoba)",
   "name_en": "Yakisoba",
   "other_names": [],
-  "description": "Mì trứng xào với thịt ba chỉ, bắp cải, cà rốt, giá và sốt yakisoba chua ngọt, rắc rong biển, gừng hồng — món lễ hội đường phố Nhật.",
+  "description": "Mì trứng xào với thịt ba chỉ, bắp cải, cà rốt, giá và sốt yakisoba chua ngọt, rắc rong biển, gừng hồng. Món lễ hội đường phố Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -2035,7 +2035,7 @@
   "name_vi": "Mì udon xào (Yaki udon)",
   "name_en": "Stir-fried udon (yaki udon)",
   "other_names": [],
-  "description": "Sợi udon to dai xào cùng thịt, nấm, bắp cải với nước tương và dầu mè, rắc cá bào — bữa trưa 15 phút kiểu Nhật.",
+  "description": "Sợi udon to dai xào cùng thịt, nấm, bắp cải với nước tương và dầu mè, rắc cá bào. Bữa trưa 15 phút kiểu Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -2273,7 +2273,7 @@
   "name_vi": "Mì udon đậu phụ rán (Kitsune udon)",
   "name_en": "Kitsune udon",
   "other_names": [],
-  "description": "Udon trong nước dùng dashi trong vắt, đặt miếng đậu phụ chiên rim ngọt — tên món nghĩa là 'cáo', vì tương truyền cáo thích đậu chiên.",
+  "description": "Udon trong nước dùng dashi trong vắt, đặt miếng đậu phụ chiên rim ngọt. Tên món nghĩa là 'cáo', vì tương truyền cáo thích đậu chiên.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -2487,7 +2487,7 @@
   "name_vi": "Mì soba lạnh (Zaru soba)",
   "name_en": "Chilled soba noodles (zaru soba)",
   "other_names": [],
-  "description": "Mì kiều mạch luộc rồi xả lạnh, bày trên khay tre, chấm nước tsuyu lạnh với hành lá, wasabi và rong biển — món mát mùa hè.",
+  "description": "Mì kiều mạch luộc rồi xả lạnh, bày trên khay tre, chấm nước tsuyu lạnh với hành lá, wasabi và rong biển. Món mát mùa hè.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -2874,7 +2874,7 @@
      "tempura_flour"
     ],
     "passive": false,
-    "tip": "Không khuấy kỹ — bột lợn cợn và lạnh mới cho lớp vỏ xốp giòn."
+    "tip": "Không khuấy kỹ. Bột lợn cợn và lạnh mới cho lớp vỏ xốp giòn."
    },
    {
     "order": 4,
@@ -2922,7 +2922,7 @@
   "name_vi": "Bánh xèo Nhật (Okonomiyaki)",
   "name_en": "Okonomiyaki",
   "other_names": [],
-  "description": "Bánh bột mì với nhiều bắp cải, thịt ba chỉ áp chảo, phủ sốt okonomiyaki, mayonnaise, cá bào và rong biển — đặc sản Osaka.",
+  "description": "Bánh bột mì với nhiều bắp cải, thịt ba chỉ áp chảo, phủ sốt okonomiyaki, mayonnaise, cá bào và rong biển. Đặc sản Osaka.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -3146,7 +3146,7 @@
   "name_vi": "Bánh bạch tuộc (Takoyaki)",
   "name_en": "Takoyaki",
   "other_names": [],
-  "description": "Viên bánh tròn nóng hổi nhân bạch tuộc đổ khuôn, phủ sốt, mayonnaise, cá bào nhảy múa — món ăn vặt lễ hội Osaka.",
+  "description": "Viên bánh tròn nóng hổi nhân bạch tuộc đổ khuôn, phủ sốt, mayonnaise, cá bào nhảy múa. Món ăn vặt lễ hội Osaka.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -3322,7 +3322,7 @@
      "soy_sauce"
     ],
     "passive": false,
-    "tip": "Bột phải lỏng như sữa — viên bánh sẽ mềm như kem bên trong."
+    "tip": "Bột phải lỏng như sữa. Viên bánh sẽ mềm như kem bên trong."
    },
    {
     "order": 2,
@@ -3381,7 +3381,7 @@
   "name_vi": "Há cảo áp chảo Nhật (Gyoza)",
   "name_en": "Japanese pan-fried dumplings (gyoza)",
   "other_names": [],
-  "description": "Vỏ bánh mỏng gói thịt heo, bắp cải, hẹ, gừng tỏi, áp chảo giòn đáy rồi hấp — chấm nước tương giấm dầu ớt.",
+  "description": "Vỏ bánh mỏng gói thịt heo, bắp cải, hẹ, gừng tỏi, áp chảo giòn đáy rồi hấp. Chấm nước tương giấm dầu ớt.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -3635,7 +3635,7 @@
   "name_vi": "Cơm nắm Nhật (Onigiri)",
   "name_en": "Onigiri rice balls",
   "other_names": [],
-  "description": "Cơm Nhật nắm tam giác nhân cá hồi nướng hoặc cá ngừ mayonnaise, bọc rong biển giòn — cơm hộp tiện lợi của người Nhật.",
+  "description": "Cơm Nhật nắm tam giác nhân cá hồi nướng hoặc cá ngừ mayonnaise, bọc rong biển giòn. Cơm hộp tiện lợi của người Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -3767,7 +3767,7 @@
      "salt"
     ],
     "passive": false,
-    "tip": "Nắm nhẹ tay — cơm chắc vừa đủ để không vỡ nhưng vẫn tơi khi cắn."
+    "tip": "Nắm nhẹ tay. Cơm chắc vừa đủ để không vỡ nhưng vẫn tơi khi cắn."
    },
    {
     "order": 3,
@@ -3799,7 +3799,7 @@
   "name_vi": "Cơm cuộn sushi (Makizushi)",
   "name_en": "Sushi rolls (makizushi)",
   "other_names": [],
-  "description": "Cơm trộn giấm cuộn rong biển cùng cá hồi, dưa leo, trứng, thanh cua — tự làm sushi cuộn tại nhà, chấm nước tương wasabi.",
+  "description": "Cơm trộn giấm cuộn rong biển cùng cá hồi, dưa leo, trứng, thanh cua. Tự làm sushi cuộn tại nhà, chấm nước tương wasabi.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -4032,7 +4032,7 @@
   "name_vi": "Sushi rải (Chirashizushi)",
   "name_en": "Scattered sushi bowl (chirashizushi)",
   "other_names": [],
-  "description": "Bát cơm trộn giấm phủ đầy cá hồi, tôm, trứng sợi, dưa leo, nấm rim — sushi không cần cuộn, đẹp mắt cho ngày lễ.",
+  "description": "Bát cơm trộn giấm phủ đầy cá hồi, tôm, trứng sợi, dưa leo, nấm rim. Sushi không cần cuộn, đẹp mắt cho ngày lễ.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -4272,7 +4272,7 @@
   "name_vi": "Trứng cuộn Nhật (Tamagoyaki)",
   "name_en": "Japanese rolled omelette (tamagoyaki)",
   "other_names": [],
-  "description": "Nhiều lớp trứng mỏng pha dashi, đường, nước tương cuộn dần trên chảo vuông — mềm ẩm, ngọt nhẹ, món không thể thiếu trong bento.",
+  "description": "Nhiều lớp trứng mỏng pha dashi, đường, nước tương cuộn dần trên chảo vuông. Mềm ẩm, ngọt nhẹ, món không thể thiếu trong bento.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -4435,7 +4435,7 @@
   "name_vi": "Trứng hấp Nhật (Chawanmushi)",
   "name_en": "Japanese savory egg custard (chawanmushi)",
   "other_names": [],
-  "description": "Trứng pha nước dashi hấp lửa nhỏ mịn như pudding, bên trong có tôm, gà, nấm đông cô, bạch quả — món khai vị thanh tao.",
+  "description": "Trứng pha nước dashi hấp lửa nhỏ mịn như pudding, bên trong có tôm, gà, nấm đông cô, bạch quả. Món khai vị thanh tao.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -4637,7 +4637,7 @@
   "name_vi": "Thịt bò hầm khoai tây Nhật (Nikujaga)",
   "name_en": "Japanese meat and potato stew (nikujaga)",
   "other_names": [],
-  "description": "Thịt bò thái mỏng, khoai tây, cà rốt, hành tây và miến shirataki rim ngọt trong dashi nước tương — món 'cơm mẹ nấu' của người Nhật.",
+  "description": "Thịt bò thái mỏng, khoai tây, cà rốt, hành tây và miến shirataki rim ngọt trong dashi nước tương. Món 'cơm mẹ nấu' của người Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -4854,7 +4854,7 @@
   "name_vi": "Thịt heo xào gừng Nhật (Shogayaki)",
   "name_en": "Ginger pork (shogayaki)",
   "other_names": [],
-  "description": "Thịt heo thái mỏng áp chảo với sốt gừng tươi, nước tương, mirin — món cơm phần nhanh gọn, thơm gừng, ăn kèm bắp cải thái chỉ.",
+  "description": "Thịt heo thái mỏng áp chảo với sốt gừng tươi, nước tương, mirin. Món cơm phần nhanh gọn, thơm gừng, ăn kèm bắp cải thái chỉ.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -5070,7 +5070,7 @@
   "name_vi": "Lẩu bò Nhật (Sukiyaki)",
   "name_en": "Sukiyaki",
   "other_names": [],
-  "description": "Thịt bò thái mỏng, đậu phụ, nấm, cải cúc, hành baro nấu trong nước sốt ngọt mặn warishita, nhúng trứng sống — lẩu Nhật ngày đông.",
+  "description": "Thịt bò thái mỏng, đậu phụ, nấm, cải cúc, hành baro nấu trong nước sốt ngọt mặn warishita, nhúng trứng sống. Lẩu Nhật ngày đông.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -5605,7 +5605,7 @@
   "name_vi": "Canh miso thịt heo (Tonjiru)",
   "name_en": "Pork and vegetable miso soup (tonjiru)",
   "other_names": [],
-  "description": "Thịt ba chỉ, củ cải, cà rốt, khoai môn, ngưu bàng nấu với miso — bát canh miso 'đầy đặn' như một món chính ngày lạnh.",
+  "description": "Thịt ba chỉ, củ cải, cà rốt, khoai môn, ngưu bàng nấu với miso. Bát canh miso 'đầy đặn' như một món chính ngày lạnh.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -5814,7 +5814,7 @@
   "name_vi": "Cơm cuộn trứng (Omurice)",
   "name_en": "Omurice",
   "other_names": [],
-  "description": "Cơm chiên gà sốt cà chua bọc trong lớp trứng chiên mềm mịn, rưới tương cà — món yoshoku kiểu Tây – Nhật trẻ con mê.",
+  "description": "Cơm chiên gà sốt cà chua bọc trong lớp trứng chiên mềm mịn, rưới tương cà. Món yoshoku kiểu Tây – Nhật trẻ con mê.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -6044,7 +6044,7 @@
   "name_vi": "Cơm bò sốt demi Nhật (Hayashi rice)",
   "name_en": "Hayashi rice",
   "other_names": [],
-  "description": "Thịt bò thái mỏng và hành tây hầm trong sốt cà chua vang đỏ kiểu demi-glace, rưới lên cơm — món yoshoku anh em với cà ri Nhật.",
+  "description": "Thịt bò thái mỏng và hành tây hầm trong sốt cà chua vang đỏ kiểu demi-glace, rưới lên cơm. Món yoshoku anh em với cà ri Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -6274,7 +6274,7 @@
   "name_vi": "Bò viên dẹt sốt Nhật (Hambagu)",
   "name_en": "Japanese hamburg steak (hambagu)",
   "other_names": [],
-  "description": "Thịt bò heo xay trộn hành tây, bánh mì vụn, nặn miếng dày áp chảo mọng nước, rưới sốt tương cà – tonkatsu — món yoshoku gia đình.",
+  "description": "Thịt bò heo xay trộn hành tây, bánh mì vụn, nặn miếng dày áp chảo mọng nước, rưới sốt tương cà – tonkatsu. Món yoshoku gia đình.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -6502,7 +6502,7 @@
   "name_vi": "Khoai tây chiên xù nhân thịt (Korokke)",
   "name_en": "Japanese potato croquettes (korokke)",
   "other_names": [],
-  "description": "Khoai tây nghiền trộn thịt bằm và hành tây xào, tẩm bột chiên xù chiên vàng giòn — món ăn vặt rẻ mà ngon ở các cửa hàng thịt Nhật.",
+  "description": "Khoai tây nghiền trộn thịt bằm và hành tây xào, tẩm bột chiên xù chiên vàng giòn. Món ăn vặt rẻ mà ngon ở các cửa hàng thịt Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -6760,7 +6760,7 @@
   "name_vi": "Tôm chiên xù Nhật (Ebi fry)",
   "name_en": "Japanese breaded shrimp (ebi fry)",
   "other_names": [],
-  "description": "Tôm to duỗi thẳng tẩm bột panko chiên vàng giòn, ăn với sốt tartar trứng — món yoshoku thường có trong cơm hộp bento.",
+  "description": "Tôm to duỗi thẳng tẩm bột panko chiên vàng giòn, ăn với sốt tartar trứng. Món yoshoku thường có trong cơm hộp bento.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -6981,7 +6981,7 @@
   "name_vi": "Cá thu kho miso (Saba misoni)",
   "name_en": "Mackerel simmered in miso (saba misoni)",
   "other_names": [],
-  "description": "Cá saba kho với miso, gừng, sake và đường trong nước dùng dashi, sốt đặc béo át hẳn vị tanh — món cá nhà làm của Nhật.",
+  "description": "Cá saba kho với miso, gừng, sake và đường trong nước dùng dashi, sốt đặc béo át hẳn vị tanh. Món cá nhà làm của Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -7174,7 +7174,7 @@
   "name_vi": "Cá thu nướng muối (Saba shioyaki)",
   "name_en": "Salt-grilled mackerel (saba shioyaki)",
   "other_names": [],
-  "description": "Cá saba rắc muối để 20 phút rồi nướng đến khi da giòn phồng, ăn với củ cải bào và chanh — đơn giản mà ngon, rất giàu omega-3.",
+  "description": "Cá saba rắc muối để 20 phút rồi nướng đến khi da giòn phồng, ăn với củ cải bào và chanh. Đơn giản mà ngon, rất giàu omega-3.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -7324,7 +7324,7 @@
   "name_vi": "Đậu phụ chiên sốt dashi (Agedashi tofu)",
   "name_en": "Agedashi tofu",
   "other_names": [],
-  "description": "Đậu phụ áo bột khoai chiên vỏ mỏng giòn, ngâm trong nước dùng dashi nóng, phủ củ cải bào, gừng, hành — món khai vị izakaya.",
+  "description": "Đậu phụ áo bột khoai chiên vỏ mỏng giòn, ngâm trong nước dùng dashi nóng, phủ củ cải bào, gừng, hành. Món khai vị izakaya.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -7530,7 +7530,7 @@
   "name_vi": "Đậu phụ lạnh (Hiyayakko)",
   "name_en": "Chilled tofu (hiyayakko)",
   "other_names": [],
-  "description": "Khối đậu phụ non mát lạnh phủ gừng bào, hành lá, cá bào, rưới nước tương — món khai vị mùa hè chỉ 3 phút.",
+  "description": "Khối đậu phụ non mát lạnh phủ gừng bào, hành lá, cá bào, rưới nước tương. Món khai vị mùa hè chỉ 3 phút.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -7680,7 +7680,7 @@
   "name_vi": "Rau bina trộn sốt mè (Goma-ae)",
   "name_en": "Spinach with sesame dressing (goma-ae)",
   "other_names": [],
-  "description": "Rau bina chần, vắt ráo, trộn sốt mè rang giã với nước tương và đường — món rau ăn kèm thơm bùi của Nhật.",
+  "description": "Rau bina chần, vắt ráo, trộn sốt mè rang giã với nước tương và đường. Món rau ăn kèm thơm bùi của Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -7834,7 +7834,7 @@
   "name_vi": "Dưa leo trộn giấm Nhật (Sunomono)",
   "name_en": "Japanese cucumber vinegar salad (sunomono)",
   "other_names": [],
-  "description": "Dưa leo thái thật mỏng ướp muối, trộn giấm gạo ngọt với rong biển wakame và mè — món ăn kèm chua ngọt thanh mát.",
+  "description": "Dưa leo thái thật mỏng ướp muối, trộn giấm gạo ngọt với rong biển wakame và mè. Món ăn kèm chua ngọt thanh mát.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -7998,7 +7998,7 @@
   "name_vi": "Củ sen xào kiểu Nhật (Kinpira renkon)",
   "name_en": "Braised lotus root (kinpira renkon)",
   "other_names": [],
-  "description": "Củ sen thái lát mỏng xào với dầu mè, rồi rim nước tương, đường, ớt — giòn sần sật, ngọt mặn, món ăn kèm cơm hộp.",
+  "description": "Củ sen thái lát mỏng xào với dầu mè, rồi rim nước tương, đường, ớt. Giòn sần sật, ngọt mặn, món ăn kèm cơm hộp.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -8177,7 +8177,7 @@
   "name_vi": "Cà tím nướng sốt miso (Nasu dengaku)",
   "name_en": "Miso-glazed eggplant (nasu dengaku)",
   "other_names": [],
-  "description": "Cà tím bổ đôi khứa ô, áp chảo hoặc nướng mềm rồi phết sốt miso ngọt, nướng cho sốt sém thơm — món chay béo ngậy.",
+  "description": "Cà tím bổ đôi khứa ô, áp chảo hoặc nướng mềm rồi phết sốt miso ngọt, nướng cho sốt sém thơm. Món chay béo ngậy.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -8362,7 +8362,7 @@
   "name_vi": "Gà xiên nướng Nhật (Yakitori)",
   "name_en": "Yakitori",
   "other_names": [],
-  "description": "Thịt đùi gà và hành baro xiên que nướng than, phết sốt tare nước tương ngọt nhiều lần đến khi bóng — món nhậu izakaya.",
+  "description": "Thịt đùi gà và hành baro xiên que nướng than, phết sốt tare nước tương ngọt nhiều lần đến khi bóng. Món nhậu izakaya.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -8551,7 +8551,7 @@
   "name_vi": "Gà chiên sốt chua ngọt tartar (Chicken nanban)",
   "name_en": "Chicken nanban",
   "other_names": [],
-  "description": "Gà tẩm trứng chiên mềm, ngâm qua sốt giấm nước tương chua ngọt rồi phủ sốt tartar — đặc sản tỉnh Miyazaki.",
+  "description": "Gà tẩm trứng chiên mềm, ngâm qua sốt giấm nước tương chua ngọt rồi phủ sốt tartar. Đặc sản tỉnh Miyazaki.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -8798,7 +8798,7 @@
   "name_vi": "Cơm chan nước dùng (Ochazuke)",
   "name_en": "Ochazuke",
   "other_names": [],
-  "description": "Cơm nóng phủ cá hồi nướng, rong biển, mè rồi chan nước trà xanh hoặc dashi nóng — món ăn nhẹ cuối ngày hoặc giải rượu của Nhật.",
+  "description": "Cơm nóng phủ cá hồi nướng, rong biển, mè rồi chan nước trà xanh hoặc dashi nóng. Món ăn nhẹ cuối ngày hoặc giải rượu của Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -8982,7 +8982,7 @@
   "name_vi": "Sandwich trứng kiểu Nhật (Tamago sando)",
   "name_en": "Japanese egg salad sandwich (tamago sando)",
   "other_names": [],
-  "description": "Trứng luộc nghiền trộn mayonnaise béo mịn kẹp giữa hai lát bánh mì sandwich mềm cắt viền — món bán chạy ở cửa hàng tiện lợi Nhật.",
+  "description": "Trứng luộc nghiền trộn mayonnaise béo mịn kẹp giữa hai lát bánh mì sandwich mềm cắt viền. Món bán chạy ở cửa hàng tiện lợi Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -9164,7 +9164,7 @@
   "name_vi": "Mì udon cà ri (Curry udon)",
   "name_en": "Curry udon",
   "other_names": [],
-  "description": "Sợi udon to dai trong nước dùng dashi pha viên cà ri Nhật sánh nhẹ, có thịt và hành baro — món ấm bụng cho ngày lạnh.",
+  "description": "Sợi udon to dai trong nước dùng dashi pha viên cà ri Nhật sánh nhẹ, có thịt và hành baro. Món ấm bụng cho ngày lạnh.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -9374,7 +9374,7 @@
   "name_vi": "Cháo cơm Nhật (Zosui)",
   "name_en": "Japanese rice soup (zosui)",
   "other_names": [],
-  "description": "Cơm nguội nấu trong nước dùng dashi với gà, nấm, rau, đánh trứng vào cuối — món cháo nhẹ thường làm từ nồi lẩu còn lại.",
+  "description": "Cơm nguội nấu trong nước dùng dashi với gà, nấm, rau, đánh trứng vào cuối. Món cháo nhẹ thường làm từ nồi lẩu còn lại.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -9572,7 +9572,7 @@
   "name_vi": "Mực nướng sốt tương Nhật (Ikayaki)",
   "name_en": "Grilled squid (ikayaki)",
   "other_names": [],
-  "description": "Mực nguyên con khứa chéo, nướng và phết sốt nước tương, sake, gừng — món nướng lễ hội ở Nhật, thơm khói và ngọt mềm.",
+  "description": "Mực nguyên con khứa chéo, nướng và phết sốt nước tương, sake, gừng. Món nướng lễ hội ở Nhật, thơm khói và ngọt mềm.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -9758,7 +9758,7 @@
   "name_vi": "Cơm thịt heo nướng sốt (Butadon)",
   "name_en": "Pork rice bowl (butadon)",
   "other_names": [],
-  "description": "Thịt ba chỉ heo áp chảo rồi rim sốt nước tương ngọt kiểu lươn nướng, xếp trên cơm nóng — đặc sản Obihiro, Hokkaido.",
+  "description": "Thịt ba chỉ heo áp chảo rồi rim sốt nước tương ngọt kiểu lươn nướng, xếp trên cơm nóng. Đặc sản Obihiro, Hokkaido.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -9951,7 +9951,7 @@
   "name_vi": "Salad khoai tây kiểu Nhật",
   "name_en": "Japanese potato salad",
   "other_names": [],
-  "description": "Khoai tây nghiền thô trộn mayonnaise, dưa leo, cà rốt, hành tây, trứng và giăm bông — salad béo mịn quen thuộc trong bento Nhật.",
+  "description": "Khoai tây nghiền thô trộn mayonnaise, dưa leo, cà rốt, hành tây, trứng và giăm bông. Salad béo mịn quen thuộc trong bento Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -10159,7 +10159,7 @@
   "name_vi": "Cơm chiên kiểu Nhật (Chahan)",
   "name_en": "Japanese fried rice (chahan)",
   "other_names": [],
-  "description": "Cơm chiên tơi hạt với trứng, xá xíu, hành lá, nêm nước tương và dầu mè — món cơm chiên ăn kèm ramen ở Nhật.",
+  "description": "Cơm chiên tơi hạt với trứng, xá xíu, hành lá, nêm nước tương và dầu mè. Món cơm chiên ăn kèm ramen ở Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -10369,7 +10369,7 @@
   "name_vi": "Mì lạnh kiểu Nhật (Hiyashi chuka)",
   "name_en": "Chilled ramen salad (hiyashi chuka)",
   "other_names": [],
-  "description": "Sợi mì ramen lạnh xếp trứng sợi, dưa leo, giăm bông, cà chua, rưới sốt giấm nước tương dầu mè — món mì mùa hè Nhật.",
+  "description": "Sợi mì ramen lạnh xếp trứng sợi, dưa leo, giăm bông, cà chua, rưới sốt giấm nước tương dầu mè. Món mì mùa hè Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -10598,7 +10598,7 @@
   "name_vi": "Lẩu hầm Nhật (Oden)",
   "name_en": "Oden",
   "other_names": [],
-  "description": "Củ cải, trứng luộc, chả cá, đậu phụ chiên, tảo bẹ hầm lâu trong nước dùng dashi nhạt — món ăn mùa đông bày bán ở mọi cửa hàng tiện lợi Nhật.",
+  "description": "Củ cải, trứng luộc, chả cá, đậu phụ chiên, tảo bẹ hầm lâu trong nước dùng dashi nhạt. Món ăn mùa đông bày bán ở mọi cửa hàng tiện lợi Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [

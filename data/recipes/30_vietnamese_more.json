@@ -4,7 +4,7 @@
   "name_vi": "Chân gà ngâm sả tắc",
   "name_en": "Pickled chicken feet with lemongrass and kumquat",
   "other_names": [],
-  "description": "Chân gà rút xương luộc giòn, ngâm nước mắm chua ngọt với sả, tắc, ớt — món ăn vặt, lai rai được giới trẻ rất thích.",
+  "description": "Chân gà rút xương luộc giòn, ngâm nước mắm chua ngọt với sả, tắc, ớt. Món ăn vặt, lai rai được giới trẻ rất thích.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -224,7 +224,7 @@
   "name_vi": "Vịt nấu chao",
   "name_en": "Duck stewed with fermented tofu and taro",
   "other_names": [],
-  "description": "Vịt xào săn rồi nấu cùng chao, sả và nước dừa, khoai môn bùi bở — món lẩu đãi khách của miền Nam, ăn với bún và rau muống.",
+  "description": "Vịt xào săn rồi nấu cùng chao, sả và nước dừa, khoai môn bùi bở. Món lẩu đãi khách của miền Nam, ăn với bún và rau muống.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -484,7 +484,7 @@
   "name_vi": "Bún măng vịt",
   "name_en": "Duck and bamboo shoot noodle soup",
   "other_names": [],
-  "description": "Nước dùng ngọt từ vịt và măng khô, thịt vịt luộc chấm nước mắm gừng — bún măng vịt quen thuộc ngày giỗ, ngày Tết.",
+  "description": "Nước dùng ngọt từ vịt và măng khô, thịt vịt luộc chấm nước mắm gừng. Bún măng vịt quen thuộc ngày giỗ, ngày Tết.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -738,7 +738,7 @@
   "name_vi": "Cháo vịt",
   "name_en": "Duck rice porridge",
   "other_names": [],
-  "description": "Cháo nấu bằng nước luộc vịt ngọt đậm, ăn kèm thịt vịt chấm nước mắm gừng và gỏi bắp cải — bữa tối ấm bụng.",
+  "description": "Cháo nấu bằng nước luộc vịt ngọt đậm, ăn kèm thịt vịt chấm nước mắm gừng và gỏi bắp cải. Bữa tối ấm bụng.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -981,7 +981,7 @@
   "name_vi": "Canh cải thảo cuộn thịt",
   "name_en": "Napa cabbage rolls in clear soup",
   "other_names": [],
-  "description": "Lá cải thảo cuộn thịt bằm buộc hành lá, nấu canh trong ngọt — đẹp mắt, mềm, trẻ con dễ ăn.",
+  "description": "Lá cải thảo cuộn thịt bằm buộc hành lá, nấu canh trong ngọt. Đẹp mắt, mềm, trẻ con dễ ăn.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -1175,7 +1175,7 @@
   "name_vi": "Su hào xào thịt bò",
   "name_en": "Kohlrabi stir-fried with beef",
   "other_names": [],
-  "description": "Su hào thái sợi giòn ngọt xào cùng thịt bò mềm, thêm cà rốt cho đẹp màu — món xào mùa đông của miền Bắc.",
+  "description": "Su hào thái sợi giòn ngọt xào cùng thịt bò mềm, thêm cà rốt cho đẹp màu. Món xào mùa đông của miền Bắc.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [
@@ -1362,7 +1362,7 @@
   "name_vi": "Su su xào tôm",
   "name_en": "Chayote stir-fried with shrimp",
   "other_names": [],
-  "description": "Su su giòn ngọt xào với tôm tươi đỏ au, thêm cà rốt — món rau nhanh, đẹp mắt, đưa cơm.",
+  "description": "Su su giòn ngọt xào với tôm tươi đỏ au, thêm cà rốt. Món rau nhanh, đẹp mắt, đưa cơm.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -1538,7 +1538,7 @@
   "name_vi": "Canh bò viên nấu cải",
   "name_en": "Beef ball soup with greens",
   "other_names": [],
-  "description": "Bò viên dai giòn nấu cùng cải ngọt và cà chua, nước canh trong ngọt — món canh 15 phút cho bữa tối bận rộn.",
+  "description": "Bò viên dai giòn nấu cùng cải ngọt và cà chua, nước canh trong ngọt. Món canh 15 phút cho bữa tối bận rộn.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -1730,7 +1730,7 @@
   "name_vi": "Xúc xích xào rau củ",
   "name_en": "Sausage stir-fried with vegetables",
   "other_names": [],
-  "description": "Xúc xích cắt khúc xào cùng ớt chuông, hành tây, cà rốt, bắp, sốt cà chua ngọt nhẹ — món nhanh trẻ con mê.",
+  "description": "Xúc xích cắt khúc xào cùng ớt chuông, hành tây, cà rốt, bắp, sốt cà chua ngọt nhẹ. Món nhanh trẻ con mê.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -1919,7 +1919,7 @@
   "name_vi": "Thịt heo nướng sả",
   "name_en": "Lemongrass grilled pork",
   "other_names": [],
-  "description": "Nạc dăm ướp sả, mật ong, nước mắm rồi nướng lò hoặc nồi chiên không dầu — thơm lừng, ăn cơm, bún hay kẹp bánh mì đều ngon.",
+  "description": "Nạc dăm ướp sả, mật ong, nước mắm rồi nướng lò hoặc nồi chiên không dầu. Thơm lừng, ăn cơm, bún hay kẹp bánh mì đều ngon.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -2121,7 +2121,7 @@
   "name_vi": "Gà rang muối",
   "name_en": "Salt-roasted chicken",
   "other_names": [],
-  "description": "Gà chiên vàng rồi rang với muối hạt, lá chanh, tỏi phi — giòn rụm, mặn mà, món nhậu và đãi khách quen thuộc.",
+  "description": "Gà chiên vàng rồi rang với muối hạt, lá chanh, tỏi phi. Giòn rụm, mặn mà, món nhậu và đãi khách quen thuộc.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [
@@ -2316,7 +2316,7 @@
   "name_vi": "Gà xé phay",
   "name_en": "Shredded chicken salad with onion and Vietnamese coriander",
   "other_names": [],
-  "description": "Gà luộc xé sợi trộn hành tây ngâm, rau răm, chanh, tiêu — món gỏi thanh mát, ít béo.",
+  "description": "Gà luộc xé sợi trộn hành tây ngâm, rau răm, chanh, tiêu. Món gỏi thanh mát, ít béo.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -2547,7 +2547,7 @@
   "name_vi": "Cá basa kho tiêu",
   "name_en": "Black pepper braised basa fish",
   "other_names": [],
-  "description": "Cá basa béo kho nước màu với nhiều tiêu, nước kho sánh, cay thơm — món kho dễ làm, đưa cơm.",
+  "description": "Cá basa béo kho nước màu với nhiều tiêu, nước kho sánh, cay thơm. Món kho dễ làm, đưa cơm.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -3042,7 +3042,7 @@
   "name_vi": "Bún mọc",
   "name_en": "Pork ball noodle soup",
   "other_names": [],
-  "description": "Nước dùng ninh xương trong ngọt, viên mọc dai giòn có nấm hương, mộc nhĩ — món bún sáng thanh nhẹ của Hà Nội.",
+  "description": "Nước dùng ninh xương trong ngọt, viên mọc dai giòn có nấm hương, mộc nhĩ. Món bún sáng thanh nhẹ của Hà Nội.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [
@@ -3274,7 +3274,7 @@
   "name_vi": "Bún chả cá",
   "name_en": "Fish cake noodle soup",
   "other_names": [],
-  "description": "Nước dùng ngọt thanh nấu với cà chua, thơm; chả cá chiên vàng thái miếng — đặc sản miền biển Nha Trang, Quy Nhơn.",
+  "description": "Nước dùng ngọt thanh nấu với cà chua, thơm; chả cá chiên vàng thái miếng. Đặc sản miền biển Nha Trang, Quy Nhơn.",
   "cuisine": "vietnamese",
   "region": "central",
   "meal_types": [
@@ -3513,7 +3513,7 @@
   "name_vi": "Bánh canh giò heo",
   "name_en": "Thick noodle soup with pork hock",
   "other_names": [],
-  "description": "Sợi bánh canh dai mềm, nước dùng béo ngọt từ giò heo hầm nhừ — món sáng quen thuộc của miền Nam.",
+  "description": "Sợi bánh canh dai mềm, nước dùng béo ngọt từ giò heo hầm nhừ. Món sáng quen thuộc của miền Nam.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -3728,7 +3728,7 @@
   "name_vi": "Phở gà",
   "name_en": "Chicken pho",
   "other_names": [],
-  "description": "Nước dùng gà trong vắt thơm hồi quế, thịt gà xé, lá chanh thái chỉ — phở gà Hà Nội nhẹ nhàng mà đậm đà.",
+  "description": "Nước dùng gà trong vắt thơm hồi quế, thịt gà xé, lá chanh thái chỉ. Phở gà Hà Nội nhẹ nhàng mà đậm đà.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [
@@ -3992,7 +3992,7 @@
   "other_names": [
    "Bún xào thịt"
   ],
-  "description": "Bún gạo khô ngâm mềm xào cùng thịt heo, cải ngọt, cà rốt, nước tương — món một đĩa nhanh gọn cho bữa trưa.",
+  "description": "Bún gạo khô ngâm mềm xào cùng thịt heo, cải ngọt, cà rốt, nước tương. Món một đĩa nhanh gọn cho bữa trưa.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -4210,7 +4210,7 @@
   "name_vi": "Mì xào giòn hải sản",
   "name_en": "Crispy noodles with seafood gravy",
   "other_names": [],
-  "description": "Mì trứng chiên giòn thành bánh, rưới sốt sệt gồm tôm, mực và rau củ — món người Hoa quen thuộc ở Sài Gòn.",
+  "description": "Mì trứng chiên giòn thành bánh, rưới sốt sệt gồm tôm, mực và rau củ. Món người Hoa quen thuộc ở Sài Gòn.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -4450,7 +4450,7 @@
   "name_vi": "Nui xào bò",
   "name_en": "Macaroni stir-fried with beef",
   "other_names": [],
-  "description": "Nui luộc xào cùng thịt bò, cà chua, hành tây, sốt cà đậm vị — món ăn sáng quen thuộc của học sinh miền Nam.",
+  "description": "Nui luộc xào cùng thịt bò, cà chua, hành tây, sốt cà đậm vị. Món ăn sáng quen thuộc của học sinh miền Nam.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -4691,7 +4691,7 @@
   "name_vi": "Súp cua",
   "name_en": "Crab and egg soup",
   "other_names": [],
-  "description": "Súp sánh mịn nấu từ nước gà, thịt cua, trứng đánh tơi và nấm — món súp đầu bữa tiệc và quà vặt chiều của người Sài Gòn.",
+  "description": "Súp sánh mịn nấu từ nước gà, thịt cua, trứng đánh tơi và nấm. Món súp đầu bữa tiệc và quà vặt chiều của người Sài Gòn.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -4954,7 +4954,7 @@
   "name_vi": "Cơm gà xối mỡ",
   "name_en": "Crispy fried chicken with tomato rice",
   "other_names": [],
-  "description": "Đùi gà luộc sơ rồi chiên, xối mỡ đến khi da vàng giòn, ăn với cơm chiên cà chua và đồ chua — món cơm trưa Sài Gòn.",
+  "description": "Đùi gà luộc sơ rồi chiên, xối mỡ đến khi da vàng giòn, ăn với cơm chiên cà chua và đồ chua. Món cơm trưa Sài Gòn.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -5197,7 +5197,7 @@
   "name_vi": "Cơm gà Hội An",
   "name_en": "Hoi An chicken rice",
   "other_names": [],
-  "description": "Cơm nấu bằng nước luộc gà với nghệ, vàng óng và tơi; gà xé trộn hành tây, rau răm — đặc sản phố cổ Hội An.",
+  "description": "Cơm nấu bằng nước luộc gà với nghệ, vàng óng và tơi; gà xé trộn hành tây, rau răm. Đặc sản phố cổ Hội An.",
   "cuisine": "vietnamese",
   "region": "central",
   "meal_types": [
@@ -5435,7 +5435,7 @@
   "name_vi": "Xôi đậu phộng",
   "name_en": "Sticky rice with peanuts",
   "other_names": [],
-  "description": "Nếp hấp cùng đậu phộng béo bùi, ăn với muối mè hoặc dừa nạo — món sáng dân dã, rẻ mà no lâu.",
+  "description": "Nếp hấp cùng đậu phộng béo bùi, ăn với muối mè hoặc dừa nạo. Món sáng dân dã, rẻ mà no lâu.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -5601,7 +5601,7 @@
   "name_vi": "Bánh mì chảo",
   "name_en": "Sizzling pan bread with egg and pate",
   "other_names": [],
-  "description": "Chảo gang nóng với trứng ốp la, pate, xúc xích, chả, sốt cà chua — chấm bánh mì giòn, bữa sáng no nê kiểu Sài Gòn.",
+  "description": "Chảo gang nóng với trứng ốp la, pate, xúc xích, chả, sốt cà chua. Chấm bánh mì giòn, bữa sáng no nê kiểu Sài Gòn.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -5818,7 +5818,7 @@
   "name_vi": "Bánh khọt",
   "name_en": "Mini crispy coconut rice cakes with shrimp",
   "other_names": [],
-  "description": "Bánh nhỏ đổ khuôn giòn rụm, béo mùi nước cốt dừa, mỗi cái một con tôm — cuốn rau sống chấm nước mắm, đặc sản Vũng Tàu.",
+  "description": "Bánh nhỏ đổ khuôn giòn rụm, béo mùi nước cốt dừa, mỗi cái một con tôm. Cuốn rau sống chấm nước mắm, đặc sản Vũng Tàu.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -6079,7 +6079,7 @@
   "name_vi": "Chả cá Lã Vọng",
   "name_en": "Hanoi turmeric fish with dill",
   "other_names": [],
-  "description": "Cá ướp nghệ, riềng, mẻ, chiên vàng rồi đảo với thì là và hành lá trên chảo nóng, ăn với bún, mắm tôm — món ăn trứ danh Hà Nội.",
+  "description": "Cá ướp nghệ, riềng, mẻ, chiên vàng rồi đảo với thì là và hành lá trên chảo nóng, ăn với bún, mắm tôm. Món ăn trứ danh Hà Nội.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [
@@ -6369,7 +6369,7 @@
   "name_vi": "Bò sốt vang",
   "name_en": "Beef stewed in red wine",
   "other_names": [],
-  "description": "Bắp bò hầm mềm với rượu vang, cà chua, cà rốt và hoa hồi — món bò hầm kiểu Pháp – Việt của Hà Nội, ăn với bánh mì.",
+  "description": "Bắp bò hầm mềm với rượu vang, cà chua, cà rốt và hoa hồi. Món bò hầm kiểu Pháp – Việt của Hà Nội, ăn với bánh mì.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [
@@ -6632,7 +6632,7 @@
   "name_vi": "Gà hầm hạt sen",
   "name_en": "Chicken stewed with lotus seeds and shiitake",
   "other_names": [],
-  "description": "Gà hầm cùng hạt sen bùi, nấm đông cô, táo đỏ — món bồi bổ ngọt thanh cho người mới ốm dậy và trẻ nhỏ.",
+  "description": "Gà hầm cùng hạt sen bùi, nấm đông cô, táo đỏ. Món bồi bổ ngọt thanh cho người mới ốm dậy và trẻ nhỏ.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -6835,7 +6835,7 @@
   "name_vi": "Canh sườn hầm khoai tây cà rốt",
   "name_en": "Pork rib soup with potato and carrot",
   "other_names": [],
-  "description": "Sườn non hầm mềm cùng khoai tây, cà rốt, hành tây, nước dùng ngọt tự nhiên — canh quen thuộc của bữa cơm gia đình.",
+  "description": "Sườn non hầm mềm cùng khoai tây, cà rốt, hành tây, nước dùng ngọt tự nhiên. Canh quen thuộc của bữa cơm gia đình.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -7047,7 +7047,7 @@
   "name_vi": "Canh đậu hũ hẹ",
   "name_en": "Tofu and garlic chive soup",
   "other_names": [],
-  "description": "Đậu hũ non mềm nấu với hẹ và chút thịt bằm, nước canh thanh — món canh 10 phút rất mát.",
+  "description": "Đậu hũ non mềm nấu với hẹ và chút thịt bằm, nước canh thanh. Món canh 10 phút rất mát.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -7214,7 +7214,7 @@
   "name_vi": "Đậu hũ kho nấm",
   "name_en": "Braised tofu with mushrooms",
   "other_names": [],
-  "description": "Đậu hũ chiên vàng kho với nấm rơm, nấm đông cô, nước tương và tiêu — món chay đậm đà, đưa cơm.",
+  "description": "Đậu hũ chiên vàng kho với nấm rơm, nấm đông cô, nước tương và tiêu. Món chay đậm đà, đưa cơm.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -7415,7 +7415,7 @@
   "name_vi": "Mề gà xào hành tỏi",
   "name_en": "Stir-fried chicken gizzards with onion and garlic",
   "other_names": [],
-  "description": "Mề gà khứa mỏng, xào lửa lớn với hành tây, tỏi, ớt chuông — giòn sần sật, món nhậu và đưa cơm rẻ mà ngon.",
+  "description": "Mề gà khứa mỏng, xào lửa lớn với hành tây, tỏi, ớt chuông. Giòn sần sật, món nhậu và đưa cơm rẻ mà ngon.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -7628,7 +7628,7 @@
   "name_vi": "Lươn xào sả ớt",
   "name_en": "Eel stir-fried with lemongrass and chili",
   "other_names": [],
-  "description": "Lươn làm sạch nhớt, xào sả ớt và nghệ thơm cay, thịt chắc ngọt — món đặc trưng miền Tây và Nghệ An.",
+  "description": "Lươn làm sạch nhớt, xào sả ớt và nghệ thơm cay, thịt chắc ngọt. Món đặc trưng miền Tây và Nghệ An.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -7854,7 +7854,7 @@
   "name_vi": "Ếch xào sả ớt",
   "name_en": "Frog stir-fried with lemongrass and chili",
   "other_names": [],
-  "description": "Thịt ếch trắng mềm xào săn với sả, ớt, lá lốt hoặc rau răm — món nhậu và đưa cơm ngon lạ miệng.",
+  "description": "Thịt ếch trắng mềm xào săn với sả, ớt, lá lốt hoặc rau răm. Món nhậu và đưa cơm ngon lạ miệng.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -8080,7 +8080,7 @@
   "name_vi": "Sò điệp nướng mỡ hành",
   "name_en": "Grilled scallops with scallion oil",
   "other_names": [],
-  "description": "Sò điệp nướng trên than hoặc lò, rưới mỡ hành và đậu phộng rang — món hải sản bình dân mà ai cũng mê.",
+  "description": "Sò điệp nướng trên than hoặc lò, rưới mỡ hành và đậu phộng rang. Món hải sản bình dân mà ai cũng mê.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -8274,7 +8274,7 @@
   "name_vi": "Hàu nướng mỡ hành",
   "name_en": "Grilled oysters with scallion oil",
   "other_names": [],
-  "description": "Hàu tươi nướng đến khi sôi, rưới mỡ hành, đậu phộng — béo ngậy, ngọt nước biển, món nhậu hải sản quen thuộc.",
+  "description": "Hàu tươi nướng đến khi sôi, rưới mỡ hành, đậu phộng. Béo ngậy, ngọt nước biển, món nhậu hải sản quen thuộc.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -8475,7 +8475,7 @@
   "name_vi": "Mực chiên nước mắm",
   "name_en": "Fried squid glazed with fish sauce and garlic",
   "other_names": [],
-  "description": "Mực chiên vàng rồi đảo với nước mắm đường tỏi ớt sánh lại — mặn ngọt cay, rất đưa cơm.",
+  "description": "Mực chiên vàng rồi đảo với nước mắm đường tỏi ớt sánh lại. Mặn ngọt cay, rất đưa cơm.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -8661,7 +8661,7 @@
   "name_vi": "Tôm chiên giòn",
   "name_en": "Crispy fried shrimp",
   "other_names": [],
-  "description": "Tôm bóc vỏ chừa đuôi, nhúng bột chiên giòn rồi chiên vàng, chấm tương ớt hoặc sốt mayonnaise — trẻ con rất thích.",
+  "description": "Tôm bóc vỏ chừa đuôi, nhúng bột chiên giòn rồi chiên vàng, chấm tương ớt hoặc sốt mayonnaise. Trẻ con rất thích.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -8858,7 +8858,7 @@
   "name_vi": "Cua rang me",
   "name_en": "Crab in tamarind sauce",
   "other_names": [],
-  "description": "Cua chiên sơ rồi rang với sốt me chua ngọt sánh, thơm tỏi — món hải sản đãi khách của người Sài Gòn.",
+  "description": "Cua chiên sơ rồi rang với sốt me chua ngọt sánh, thơm tỏi. Món hải sản đãi khách của người Sài Gòn.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -9078,7 +9078,7 @@
   "name_vi": "Ghẹ hấp bia",
   "name_en": "Blue crabs steamed in beer",
   "other_names": [],
-  "description": "Ghẹ hấp với bia, sả, gừng giữ trọn vị ngọt chắc, chấm muối tiêu chanh — món hải sản đơn giản mà ngon nhất.",
+  "description": "Ghẹ hấp với bia, sả, gừng giữ trọn vị ngọt chắc, chấm muối tiêu chanh. Món hải sản đơn giản mà ngon nhất.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -9252,7 +9252,7 @@
   "name_vi": "Bò bía",
   "name_en": "Jicama and Chinese sausage rolls",
   "other_names": [],
-  "description": "Bánh tráng cuốn củ sắn xào, lạp xưởng, trứng chiên, tôm khô, rau húng — chấm tương đen đậu phộng, món ăn vặt tuổi thơ Sài Gòn.",
+  "description": "Bánh tráng cuốn củ sắn xào, lạp xưởng, trứng chiên, tôm khô, rau húng. Chấm tương đen đậu phộng, món ăn vặt tuổi thơ Sài Gòn.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -9500,7 +9500,7 @@
   "name_vi": "Gỏi ngó sen tôm thịt",
   "name_en": "Lotus stem salad with shrimp and pork",
   "other_names": [],
-  "description": "Ngó sen giòn trắng trộn tôm luộc, thịt ba chỉ, cà rốt, rau thơm, nước mắm chua ngọt — gỏi khai vị cho tiệc và ngày Tết.",
+  "description": "Ngó sen giòn trắng trộn tôm luộc, thịt ba chỉ, cà rốt, rau thơm, nước mắm chua ngọt. Gỏi khai vị cho tiệc và ngày Tết.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -9729,7 +9729,7 @@
   "name_vi": "Gỏi đu đủ khô bò",
   "name_en": "Green papaya salad with beef jerky",
   "other_names": [],
-  "description": "Đu đủ xanh bào sợi giòn, khô bò, gan bò cháy tỏi, rau húng, nước tương chua ngọt — món ăn vặt huyền thoại trước cổng trường.",
+  "description": "Đu đủ xanh bào sợi giòn, khô bò, gan bò cháy tỏi, rau húng, nước tương chua ngọt. Món ăn vặt huyền thoại trước cổng trường.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -9927,7 +9927,7 @@
   "name_vi": "Bánh tráng trộn",
   "name_en": "Rice paper salad",
   "other_names": [],
-  "description": "Bánh tráng cắt sợi trộn xoài xanh, khô bò, trứng cút, rau răm, sa tế, đậu phộng — chua cay mặn ngọt, món ăn vặt số một của giới trẻ.",
+  "description": "Bánh tráng cắt sợi trộn xoài xanh, khô bò, trứng cút, rau răm, sa tế, đậu phộng. Chua cay mặn ngọt, món ăn vặt số một của giới trẻ.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -10158,7 +10158,7 @@
   "name_vi": "Chè chuối",
   "name_en": "Banana, tapioca and coconut milk dessert",
   "other_names": [],
-  "description": "Chuối sứ chín ngâm đường nấu cùng bột báng, nước cốt dừa béo thơm, rắc đậu phộng — chè ngọt dân dã miền Nam.",
+  "description": "Chuối sứ chín ngâm đường nấu cùng bột báng, nước cốt dừa béo thơm, rắc đậu phộng. Chè ngọt dân dã miền Nam.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -10331,7 +10331,7 @@
   "name_vi": "Chè đậu xanh",
   "name_en": "Mung bean sweet soup",
   "other_names": [],
-  "description": "Đậu xanh nấu nhừ với đường và lá dứa, ăn nóng hoặc thêm đá, nước cốt dừa — chè giải nhiệt quen thuộc mùa hè.",
+  "description": "Đậu xanh nấu nhừ với đường và lá dứa, ăn nóng hoặc thêm đá, nước cốt dừa. Chè giải nhiệt quen thuộc mùa hè.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -10482,7 +10482,7 @@
   "name_vi": "Thịt ba chỉ chiên nước mắm",
   "name_en": "Fried pork belly glazed with fish sauce",
   "other_names": [],
-  "description": "Ba chỉ thái miếng chiên giòn da, đảo với nước mắm đường tỏi sánh — mặn ngọt thơm lừng, ăn với cơm trắng là hết nồi.",
+  "description": "Ba chỉ thái miếng chiên giòn da, đảo với nước mắm đường tỏi sánh. Mặn ngọt thơm lừng, ăn với cơm trắng là hết nồi.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -10657,7 +10657,7 @@
   "name_vi": "Sườn non chiên tỏi",
   "name_en": "Garlic fried pork ribs",
   "other_names": [],
-  "description": "Sườn non ướp tỏi, nước mắm, chiên vàng giòn rồi đảo cùng tỏi phi thơm lừng — món mặn được lòng cả nhà.",
+  "description": "Sườn non ướp tỏi, nước mắm, chiên vàng giòn rồi đảo cùng tỏi phi thơm lừng. Món mặn được lòng cả nhà.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -10843,7 +10843,7 @@
   "name_vi": "Bò cuộn nấm kim châm",
   "name_en": "Beef rolls with enoki mushrooms",
   "other_names": [],
-  "description": "Ba chỉ bò thái mỏng cuộn nấm kim châm, áp chảo với sốt tương mật ong — món nhanh, đẹp mắt, ngon cơm.",
+  "description": "Ba chỉ bò thái mỏng cuộn nấm kim châm, áp chảo với sốt tương mật ong. Món nhanh, đẹp mắt, ngon cơm.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -11043,7 +11043,7 @@
   "name_vi": "Bắp xào tôm khô",
   "name_en": "Corn stir-fried with dried shrimp and scallion",
   "other_names": [],
-  "description": "Bắp hạt ngọt xào bơ cùng tôm khô và mỡ hành — món ăn vặt chiều mát quen thuộc của học trò Sài Gòn.",
+  "description": "Bắp hạt ngọt xào bơ cùng tôm khô và mỡ hành. Món ăn vặt chiều mát quen thuộc của học trò Sài Gòn.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -11212,7 +11212,7 @@
   "name_vi": "Cá chép om dưa",
   "name_en": "Carp braised with pickled mustard greens",
   "other_names": [],
-  "description": "Cá chép chiên sơ om với dưa cải chua, cà chua và thì là — chua dịu, béo ngậy, món ăn mùa đông miền Bắc.",
+  "description": "Cá chép chiên sơ om với dưa cải chua, cà chua và thì là. Chua dịu, béo ngậy, món ăn mùa đông miền Bắc.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [
@@ -11438,7 +11438,7 @@
   "name_vi": "Bánh mì xíu mại",
   "name_en": "Pork meatballs in tomato sauce with bread",
   "other_names": [],
-  "description": "Viên xíu mại mềm có củ sắn giòn, nấu trong sốt cà chua sánh, ăn với bánh mì giòn — món sáng đặc trưng Đà Lạt và Sài Gòn.",
+  "description": "Viên xíu mại mềm có củ sắn giòn, nấu trong sốt cà chua sánh, ăn với bánh mì giòn. Món sáng đặc trưng Đà Lạt và Sài Gòn.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -11687,7 +11687,7 @@
   "name_vi": "Bánh đa cua",
   "name_en": "Hai Phong crab noodle soup",
   "other_names": [],
-  "description": "Sợi bánh đa đỏ dai, nước dùng gạch cua đồng thơm béo, chả lá lốt, rau muống chần — đặc sản đất cảng Hải Phòng.",
+  "description": "Sợi bánh đa đỏ dai, nước dùng gạch cua đồng thơm béo, chả lá lốt, rau muống chần. Đặc sản đất cảng Hải Phòng.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [

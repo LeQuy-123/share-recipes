@@ -4,7 +4,7 @@
 import { useEffect } from 'react'
 
 const SITE = 'AutoRecipt'
-const HOME_TITLE = 'AutoRecipt — Hôm nay ăn gì? Gợi ý món nấu từ tủ lạnh'
+const HOME_TITLE = 'Hôm nay ăn gì? Gợi ý món nấu từ tủ lạnh | AutoRecipt'
 
 function setMeta(selector: string, attr: string, value: string) {
   document.querySelector(selector)?.setAttribute(attr, value)

@@ -205,7 +205,7 @@
   "name_vi": "Rau muống luộc chấm nước mắm trứng",
   "name_en": "Boiled water spinach with egg fish sauce",
   "other_names": [],
-  "description": "Rau muống luộc xanh giòn chấm nước mắm dầm trứng luộc, nước luộc rau vắt chanh làm canh — món quen thuộc của mâm cơm miền Bắc.",
+  "description": "Rau muống luộc xanh giòn chấm nước mắm dầm trứng luộc, nước luộc rau vắt chanh làm canh. Món quen thuộc của mâm cơm miền Bắc.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [
@@ -3724,7 +3724,7 @@
   "other_names": [
    "Ngao hấp sả"
   ],
-  "description": "Nghêu hấp với sả, gừng, ớt — nước hấp ngọt thanh, chấm muối tiêu chanh. Món nhanh cho bữa tối hoặc lai rai.",
+  "description": "Nghêu hấp với sả, gừng, ớt. Nước hấp ngọt thanh, chấm muối tiêu chanh. Món nhanh cho bữa tối hoặc lai rai.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -4668,7 +4668,7 @@
      "egg_chicken"
     ],
     "passive": false,
-    "tip": "Mướp gọt xong để lâu sẽ thâm đen — gọt đến đâu xào đến đó."
+    "tip": "Mướp gọt xong để lâu sẽ thâm đen. Gọt đến đâu xào đến đó."
    },
    {
     "order": 2,
@@ -4736,7 +4736,7 @@
   "name_vi": "Nấm kim châm xào bơ tỏi",
   "name_en": "Enoki mushrooms sautéed in garlic butter",
   "other_names": [],
-  "description": "Nấm kim châm xào nhanh với bơ và tỏi phi, mềm dai thơm béo — xong trong 10 phút.",
+  "description": "Nấm kim châm xào nhanh với bơ và tỏi phi, mềm dai thơm béo. Xong trong 10 phút.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -4905,7 +4905,7 @@
   "name_vi": "Cải thìa xào nấm đông cô",
   "name_en": "Bok choy with shiitake mushrooms",
   "other_names": [],
-  "description": "Cải thìa chần xanh mướt, nấm đông cô sốt dầu hào sánh bóng — món rau đẹp mắt cho bữa đãi khách.",
+  "description": "Cải thìa chần xanh mướt, nấm đông cô sốt dầu hào sánh bóng. Món rau đẹp mắt cho bữa đãi khách.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -5121,7 +5121,7 @@
   "name_vi": "Cháo thịt bằm",
   "name_en": "Rice porridge with minced pork",
   "other_names": [],
-  "description": "Cháo trắng ninh nhừ với thịt bằm, hành lá và tiêu — bữa sáng ấm bụng, dễ ăn cho cả người ốm và trẻ nhỏ.",
+  "description": "Cháo trắng ninh nhừ với thịt bằm, hành lá và tiêu. Bữa sáng ấm bụng, dễ ăn cho cả người ốm và trẻ nhỏ.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -5543,7 +5543,7 @@
   "other_names": [
    "Bánh mì trứng"
   ],
-  "description": "Trứng ốp la lòng đào rưới nước tương, ăn cùng bánh mì giòn, dưa leo, cà chua — bữa sáng quen thuộc 10 phút.",
+  "description": "Trứng ốp la lòng đào rưới nước tương, ăn cùng bánh mì giòn, dưa leo, cà chua. Bữa sáng quen thuộc 10 phút.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -5710,7 +5710,7 @@
   "name_vi": "Cánh gà nướng mật ong",
   "name_en": "Honey-glazed roasted chicken wings",
   "other_names": [],
-  "description": "Cánh gà ướp nước tương, dầu hào, tỏi rồi nướng phết mật ong bóng đẹp — làm bằng lò nướng hoặc nồi chiên không dầu.",
+  "description": "Cánh gà ướp nước tương, dầu hào, tỏi rồi nướng phết mật ong bóng đẹp. Làm bằng lò nướng hoặc nồi chiên không dầu.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [
@@ -5919,7 +5919,7 @@
   "other_names": [
    "Tôm rang thịt"
   ],
-  "description": "Thịt ba chỉ rang cháy cạnh ra mỡ, thêm tôm rim mặn ngọt — món mặn đậm đà kiểu miền Bắc.",
+  "description": "Thịt ba chỉ rang cháy cạnh ra mỡ, thêm tôm rim mặn ngọt. Món mặn đậm đà kiểu miền Bắc.",
   "cuisine": "vietnamese",
   "region": "north",
   "meal_types": [
@@ -6312,7 +6312,7 @@
   "name_vi": "Bò né ốp la",
   "name_en": "Sizzling beef steak with fried egg",
   "other_names": [],
-  "description": "Thịt bò ướp tỏi, áp chảo nóng xèo xèo cùng hành tây, pate và trứng ốp la, chấm bánh mì — bữa sáng cuối tuần kiểu Sài Gòn.",
+  "description": "Thịt bò ướp tỏi, áp chảo nóng xèo xèo cùng hành tây, pate và trứng ốp la, chấm bánh mì. Bữa sáng cuối tuần kiểu Sài Gòn.",
   "cuisine": "vietnamese",
   "region": "south",
   "meal_types": [
@@ -7081,7 +7081,7 @@
   "name_vi": "Trứng hấp nước tương",
   "name_en": "Silky steamed egg with soy sauce",
   "other_names": [],
-  "description": "Trứng hấp mịn như thạch, rưới nước tương và dầu mè — bữa sáng nhẹ bụng, dễ ăn cho cả trẻ nhỏ và người ốm.",
+  "description": "Trứng hấp mịn như thạch, rưới nước tương và dầu mè. Bữa sáng nhẹ bụng, dễ ăn cho cả trẻ nhỏ và người ốm.",
   "cuisine": "vietnamese",
   "region": "all",
   "meal_types": [

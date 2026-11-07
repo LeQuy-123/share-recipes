@@ -6,7 +6,7 @@
   "other_names": [
    "Kimchi bokkeumbap"
   ],
-  "description": "Cơm nguội chiên với kim chi chua cay và thịt ba chỉ, phủ trứng ốp la lòng đào — món Hàn tận dụng cơm thừa trong 15 phút.",
+  "description": "Cơm nguội chiên với kim chi chua cay và thịt ba chỉ, phủ trứng ốp la lòng đào. Món Hàn tận dụng cơm thừa trong 15 phút.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -252,7 +252,7 @@
    "Tteokbokki",
    "Bánh gạo cay Hàn Quốc"
   ],
-  "description": "Bánh gạo Hàn Quốc dẻo dai rim trong sốt tương ớt ngọt cay cùng chả cá và trứng luộc — món ăn vặt đường phố Hàn.",
+  "description": "Bánh gạo Hàn Quốc dẻo dai rim trong sốt tương ớt ngọt cay cùng chả cá và trứng luộc. Món ăn vặt đường phố Hàn.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -587,7 +587,7 @@
      "seaweed_nori"
     ],
     "passive": true,
-    "tip": "Rong biển nở gấp nhiều lần — 20 g khô là đủ cho 4 người."
+    "tip": "Rong biển nở gấp nhiều lần. 20 g khô là đủ cho 4 người."
    },
    {
     "order": 2,
@@ -657,7 +657,7 @@
   "other_names": [
    "Gyeran-mari"
   ],
-  "description": "Trứng tráng nhiều lớp cuộn tròn với rau củ băm, cắt khoanh đẹp mắt — món ăn kèm và hộp cơm quen thuộc của Hàn Quốc.",
+  "description": "Trứng tráng nhiều lớp cuộn tròn với rau củ băm, cắt khoanh đẹp mắt. Món ăn kèm và hộp cơm quen thuộc của Hàn Quốc.",
   "cuisine": "korean",
   "region": null,
   "meal_types": [
@@ -1188,7 +1188,7 @@
      "soy_sauce"
     ],
     "passive": false,
-    "tip": "Đường trong sốt rất dễ cháy — hạ lửa nhỏ ngay khi đổ sốt vào."
+    "tip": "Đường trong sốt rất dễ cháy. Hạ lửa nhỏ ngay khi đổ sốt vào."
    },
    {
     "order": 5,
@@ -1218,7 +1218,7 @@
   "other_names": [
    "Gyudon"
   ],
-  "description": "Thịt bò thái mỏng và hành tây nấu trong nước sốt dashi ngọt mặn, chan lên cơm nóng — bữa trưa một tô kiểu Nhật.",
+  "description": "Thịt bò thái mỏng và hành tây nấu trong nước sốt dashi ngọt mặn, chan lên cơm nóng. Bữa trưa một tô kiểu Nhật.",
   "cuisine": "japanese",
   "region": null,
   "meal_types": [
@@ -1437,7 +1437,7 @@
    "Mapo tofu",
    "Đậu phụ Ma Bà"
   ],
-  "description": "Đậu hũ mềm om trong sốt thịt bằm cay đỏ, tê nhẹ hạt tiêu Tứ Xuyên — món Hoa cực đưa cơm.",
+  "description": "Đậu hũ mềm om trong sốt thịt bằm cay đỏ, tê nhẹ hạt tiêu Tứ Xuyên. Món Hoa cực đưa cơm.",
   "cuisine": "chinese",
   "region": null,
   "meal_types": [
@@ -1702,7 +1702,7 @@
   "other_names": [
    "Spaghetti bolognese"
   ],
-  "description": "Sốt bò bằm cà chua ninh nhỏ lửa đậm đà, trộn với mì spaghetti và phô mai — món Âu trẻ con rất thích.",
+  "description": "Sốt bò bằm cà chua ninh nhỏ lửa đậm đà, trộn với mì spaghetti và phô mai. Món Âu trẻ con rất thích.",
   "cuisine": "western",
   "region": null,
   "meal_types": [
@@ -1943,7 +1943,7 @@
    "Pad kra pao",
    "Phat kaphrao"
   ],
-  "description": "Gà băm xào lửa lớn với tỏi ớt và lá húng quế, ăn với cơm nóng và trứng ốp la — món cơm bình dân nổi tiếng của Thái Lan.",
+  "description": "Gà băm xào lửa lớn với tỏi ớt và lá húng quế, ăn với cơm nóng và trứng ốp la. Món cơm bình dân nổi tiếng của Thái Lan.",
   "cuisine": "thai",
   "region": null,
   "meal_types": [

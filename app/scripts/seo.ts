@@ -12,7 +12,7 @@ import initSqlJs, { type Database } from 'sql.js'
 import type { Plugin } from 'vite'
 
 const SITE_NAME = 'AutoRecipt'
-const DEFAULT_TITLE = 'AutoRecipt — Hôm nay ăn gì? Gợi ý món nấu từ tủ lạnh'
+const DEFAULT_TITLE = 'Hôm nay ăn gì? Gợi ý món nấu từ tủ lạnh | AutoRecipt'
 const DEFAULT_DESCRIPTION =
   'Chọn nguyên liệu nhà bạn có, AutoRecipt gợi ý món Việt, Hàn, Nhật nấu được ngay, kèm công thức từng bước, calo và thực đơn cả tuần.'
 const START = '<!-- seo:start -->'
@@ -154,7 +154,7 @@ function recipePages(db: Database, photos: Record<string, { file: string }>): Pa
     const g = (v: number | null) => `${Math.round(v ?? 0)} g`
     return {
       path: `/recipe/${r.id}`,
-      title: `${name} — công thức từng bước | ${SITE_NAME}`,
+      title: `Cách nấu ${name} từng bước | ${SITE_NAME}`,
       description,
       image,
       type: 'article',
@@ -228,7 +228,7 @@ function ingredientPages(db: Database): Page[] {
 const TAB_PAGES: Page[] = [
   {
     path: '/welcome',
-    title: `Giới thiệu ${SITE_NAME} — tủ lạnh có gì, nấu ngay món đó`,
+    title: `Giới thiệu ${SITE_NAME}: tủ lạnh có gì, nấu ngay món đó`,
     description: DEFAULT_DESCRIPTION,
     index: true,
   },
